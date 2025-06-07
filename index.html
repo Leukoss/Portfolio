@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lucas SALI--ORLIANGE - Portfolio</title>
+    <link rel="stylesheet" href="css/index_style.css" />
+    <script src="js/index.js" defer></script>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar">
+        <a href="#home" class="nav-logo">LS</a>
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="#about" class="nav-link"> About </a>
+          </li>
+          <li class="nav-item">
+            <a href="#projects" class="nav-link"> Projects </a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link"> Contact </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="home-section">
+        <div class="hero-content">
+          <h1 class="hero-title">
+            Engineer Specialized in Data Science and Artificial Intelligence
+          </h1>
+          <p class="hero-subtitle">
+            Building intelligent, data-driven solutions that power smarter
+            decisions and automation.
+          </p>
+        </div>
+      </section>
+
+      <section id="about" class="content-section reveal">
+        <h2 class="section-title">About Me</h2>
+        <p class="section-text">
+          I'm a french data-driven engineer with deep expertise in machine
+          learning and AI. Freshly graduated from ESIEE Paris, I transform
+          complex data into actionable insights and intelligent systems. My
+          focus is on building scalable and impactful solutions that drive
+          innovation across industries.
+        </p>
+      </section>
+
+      <section id="projects" class="content-section reveal">
+        <h2 class="section-title">My Work</h2>
+        <div class="project-grid">
+          <a
+            href="#"
+            class="project-box"
+            data-img-src="images/Contract Analyzer.png"
+            data-title="Contract Analyzer"
+            data-subtitle="Intelligent Document Analysis Platform"
+            data-description="<p>Developed a tool to automate contract analysis and reduce error rates.</p><ul><li>Cut average review time by 75% through automated checks.</li><li>Led workshops with end-users to refine UX and functional specs.</li><li>User-centered design and iterative improvements from feedback.</li></ul>"
+            data-stack="Python.png, Azure OpenAI.png, RAG.png, TF-IDF.png, Streamlit.png, Docker.png"
+            data-location="BNP Paribas - France"
+            data-company-logo="BNP Paribas.jpg"
+          >
+            <img src="images/Contract Analyzer.png" alt="Contract Analyzer" />
+            <div class="project-info">
+              <h3>Contract Analyzer</h3>
+              <p>Intelligent Document Analysis Platform</p>
+            </div>
+          </a>
+
+          <a
+            href="#"
+            class="project-box"
+            data-img-src="images/QA.jpg"
+            data-title="QA Generator for Investor Relations"
+            data-subtitle="AI-Powered Q&A Assistant for Investor Relations"
+            data-description="<p>Built a secure chatbot to automate answers to Q&A during quarterly financial reporting.</p><ul><li>Implemented advanced RAG (Retrieval-Augmented Generation) architecture.</li><li>Enhanced response relevance via prompt engineering and fine-tuning.</li><li>Strict confidentiality compliance for sensitive financial data.</li><li>Significantly accelerated preparation for executive briefings.</li></ul>"
+            data-stack="Python.png, Azure OpenAI.png, RAG.png, PandasAI.png, Pandas.png, Python-Docx.png, FastAPI.png, React.png, ChromaDB.png, Docker.png"
+            data-location="BNP Paribas - France"
+            data-company-logo="BNP Paribas.jpg"
+          >
+            <img src="images/QA.jpg" alt="QA Investors" />
+            <div class="project-info">
+              <h3>QA Generator for Investor Relations</h3>
+              <p>AI-Powered Q&A Assistant</p>
+            </div>
+          </a>
+
+          <a
+            href="#"
+            class="project-box"
+            data-img-src="images/Accident Prediction.png"
+            data-title="Road Accident Severity Prediction"
+            data-subtitle="Predictive Analytics for Road Safety"
+            data-description="<p>Data analysis project on over 1 million road accidents since 2010:</p><ul><li>Preprocessing, feature engineering, model training/comparison.</li><li>Achieved 86% accuracy using supervised learning methods.</li></ul>"
+            data-stack="Python.png, Jupyter.png, Scikit-learn.png, Pandas.png, Matplotlib.png, Seaborn.png, LGBM.png, XGBoost.png"
+            data-location="ESIEE Paris - France"
+            data-company-logo="ESIEE Paris.png"
+          >
+            <img
+              src="images/Accident Prediction.png"
+              alt="Accident Prediction"
+            />
+            <div class="project-info">
+              <h3>Road Accident Severity Prediction</h3>
+              <p>Predictive Analytics for Road Safety</p>
+            </div>
+          </a>
+
+          <a
+            href="#"
+            class="project-box"
+            data-img-src="images/Material Prediction.png"
+            data-title="Data Scientist Researcher"
+            data-subtitle="Predictive Analytics for Road Safety"
+            data-description="<p>Interdisciplinary research on eco-concrete formulation:</p><ul><li>Conducted comprehensive literature review.</li><li>Built predictive models (XGBoost, LGBM) to estimate mechanical properties.</li><li>Authored technical report in English using LaTeX</li></ul>"
+            data-stack="Python.png, Jupyter.png, Scikit-learn.png, Pandas.png, Matplotlib.png, Seaborn.png, LGBM.png, XGBoost.png"
+            data-location="ESIEE Paris and ENPC - France"
+            data-company-logo="ESIEE Paris.png,ENPC.png"
+          >
+            <img
+              src="images/Material Prediction.png"
+              alt="Material Prediction"
+            />
+            <div class="project-info">
+              <h3>Data Scientist Researcher</h3>
+              <p>Predictive Analytics for Material Formulation</p>
+            </div>
+          </a>
+
+          <a
+            href="#"
+            class="project-box"
+            data-img-src="images/Dashboard.png"
+            data-title="French Gas Stations Dashboard"
+            data-subtitle="Interactive Dashboard for Gas Station Analytics"
+            data-description="<p>Interactive dashboard for gas station analytics:</p><ul><li>Scraped and processed data from 11,000+ gas stations.</li><li>Developed interactive dashboard with real-time data visualization.</li><li>Implemented Docker Compose containerization for deployment.</li></ul>"
+            data-stack="Python.png, Pandas.png, Plotly.png, Selenium.png, Dash.png, Docker.png"
+            data-location="ESIEE Paris - France"
+            data-company-logo="ESIEE Paris.png"
+          >
+            <img src="images/Dashboard.png" alt="Material Prediction" />
+            <div class="project-info">
+              <h3>French Gas Stations Dashboard</h3>
+              <p>Interactive Dashboard for Gas Station Analytics</p>
+            </div>
+          </a>
+
+          <a
+            href="#"
+            class="project-box"
+            data-img-src="images/Facial Recognition.jpg"
+            data-title="Facial Recognition"
+            data-subtitle="Predictive Analytics for Road Safety"
+            data-description="<p>Built a CNN-based facial recognition model using scenes from “Jurassic Park”:</p><ul><li>Dataset creation, annotation, and cleaning.</li><li>Implemented and trained CNN for face detection.</li></ul>"
+            data-stack="Python.png, Jupyter.png, OpenCV.png, Keras.png, Numpy.png"
+            data-location="ESIEE Paris and ENPC - France"
+            data-company-logo="ESIEE Paris.png,ENPC.png"
+          >
+            <img src="images/Facial Recognition.jpg" alt="Facial Recognition" />
+            <div class="project-info">
+              <h3>Facial Recognition</h3>
+              <p>CNN-Driven Facial Recognition System</p>
+            </div>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contact" class="footer">
+      <div class="footer-content">
+        <p class="footer-name">Lucas SALI--ORLIANGE</p>
+        <p>Let's connect. Find me on:</p>
+        <div class="social-links">
+          <a
+            href="https://www.linkedin.com/in/lucas-sali-orliange-65598a21a/"
+            target="_blank"
+            >LinkedIn</a
+          >
+          <a href="mailto:lucas.saliorliange.pro@gmail.com"
+            >lucas.saliorliange.pro@gmail.com</a
+          >
+          <a href="https://github.com/Leukoss" target="_blank">GitHub</a>
+        </div>
+        <p class="footer-copyright">
+          &copy; 2025 Lucas SALI--ORLIANGE. All rights reserved.
+        </p>
+      </div>
+    </footer>
+
+    <div id="projectModal" class="modal">
+      <div class="modal-content">
+        <span class="modal-close">&times;</span>
+
+        <img
+          id="modal-img"
+          src=""
+          alt="Project Image"
+          class="modal-project-image"
+        />
+        <h2 id="modal-title" class="modal-project-title"></h2>
+        <div class="modal-project-details">
+          <div class="modal-details-row">
+            <div class="modal-details-column">
+              <p><strong>Tech Stack:</strong></p>
+              <div id="modal-tech-stack-logos" class="modal-logo-container"></div>
+            </div>
+            <div class="modal-details-column">
+              <p><strong>Companies:</strong></p>
+              <div id="modal-company-logos" class="modal-logo-container"></div>
+            </div>
+          </div>
+          </div>
+        <p id="modal-description" class="modal-project-description"></p>
+      </div>
+    </div>
+  </body>
+</html>
