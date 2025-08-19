@@ -8,33 +8,33 @@ import SkillsSection from '../components/SkillsSection.vue';
 const skillsData = [
   {
     id: 1,
-    title: 'Management & Communication',
-    skills: ['Project Management', 'Stakeholder Communication', 'Cross-Functional Leadership', 'Compliance & Security'],
+    title: 'Data & Model Lifecycle',
+    skills: ['Dataset Creation', 'Data Annotation', 'Data Augmentation', 'Model Training', 'Hyperparameter Tuning'],
   },
   {
     id: 2,
     title: 'Technical Skills',
-    skills: ['Generative AI', 'Data Science & Parsing', 'Information Retrieval', 'Python & FastAPI', 'Database Structuring', 'Document Understanding'],
+    skills: ['Python', 'Computer Vision', 'Convolutional Neural Networks (CNN)', 'OpenCV', 'Scikit-learn', 'TensorFlow & Keras'],
   },
 ];
 
 const impactsData = [
   {
     id: 1,
-    title: 'Increased Productivity',
-    description: 'Automated a critical, manual workflow, allowing teams to <strong>accelerate preparation for quarterly financial reports</strong> and investor relations meetings.',
+    title: 'End-to-End Model Development',
+    description: 'Managed the entire machine learning lifecycle, from <strong>custom dataset creation and cleaning</strong> to <strong>model training and evaluation</strong>, demonstrating a comprehensive understanding of the process.',
     delay: 0,
   },
   {
     id: 2,
-    title: 'Guaranteed Data Integrity',
-    description: 'Engineered a <strong>secure and compliant AI solution</strong> that not only <strong>minimized human error</strong> but also guarantee the <strong>integrity of core business data</strong>, ensuring all financial information was consistent and reliable for audit and reporting.',
+    title: 'Robust Model Performance',
+    description: "Implemented and trained a <strong>Convolutional Neural Network (CNN)</strong> for facial recognition, achieving strong performance on a specialized dataset and validating the model's effectiveness.",
     delay: 1,
   },
   {
     id: 3,
-    title: 'Scalable & Robust Design',
-    description: 'Developed a <strong>scalable and maintainable system</strong> capable of handling large volumes of internal documents, ensuring long-term operational viability.',
+    title: 'Demonstrated Technical Proficiency',
+    description: 'Utilized key libraries like <strong>TensorFlow and Keras</strong> to build a robust and scalable model, highlighting practical skills in modern deep learning frameworks.',
     delay: 2,
   },
 ];
@@ -44,27 +44,18 @@ const impactsData = [
 <template>
   <div class="project-page-container">
     <ProjectHero
-      title="RIIF: Financial Reporting Reinvented"
-      subtitle="AI-Driven Solution for Corporate Efficiency"
+      title="Facial Recognition: A Deep Learning Case Study"
+      subtitle="Building a CNN-based Model from Scratch"
     />
 
     <section class="project-details-section">
       <div class="project-details-grid">
         <ProjectIntro>
           <p>
-            In the fast-paced world of financial services, preparing for high-stakes investor briefings and executive meetings requires both speed and precision. As an
-            <strong>intern at BNP Paribas</strong>, I developed
-            <strong>RIIF</strong>, an intelligent solution that
-            <strong>streamlined the process of retrieving and validating key financial data</strong>. This work empowered business teams to
-            <strong>shift their focus from time-consuming data retrieval to strategic analysis and communication</strong>.
+            As a student at <strong>ESIEE Paris</strong>, I undertook a project to build an <strong>end-to-end facial recognition model</strong> using a custom dataset. The challenge was to demonstrate proficiency in every step of a machine learning project, from <strong>data preparation to model deployment</strong>. I chose a unique and engaging dataset—scenes from "Jurassic Park"—to highlight the process of working with real-world, uncurated data.
           </p>
           <p>
-            My role involved
-            <strong>close collaboration with financial reporting teams</strong>
-            to understand their workflows and pain points. By building a tool that provides instant, verifiable answers, I helped ensure
-            <strong>data integrity while significantly improving preparation time</strong>
-            for major corporate events. This project demonstrates my ability to translate complex business needs into
-            <strong>effective, secure, and user-centric technical solutions</strong>.
+            This project required me to <strong>collect and annotate image data</strong>, perform data augmentation, and implement a <strong>Convolutional Neural Network (CNN)</strong> for training. The work showcases my practical skills in <strong>deep learning</strong>, <strong>computer vision</strong>, and <strong>problem-solving</strong>, proving my ability to turn a concept into a functional and demonstrable solution.
           </p>
         </ProjectIntro>
 
