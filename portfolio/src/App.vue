@@ -54,6 +54,7 @@ const updateContentMargin = (newWidth) => {
   justify-content: center;
   align-items: center; 
   transition: width 0.3s ease, left 0.3s ease;
+  border-bottom: 2px solid #CF9B64;
 }
 
 .header-name {

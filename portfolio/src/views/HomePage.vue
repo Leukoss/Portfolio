@@ -1,52 +1,86 @@
 <template>
   <div class="portfolio-container">
     <section id="home" class="hero-section">
-      <div class="hero-content">
+    <div class="hero-content">
+        <div class="hero-title-container">
         <h1 class="fade-in-up">Lucas SALI--ORLIANGE</h1>
-        <p class="fade-in-up delay-1">Data Scientist | AI/ML Engineer</p>
+        <div class="divider"></div>
+        <p class="fade-in-up delay-1"><strong>Data Scientist | AI/ML Engineer</strong></p>
+        <div class="divider"></div>
+        </div>
         <p class="fade-in-up delay-2 intro-text">
-            Based on the ideas you provided, here is a presentation summary
-            that is concise, professional, and tailored for a business-oriented
-            audience.<br></br>
-            
-            I am a passionate developer who specializes in applying
-            <strong>Artificial Intelligence to financial business
-            problems</strong>. My approach is collaborative; I work directly
-            with business operators to <strong>improve existing processes and
-                increase profitability</strong>. All my solutions are built to
-                be <strong>robust, scalable, and efficient</strong>, focusing
-                on clean code and rapid delivery.
+        Based on the ideas you provided, here is a presentation summary
+        that is concise, professional, and tailored for a business-oriented
+        audience.<br></br>
+        I am a passionate developer who specializes in applying
+        <strong>Artificial Intelligence to financial business
+        problems</strong>. My approach is collaborative; I work directly
+        with business operators to <strong>improve existing processes and
+        increase profitability</strong>. All my solutions are built to
+        be <strong>robust, scalable, and efficient</strong>, focusing
+        on clean code and rapid delivery.
         </p>
-      </div>
+    </div>
     </section>
 
     <section id="projects" class="projects-section">
       <h2 class="section-title">My Projects</h2>
       <div class="project-grid">
         <div class="project-card fade-in-up">
+          <img src="/img/bnpparibas_logo.png" alt="BNP Paribas Logo" class="project-logo">
           <h3 class="project-title">RIIF</h3>
-          <p class="project-description">A robust risk management tool for financial institutions.</p>
+          <p class="project-description">
+            A confidential, <strong>AI-driven Q&A solution</strong> that
+            significantly <strong>accelerates preparation</strong> for
+            <strong>financial reporting</strong> and executive briefings to
+            answer investorquestions.
+            </p>
           <div class="project-link">
             <router-link to="/RIIF" class="link-button">View Project</router-link>
           </div>
         </div>
         <div class="project-card fade-in-up delay-1">
           <h3 class="project-title">TPTRM</h3>
-          <p class="project-description">A predictive model for trading platform risk assessment.</p>
+          <img src="/img/bnpparibas_logo.png" alt="BNP Paribas Logo" class="project-logo">
+          <p class="project-description">
+            Developed a tool for <strong>automated contract analysis</strong>,
+            significantly <strong>reducing review time</strong> and human error
+            through user-centric design.</p>
           <div class="project-link">
             <router-link to="/TPTRM" class="link-button">View Project</router-link>
           </div>
         </div>
         <div class="project-card fade-in-up delay-2">
+          <img src="/img/esiee_logo.png" alt="Esiee Paris Logo" class="project-logo">
           <h3 class="project-title">Accidentology</h3>
-          <p class="project-description">Data visualization and analysis of traffic accidents.</p>
+          <p class="project-description">
+            <strong>Predicting accident severity</strong> from over
+            <strong>1 million road accidents</strong> to provide actionable
+            insights into traffic safety using supervised learning.
+          </p>
           <div class="project-link">
             <router-link to="/Accidentology" class="link-button">View Project</router-link>
           </div>
         </div>
         <div class="project-card fade-in-up delay-3">
+          <img src="/img/esiee_logo.png" alt="Esiee Paris Logo" class="project-logo">
           <h3 class="project-title">Research</h3>
-          <p class="project-description">Showcase of academic research and publications.</p>
+          <p class="project-description">
+            Interdisciplinary research on eco-concrete, leveraging
+            <strong>predictive models</strong> to optimize formulations and
+            <strong>reduce</strong> environmental impact.</p>
+          <div class="project-link">
+            <router-link to="/Research" class="link-button">View Project</router-link>
+          </div>
+        </div>
+        <div class="project-card fade-in-up delay-4">
+          <img src="/img/esiee_logo.png" alt="Esiee Paris Logo" class="project-logo">
+          <h3 class="project-title">Facial Recognition</h3>
+          <p class="project-description">
+            Developed a <strong>facial recognition model</strong> using a
+            custom dataset from "Jurassic Park" to demonstrate the end-to-end
+            process of dataset creation and <strong>model training</strong>.
+          </p>
           <div class="project-link">
             <router-link to="/Research" class="link-button">View Project</router-link>
           </div>
@@ -55,27 +89,47 @@
     </section>
 
     <section id="skills" class="skills-section">
-      <h2 class="section-title">My Skills</h2>
-      <div class="skills-grid">
-        <div class="skill-item fade-in-up">
-          <span class="skill-name">Vue.js</span>
+    <h2 class="section-title">My Skills</h2>
+    <div class="skills-container">
+
+        <div class="skills-category-block fade-in-up">
+        <h3 class="category-title">AI & Data Science</h3>
+        <p class="category-description">Expertise in applying data-driven solutions to business problems.</p>
+        <div class="skills-grid">
+            <div class="skill-item"><span class="skill-name">Machine Learning</span></div>
+            <div class="skill-item"><span class="skill-name">Deep Learning</span></div>
+            <div class="skill-item"><span class="skill-name">NLP</span></div>
+            <div class="skill-item"><span class="skill-name">Computer Vision</span></div>
+            <div class="skill-item"><span class="skill-name">Time Series Analysis</span></div>
+            <div class="skill-item"><span class="skill-name">Project Lifecycle</span></div>
         </div>
-        <div class="skill-item fade-in-up delay-1">
-          <span class="skill-name">Python</span>
         </div>
-        <div class="skill-item fade-in-up delay-2">
-          <span class="skill-name">SQL</span>
+
+        <div class="skills-category-block fade-in-up delay-1">
+        <h3 class="category-title">Programming & Tools</h3>
+        <p class="category-description">A robust technical foundation for building scalable solutions.</p>
+        <div class="skills-grid">
+            <div class="skill-item"><span class="skill-name">Python</span></div>
+            <div class="skill-item"><span class="skill-name">SQL</span></div>
+            <div class="skill-item"><span class="skill-name">Git</span></div>
+            <div class="skill-item"><span class="skill-name">Docker</span></div>
+            <div class="skill-item"><span class="skill-name">Linux</span></div>
+            <div class="skill-item"><span class="skill-name">Vue</span></div>
         </div>
-        <div class="skill-item fade-in-up delay-3">
-          <span class="skill-name">Node.js</span>
         </div>
-        <div class="skill-item fade-in-up delay-4">
-          <span class="skill-name">Data Analysis</span>
+
+        <div class="skills-category-block fade-in-up delay-2">
+        <h3 class="category-title">Professional Skills</h3>
+        <p class="category-description">My ability to communicate and collaborate effectively in a team.</p>
+        <div class="skills-grid">
+            <div class="skill-item"><span class="skill-name">Technical Writing</span></div>
+            <div class="skill-item"><span class="skill-name">Communication</span></div>
+            <div class="skill-item"><span class="skill-name">Problem-Solving</span></div>
+            <div class="skill-item"><span class="skill-name">Research</span></div>
         </div>
-        <div class="skill-item fade-in-up delay-5">
-          <span class="skill-name">Financial Modeling</span>
         </div>
-      </div>
+
+    </div>
     </section>
 
     <section id="contact" class="contact-section">
@@ -86,14 +140,11 @@
       <div class="contact-links fade-in-up delay-1">
         <a href="https://www.linkedin.com/in/lucas-sali-orliange-65598a21a/" target="_blank" class="contact-link">LinkedIn</a>
         <a href="https://github.com/Leukoss" target="_blank" class="contact-link">GitHub</a>
+        <a href="mailto:lucas.saliorliange.pro@gmail.com" class="contact-link">Email</a>
       </div>
     </section>
   </div>
 </template>
-
-<script setup>
-import { ref } from 'vue';
-</script>
 
 <style scoped>
 /* General Styles */
@@ -230,7 +281,7 @@ flex-wrap: wrap;
 justify-content: center;
 gap: 15px;
 width: 100%;
-max-width: 800px;
+max-width: 1200px;
 }
 
 .skill-item {
@@ -263,7 +314,7 @@ background:
   linear-gradient(to bottom, #CF9B64 100%, transparent 100%) no-repeat right top / 2px 0,
   linear-gradient(to bottom, #CF9B64 100%, transparent 100%) no-repeat left top / 2px 0;
 background-size: 0 2px, 0 2px, 2px 0, 2px 0;
-transition: background-size 0.8s ease-in-out;
+transition: background-size 0.5s ease-in-out;
 }
 
 .skill-item:hover:before {
@@ -344,7 +395,7 @@ transform: translateY(0);
 
 .fade-in-up {
 opacity: 0;
-animation: fadeInUp 0.8s ease-out forwards;
+animation: fadeInUp 0.2s ease-out forwards;
 }
 
 .delay-1 {
@@ -361,5 +412,47 @@ animation-delay: 0.8s;
 }
 .delay-5 {
 animation-delay: 1s;
+}
+
+.hero-title-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.divider {
+  width: 50%;
+  height: 2px;
+  background-color: #CF9B64;
+  margin: 10px 0;
+  animation: drawLine 1s ease-in-out forwards;
+}
+
+@keyframes drawLine {
+  from {
+    width: 0;
+  }
+  to {
+    width: 50%;
+  }
+}
+
+.project-card {
+  position: relative; /* This is crucial for positioning the logo */
+  background: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  padding: 30px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-logo {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  width: 50px; /* Adjust size as needed */
+  height: auto;
 }
 </style>
