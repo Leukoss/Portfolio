@@ -39,13 +39,19 @@ watch(isExpanded, (newVal) => {
         <router-link to="/TPTRM">TPTRM</router-link>
       </li>
       <li>
-        <router-link to="/Accidentology">Accidentology</router-link>
-      </li>
-      <li>
         <router-link to="/Research">Research</router-link>
       </li>
       <li>
+        <router-link to="/Accidentology">Accidentology</router-link>
+      </li>
+      <li>
         <router-link to="/Facial_Recognition">Facial Recognition</router-link>
+      </li>
+      <li class="divider-item">
+        <div class="divider"></div>
+      </li>
+      <li>
+        <router-link to="/About_Me">About Me</router-link>
       </li>
     </ul>
     <div class="menu-bottom-section">
@@ -180,5 +186,19 @@ watch(isExpanded, (newVal) => {
 }
 .social-links-list a:hover {
   color: #fff;
+}
+.divider-item {
+  padding: 0.5rem 1rem;
+  opacity: 0; /* Initially hidden */
+  transition: opacity 0.3s ease-out;
+}
+.side-menu-wrapper.is-expanded .divider-item {
+  opacity: 1; /* Fade in when expanded */
+  transition: opacity 0.3s ease-in 0.2s;
+}
+.divider {
+  height: 1px;
+  background-color: #cf9b64; /* Use your accent color for the divider */
+  margin: 0;
 }
 </style>

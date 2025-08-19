@@ -1,39 +1,46 @@
 <script setup>
+import ImpactCard from '../components/ImpactCard.vue';
 import ProjectHero from '../components/ProjectHero.vue';
 import ProjectIntro from '../components/ProjectIntro.vue';
-import SkillsSection from '../components/SkillsSection.vue';
 import ProjectOutro from '../components/ProjectOutro.vue';
+import SkillsSection from '../components/SkillsSection.vue';
 
 const skillsData = [
   {
     id: 1,
     title: 'Management & Communication',
-    skills: ['Project Management', 'Stakeholder Communication', 'Cross-Functional Leadership', 'Compliance & Security'],
+    skills: [
+      'Stakeholder Communication', 'Requirements Analysis',
+      'Agile Methodologies', 'User-Centric Design'
+    ],
   },
   {
     id: 2,
     title: 'Technical Skills',
-    skills: ['Generative AI', 'Data Science & Parsing', 'Information Retrieval', 'Python & FastAPI', 'Database Structuring', 'Document Understanding'],
+    skills: [
+      'Python', 'Pandas', 'Generative AI', 'Parsing/Chunking', 'Streamlit',
+      'RAG', 'Multithreading'
+    ],
   },
 ];
 
 const impactsData = [
   {
     id: 1,
-    title: 'Increased Productivity',
-    description: 'Automated a critical, manual workflow, allowing teams to accelerate preparation for quarterly financial reports and investor relations meetings.',
+    title: 'Reduced Review Time',
+    description: 'Developed an automated contract analysis tool that <strong>cut the average review time by 75%</strong>, allowing legal and business teams to focus on critical tasks.',
     delay: 0,
   },
   {
     id: 2,
-    title: 'Guaranteed Data Integrity',
-    description: 'Engineered a secure and compliant AI solution that not only minimized human error but also guarantee the integrity of core business data, ensuring all financial information was consistent and reliable for audit and reporting.',
+    title: 'Increased Accuracy',
+    description: '<strong>Engineered a system to automate subjective tasks</strong>, which helped <strong>significantly reduce human error</strong> and ensure data integrity, thereby minimizing compliance risks.',
     delay: 1,
   },
   {
     id: 3,
-    title: 'Scalable & Robust Design',
-    description: 'Developed a scalable and maintainable system capable of handling large volumes of internal documents, ensuring long-term operational viability.',
+    title: 'Enhanced User Experience',
+    description: 'Led workshops with end-users and iteratively improved the tool’s design based on feedback, resulting in a <strong>highly intuitive and user-centric solution</strong>.',
     delay: 2,
   },
 ];
@@ -42,30 +49,34 @@ const impactsData = [
 <template>
   <div class="project-page-container">
     <ProjectHero
-      title="RIIF: Financial Reporting Reinvented"
-      subtitle="AI-Driven Solution for Corporate Efficiency"
+      title="TPTRM: Accelerating Contract Analysis"
+      subtitle="An AI Solution for Faster, More Accurate Legal Review"
     />
 
     <section class="project-details-section">
       <div class="project-details-grid">
         <ProjectIntro>
           <p>
-            In the fast-paced world of financial services, preparing for high-stakes investor briefings and executive meetings requires both speed and precision. As an
-            <strong>intern at BNP Paribas</strong>, I developed
-            <strong>RIIF</strong>, an intelligent solution that
-            <strong>streamlined the process of retrieving and validating key financial data</strong>. This work empowered business teams to
-            <strong>shift their focus from time-consuming data retrieval to strategic analysis and communication</strong>.
+            During my internship at <strong>BNP Paribas IT Group</strong>, I
+            developed a tool to <strong>automate contract analysis</strong>, a
+            critical and time-consuming process for the legal and compliance
+            teams. This solution, named <strong>TPTRM</strong>, streamlined the
+            review workflow by <strong>automatically parsing documents and
+            highlighting key clauses</strong>, significantly reducing manual
+            effort.
           </p>
           <p>
-            My role involved
-            <strong>close collaboration with financial reporting teams</strong>
-            to understand their workflows and pain points. By building a tool that provides instant, verifiable answers, I helped ensure
-            <strong>data integrity while significantly improving preparation time</strong>
-            for major corporate events. This project demonstrates my ability to translate complex business needs into
-            <strong>effective, secure, and user-centric technical solutions</strong>.
+            My role involved <strong>working closely with end-users</strong> to
+            understand their pain points and ensure the tool's features
+            directly addressed their needs. By integrating user feedback
+            through workshops and iterative design, I created a solution that
+            not only improved efficiency but also <strong>minimized human error</strong>
+            and provided a <strong>more user-friendly experience</strong>. This
+            project demonstrates my ability to build robust and scalable
+            applications that meet complex business requirements.
           </p>
         </ProjectIntro>
-        
+
         <SkillsSection :categories="skillsData" />
       </div>
     </section>
@@ -73,13 +84,7 @@ const impactsData = [
     <section class="project-impact-section">
       <h2 class="section-title">Impact & Key Contributions</h2>
       <div class="impact-grid">
-        <ImpactCard
-          v-for="impact in impactsData"
-          :key="impact.id"
-          :title="impact.title"
-          :description="impact.description"
-          :delay="impact.delay"
-        />
+        <ImpactCard v-for="impact in impactsData" :key="impact.id" :impact="impact" />
       </div>
     </section>
 
@@ -94,6 +99,33 @@ const impactsData = [
 .project-page-container {
   color: #333;
   font-family: 'Roboto', sans-serif;
+}
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 50px;
+  color: #373737;
+}
+.fade-in-up {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+.delay-1 {
+  transition-delay: 0.2s;
+}
+.delay-2 {
+  transition-delay: 0.4s;
+}
+@media (max-width: 768px) {
+  .project-details-grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
 }
 .project-details-section {
   background: #fff;
@@ -112,23 +144,11 @@ const impactsData = [
   background: #f0f0f0;
   text-align: center;
 }
-.section-title {
-  font-size: 2.5rem;
-  font-weight: 700;
-  margin-bottom: 50px;
-  color: #373737;
-}
 .impact-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 40px;
   max-width: 1200px;
   margin: auto;
-}
-@media (max-width: 768px) {
-  .project-details-grid {
-    grid-template-columns: 1fr;
-    gap: 40px;
-  }
 }
 </style>

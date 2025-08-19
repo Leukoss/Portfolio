@@ -4,6 +4,7 @@ import Facial_Recognition from '../views/Facial_Recognition.vue'
 import Accidentology from '../views/Accidentology.vue'
 import Research from '../views/Research.vue'
 import HomePage from '../views/HomePage.vue'
+import AboutMe from '../views/AboutMe.vue'
 import TPTRM from '../views/TPTRM.vue'
 import RIIF from '../views/RIIF.vue'
 
@@ -14,6 +15,11 @@ const router = createRouter({
       path: '/',
       name: 'home',
       component: HomePage,
+    },
+    {
+      path: '/About_Me',
+      name: 'About_Me',
+      component: AboutMe,
     },
     {
       path: '/RIIF',

@@ -9,12 +9,17 @@ const skillsData = [
   {
     id: 1,
     title: 'Management & Communication',
-    skills: ['Project Management', 'Stakeholder Communication', 'Cross-Functional Leadership', 'Compliance & Security'],
+    skills: [
+      'Project Management', 'Stakeholder Communication',
+      'Cross-Functional Leadership', 'Compliance & Security'
+    ],
   },
   {
     id: 2,
     title: 'Technical Skills',
-    skills: ['Generative AI', 'Data Science & Parsing', 'Information Retrieval', 'Python & FastAPI', 'Database Structuring', 'Document Understanding'],
+    skills: [
+      'Generative AI', 'RAG', 'Data Science', 'Parsing/Chunking', 'Python',
+      'FastAPI', 'Vector DataBase', 'Postman'],
   },
 ];
 
