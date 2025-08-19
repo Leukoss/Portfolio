@@ -5,33 +5,28 @@ const currentYear = ref(new Date().getFullYear());
 </script>
 
 <template>
-  <footer class="footer">
-    <div class="container">
-      <p class="copyright-text">&copy; {{ currentYear }} Lucas SALI--ORLIANGE. All Rights Reserved.</p>
+  <footer class="app-footer">
+    <div class="footer-container">
+      <p class="copyright-text">© {{ currentYear }} Lucas SALI-ORLIANGE. All Rights Reserved.</p>
     </div>
   </footer>
 </template>
 
 <style scoped>
-.footer {
-  background-color: transparent; 
+.app-footer {
+  background-color: transparent;
   color: #a0a0a0;
-  padding: 1rem 2rem; 
-  text-align: left;
-  border-top: 1px solid #e0e0e0; 
+  padding: 1rem 2rem;
+  text-align: center;
+  border-top: 1px solid #e0e0e0;
   position: fixed;
   bottom: 0;
   left: 0;
+  width: 100%;
   z-index: 99;
-  transition: width 0.3s ease, left 0.3s ease;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  transition: width 0.3s ease, left 0.3s ease;
 }
 
-.container {
+.footer-container {
   max-width: none;
   margin: 0;
 }
