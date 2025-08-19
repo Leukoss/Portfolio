@@ -1,6 +1,13 @@
 <script setup>
 import { computed } from 'vue';
 
+const scrollToTop = () => {
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth'
+  });
+};
+
 const props = defineProps({
   title: {
     type: String,
@@ -39,7 +46,7 @@ const cardClass = computed(() => {
     <h3 class="project-title">{{ title }}</h3>
     <p class="project-description" v-html="description"></p>
     <div class="project-link">
-      <router-link :to="linkTo" class="link-button"> View Project </router-link>
+      <router-link :to="linkTo" class="link-button" @click="scrollToTop"> View Project </router-link>
     </div>
   </div>
 </template>

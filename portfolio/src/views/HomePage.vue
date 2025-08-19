@@ -40,31 +40,25 @@ const projects = ref([
   },
 ]);
 
-// Custom directive to handle on-scroll animation
 const vAnimateOnScroll = {
-  // The 'mounted' hook is called when the element is inserted into the DOM.
   mounted(el) {
     const observer = new IntersectionObserver(
       (entries, observerInstance) => {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
             el.classList.add('is-visible');
-            // Stop observing once the animation is triggered
             observerInstance.unobserve(el);
           }
         });
       },
       {
-        threshold: 0.2, // Trigger when 20% of the element is visible
+        threshold: 0.2,
       }
     );
     
     observer.observe(el);
-    
-    // Store the observer instance on the element for cleanup
     el._observer = observer;
   },
-  // The 'unmounted' hook is called when the element is removed from the DOM.
   unmounted(el) {
     if (el._observer) {
       el._observer.disconnect();
