@@ -39,6 +39,38 @@ const projects = ref([
     linkTo: '/Research',
   },
 ]);
+
+// Custom directive to handle on-scroll animation
+const vAnimateOnScroll = {
+  // The 'mounted' hook is called when the element is inserted into the DOM.
+  mounted(el) {
+    const observer = new IntersectionObserver(
+      (entries, observerInstance) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            el.classList.add('is-visible');
+            // Stop observing once the animation is triggered
+            observerInstance.unobserve(el);
+          }
+        });
+      },
+      {
+        threshold: 0.2, // Trigger when 20% of the element is visible
+      }
+    );
+    
+    observer.observe(el);
+    
+    // Store the observer instance on the element for cleanup
+    el._observer = observer;
+  },
+  // The 'unmounted' hook is called when the element is removed from the DOM.
+  unmounted(el) {
+    if (el._observer) {
+      el._observer.disconnect();
+    }
+  },
+};
 </script>
 
 <template>
@@ -46,20 +78,20 @@ const projects = ref([
     <section id="home" class="hero-section">
       <div class="hero-content">
         <div class="hero-title-container">
-          <h1 class="fade-in-up">Lucas SALI--ORLIANGE</h1>
+          <h1 v-animate-on-scroll class="fade-in-up">Lucas SALI--ORLIANGE</h1>
           <div class="divider"></div>
-          <p class="fade-in-up delay-1"><strong>Data Scientist | AI/ML Engineer</strong></p>
+          <p v-animate-on-scroll class="fade-in-up delay-1"><strong>Data Scientist | AI/ML Engineer</strong></p>
           <div class="divider"></div>
         </div>
-        <p class="fade-in-up delay-2 intro-text">
+        <p v-animate-on-scroll class="fade-in-up delay-2 intro-text">
           Based on the ideas you provided, here is a presentation summary
           that is concise, professional, and tailored for a business-oriented
-          audience.<br></br>
+          audience.<br /><br />
           I am a passionate developer who specializes in applying
           <strong>Artificial Intelligence to financial business
-          problems</strong>. My approach is collaborative; I work directly
+            problems</strong>. My approach is collaborative; I work directly
           with business operators to <strong>improve existing processes and
-          increase profitability</strong>. All my solutions are built to
+            increase profitability</strong>. All my solutions are built to
           be <strong>robust, scalable, and efficient</strong>, focusing
           on clean code and rapid delivery.
         </p>
@@ -71,13 +103,14 @@ const projects = ref([
       <div class="project-grid">
         <ProjectCard
           v-for="(project, index) in projects"
+          v-animate-on-scroll
           :key="project.title"
           :title="project.title"
           :description="project.description"
           :logoSrc="project.logoSrc"
           :logoAlt="project.logoAlt"
           :linkTo="project.linkTo"
-          :delay="index"
+          :style="{ 'transition-delay': `${index * 0.1}s` }"
         />
       </div>
     </section>
@@ -85,7 +118,7 @@ const projects = ref([
     <section id="skills" class="skills-section">
       <h2 class="section-title">My Skills</h2>
       <div class="skills-container">
-        <div class="skills-category-block fade-in-up">
+        <div v-animate-on-scroll class="skills-category-block fade-in-up">
           <h3 class="category-title">AI & Data Science</h3>
           <p class="category-description">Expertise in applying data-driven solutions to business problems.</p>
           <div class="skills-grid">
@@ -97,7 +130,7 @@ const projects = ref([
             <div class="skill-item"><span class="skill-name">Project Lifecycle</span></div>
           </div>
         </div>
-        <div class="skills-category-block fade-in-up delay-1">
+        <div v-animate-on-scroll class="skills-category-block fade-in-up delay-1">
           <h3 class="category-title">Programming & Tools</h3>
           <p class="category-description">A robust technical foundation for building scalable solutions.</p>
           <div class="skills-grid">
@@ -109,7 +142,7 @@ const projects = ref([
             <div class="skill-item"><span class="skill-name">Vue</span></div>
           </div>
         </div>
-        <div class="skills-category-block fade-in-up delay-2">
+        <div v-animate-on-scroll class="skills-category-block fade-in-up delay-2">
           <h3 class="category-title">Professional Skills</h3>
           <p class="category-description">My ability to communicate and collaborate effectively in a team.</p>
           <div class="skills-grid">
@@ -124,10 +157,10 @@ const projects = ref([
 
     <section id="contact" class="contact-section">
       <h2 class="section-title">Get in Touch</h2>
-      <p class="contact-text fade-in-up">
+      <p v-animate-on-scroll class="contact-text fade-in-up">
         Feel free to connect with me to discuss potential opportunities or collaborations.
       </p>
-      <div class="contact-links fade-in-up delay-1">
+      <div v-animate-on-scroll class="contact-links fade-in-up delay-1">
         <a href="https://www.linkedin.com/in/lucas-sali-orliange-65598a21a/" target="_blank" class="contact-link">LinkedIn</a>
         <a href="https://github.com/Leukoss" target="_blank" class="contact-link">GitHub</a>
         <a href="mailto:lucas.saliorliange.pro@gmail.com" class="contact-link">Email</a>
@@ -316,40 +349,36 @@ section {
   background-size: 100% 2px, 100% 2px, 2px 100%, 2px 100%;
 }
 
-@keyframes fadeInUp {
-  from {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
+/* Make sure elements are hidden by default with a transition property */
 .fade-in-up {
   opacity: 0;
-  animation: fadeInUp 0.2s ease-out forwards;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.is-visible {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .delay-1 {
-  animation-delay: 0.2s;
+  transition-delay: 0.2s;
 }
 
 .delay-2 {
-  animation-delay: 0.4s;
+  transition-delay: 0.4s;
 }
 
 .delay-3 {
-  animation-delay: 0.6s;
+  transition-delay: 0.6s;
 }
 
 .delay-4 {
-  animation-delay: 0.8s;
+  transition-delay: 0.8s;
 }
 
 .delay-5 {
-  animation-delay: 1s;
+  transition-delay: 1s;
 }
 
 .hero-title-container {
