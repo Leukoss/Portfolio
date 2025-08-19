@@ -142,6 +142,9 @@ watch(isExpanded, (newVal) => {
   background-color: rgba(207, 155, 100, 0.2);
   border-radius: 5px;
 }
+.side-menu-links .divider-item:hover {
+  background-color: transparent;
+}
 .side-menu-links a {
   display: block;
   padding: 1rem 1.5rem;

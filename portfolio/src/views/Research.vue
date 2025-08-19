@@ -5,6 +5,8 @@ import ProjectIntro from '../components/ProjectIntro.vue';
 import ProjectOutro from '../components/ProjectOutro.vue';
 import SkillsSection from '../components/SkillsSection.vue';
 
+import '@/assets/projects.css';
+
 const skillsData = [
   {
     id: 1,
@@ -92,61 +94,3 @@ const impactsData = [
     />
   </div>
 </template>
-
-<style scoped>
-.project-page-container {
-  color: #333;
-  font-family: 'Roboto', sans-serif;
-}
-.section-title {
-  font-size: 2.5rem;
-  font-weight: 700;
-  margin-bottom: 50px;
-  color: #373737;
-}
-.fade-in-up {
-  opacity: 0;
-  transform: translateY(20px);
-  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
-}
-.is-visible {
-  opacity: 1;
-  transform: translateY(0);
-}
-.delay-1 {
-  transition-delay: 0.2s;
-}
-.delay-2 {
-  transition-delay: 0.4s;
-}
-@media (max-width: 768px) {
-  .project-details-grid {
-    grid-template-columns: 1fr;
-    gap: 40px;
-  }
-}
-.project-details-section {
-  background: #fff;
-  padding: 80px 50px;
-}
-.project-details-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 80px;
-  max-width: 1200px;
-  margin: auto;
-  text-align: left;
-}
-.project-impact-section {
-  padding: 80px 50px;
-  background: #f0f0f0;
-  text-align: center;
-}
-.impact-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 40px;
-  max-width: 1200px;
-  margin: auto;
-}
-</style>
