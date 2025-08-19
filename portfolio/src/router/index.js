@@ -47,6 +47,9 @@ const router = createRouter({
       component: Facial_Recognition,
     }
   ],
+  scrollBehavior(to, from, savedPosition) {
+    return { top: 0, behavior: 'smooth' };
+  },
 })
 
 export default router
