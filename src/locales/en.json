@@ -83,5 +83,112 @@
       "github": "GitHub",
       "email": "Email"
     }
+  },
+  "about_me": {
+    "intro_section": {
+      "title": "About Me",
+      "paragraphs": {
+        "p1": "I'm a <strong>passionate Graduate Engineer specializing in Data Science and AI</strong>, with a proven track record of developing innovative, data-driven solutions for complex business problems. From automating financial reporting at BNP Paribas to building predictive models for sustainable engineering, my experience is defined by a commitment to creating efficient, robust, and impactful technical solutions.",
+        "p2": "My academic journey, combined with practical internships, has equipped me with a strong foundation in <strong>AI/ML project lifecycles</strong>, from data preparation and model training to deployment and stakeholder communication. I thrive in collaborative environments and am eager to apply my skills to drive profitability and operational efficiency."
+      }
+    },
+    "timeline_section": {
+      "title": "My Journey",
+      "items": {
+        "graduate_engineer": {
+          "year": "2025",
+          "title": "Graduate Engineer - Data Science & AI",
+          "description": "Completed a Master’s Level Engineering degree with a specialization in Data Science and AI, focusing on Machine Learning, Deep Learning, Generative AI, MLOps, and Data Visualization. Ranked in the <strong>top 5% of my promotion</strong> and graduated as <strong>Technical Valedictorian</strong>.",
+          "company": "ESIEE Paris",
+          "logo": "/img/esiee_logo.png"
+        },
+        "internship_bnp": {
+          "year": "2025",
+          "title": "Internship - Data Scientist/ML Engineer",
+          "description": "Developed AI tools (RAG, NLP) to automate financial analysis and contract assessment. Focused on enhancing productivity and ensuring data integrity for financial reporting teams.",
+          "company": "BNP Paribas IT Group",
+          "logo": "/img/bnpparibas_logo.png"
+        },
+        "internship_research": {
+          "year": "2024",
+          "title": "Internship - Data Science Researcher",
+          "description": "Conducted R&D on predicting properties of eco-concrete using supervised ML models. Authored a comprehensive report in English, demonstrating expertise in scientific research and technical communication.",
+          "company": "Gustave Eiffel University & ENPC",
+          "logo": "/img/gustave_eiffel_logo.png"
+        },
+        "erasmus": {
+          "year": "2023",
+          "title": "Erasmus Semester - Engineering Sciences",
+          "description": "Completed a multidisciplinary program in Engineering Sciences at the Università di Bologna, gaining international exposure and a broader perspective on engineering principles.",
+          "company": "Università di Bologna",
+          "logo": "/img/unibo_logo.png"
+        },
+        "it_technician": {
+          "year": "2022",
+          "title": "IT Technician",
+          "description": "Provided technical IT support to over 700 people, developing strong problem-solving and communication skills in a professional corporate environment.",
+          "company": "Milleis Banque Privée",
+          "logo": "/img/milleis_logo.png"
+        }
+      }
+    },
+    "skills_section": {
+      "title": "My Skills",
+      "categories": {
+        "ai_and_data_science": {
+          "category_title": "AI & Data Science",
+          "skills": {
+            "ml": "Machine Learning",
+            "dl": "Deep Learning",
+            "genai": "Generative AI",
+            "nlp": "NLP",
+            "dm": "Data Modeling",
+            "mlops": "MLOps",
+            "openai": "OpenAI",
+            "langchain": "Langchain"
+          }
+        },
+        "programming_and_infrastructure": {
+          "category_title": "Programming & Infrastructure",
+          "skills": {
+            "py": "Python",
+            "r": "R",
+            "vue": "Vue",
+            "fastapi": "FastAPI",
+            "flask": "Flask",
+            "django": "Django",
+            "git": "Git",
+            "docker": "Docker",
+            "sql": "SQL"
+          }
+        },
+        "data_science_libraries": {
+          "category_title": "Data Science Libraries & Tools",
+          "skills": {
+            "sklearn": "Scikit-Learn",
+            "pandas": "Pandas",
+            "numpy": "Numpy",
+            "tf": "TensorFlow",
+            "keras": "Keras",
+            "mt": "Multithreading",
+            "pymupdf": "PyMuPDF",
+            "seaborn": "Seaborn",
+            "plotly": "Plotly",
+            "dash": "Dash",
+            "optuna": "Optuna"
+          }
+        },
+        "professional_skills": {
+          "category_title": "Professional & Business Skills",
+          "skills": {
+            "pm": "Project Management",
+            "tw": "Technical Writing",
+            "ps": "Problem-Solving",
+            "sc": "Stakeholder Communication",
+            "onboarding": "Onboarding"
+          }
+        }
+      }
+    }
   }
 }

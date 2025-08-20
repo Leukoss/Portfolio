@@ -5,83 +5,190 @@
     "tptrm": "TPTRM",
     "research": "Recherche",
     "accidentology": "Accidentologie",
-    "facial_recognition": "Reconnaissance faciale",
-    "about_me": "À propos de moi",
+    "facial_recognition": "Reconnaissance Faciale",
+    "about_me": "À Propos",
     "linkedin": "LinkedIn",
     "github": "GitHub"
   },
   "home": {
     "title": "Lucas SALI--ORLIANGE",
-    "subtitle": "Ingénieur IA/ML | Data Scientist",
-    "intro_text": "Je suis un développeur passionné qui se spécialise dans l'application de l'<strong>Intelligence Artificielle aux problèmes commerciaux financiers</strong>. Mon approche est collaborative, je travaille directement avec les opérationnels pour <strong>améliorer les processus existants et augmenter la rentabilité</strong>. Toutes mes solutions sont conçues pour être <strong>robustes, évolutives et efficaces</strong>, en mettant l'accent sur un code propre et une livraison rapide.",
+    "subtitle": "Data Scientist | Ingénieur IA/ML",
+    "intro_text": "Je suis un développeur passionné, spécialisé dans l’application de <strong>l’Intelligence Artificielle aux problématiques financières</strong>. Mon approche est collaborative : je travaille directement avec les opérateurs métiers pour <strong>améliorer les processus existants et accroître la rentabilité</strong>. Toutes mes solutions sont conçues pour être <strong>robustes, évolutives et efficaces</strong>, en mettant l’accent sur un code propre et une livraison rapide.",
     "projects_section": {
       "title": "Mes Projets",
       "riif": {
         "title": "RIIF",
-        "description": "Une solution de questions-réponses confidentielle, <strong>pilotée par l'IA</strong>, qui <strong>accélère considérablement la préparation</strong> des <strong>rapports financiers</strong> et des briefings pour répondre aux questions des investisseurs."
+        "description": "Une solution confidentielle de <strong>Questions/Réponses pilotée par IA</strong> qui <strong>accélère considérablement la préparation</strong> des <strong>rapports financiers</strong> et des notes de synthèse pour répondre aux questions des investisseurs."
       },
       "tptrm": {
         "title": "TPTRM",
-        "description": "Développement d'un outil d'<strong>analyse automatisée des contrats</strong>, <strong>réduisant</strong> considérablement <strong>le temps de révision</strong> et les erreurs humaines grâce à une conception axée sur l'utilisateur."
+        "description": "Développement d’un outil d’<strong>analyse automatisée de contrats</strong>, réduisant significativement <strong>le temps de revue</strong> et les erreurs humaines grâce à une conception centrée sur l’utilisateur."
       },
       "accidentology": {
         "title": "Accidentologie",
-        "description": "<strong>Prédiction de la gravité des accidents</strong> à partir de plus d'<strong>un million d'accidents de la route</strong> pour fournir des informations exploitables sur la sécurité routière à l'aide de l'apprentissage supervisé."
+        "description": "<strong>Prédire la gravité des accidents</strong> à partir de plus de <strong>1 million d’accidents de la route</strong> afin de fournir des analyses exploitables sur la sécurité routière grâce à l’apprentissage supervisé."
       },
       "research": {
         "title": "Recherche",
-        "description": "Recherche interdisciplinaire sur le béton écologique, en tirant parti de <strong>modèles prédictifs</strong> pour optimiser les formulations et <strong>réduire</strong> l'impact environnemental."
+        "description": "Recherche interdisciplinaire sur l’éco-béton, utilisant des <strong>modèles prédictifs</strong> pour optimiser les formulations et <strong>réduire</strong> l’impact environnemental."
       },
       "facial_recognition": {
-        "title": "Reconnaissance faciale",
-        "description": "Développement d'un <strong>modèle de reconnaissance faciale</strong> à l'aide d'un jeu de données personnalisé de \"Jurassic Park\" pour démontrer le processus de bout en bout de la création de jeux de données et de l'<strong>entraînement du modèle</strong>."
+        "title": "Reconnaissance Faciale",
+        "description": "Développement d’un <strong>modèle de reconnaissance faciale</strong> à partir d’un jeu de données personnalisé issu de « Jurassic Park », démontrant le processus complet de création de dataset et d’<strong>entraînement de modèle</strong>."
       }
     },
     "skills_section": {
       "title": "Mes Compétences",
-      "categories": [
-        {
-          "category_title": "IA & Science des Données",
-          "category_description": "Expertise dans l'application de solutions basées sur les données aux problèmes commerciaux.",
-          "skills": [
-            "Apprentissage automatique",
-            "Apprentissage profond",
-            "NLP",
-            "Vision par ordinateur",
-            "Analyse de séries temporelles",
-            "Cycle de vie des projets"
-          ]
+      "categories": {
+        "ai_and_data_science": {
+          "category_title": "IA & Data Science",
+          "category_description": "Expertise dans l’application de solutions data-driven aux problématiques métiers.",
+          "skills": {
+            "ml": "Machine Learning",
+            "dl": "Deep Learning",
+            "nlp": "NLP",
+            "cv": "Vision par Ordinateur",
+            "tsa": "Analyse de Séries Temporelles",
+            "pl": "Cycle de Vie de Projet"
+          }
         },
-        {
-          "category_title": "Programmation et Outils",
-          "category_description": "Une base technique solide pour construire des solutions évolutives.",
-          "skills": [
-            "Python",
-            "SQL",
-            "Git",
-            "Docker",
-            "Linux",
-            "Vue"
-          ]
+        "programming_and_tools": {
+          "category_title": "Programmation & Outils",
+          "category_description": "Une base technique solide pour développer des solutions évolutives.",
+          "skills": {
+            "py": "Python",
+            "sql": "SQL",
+            "git": "Git",
+            "docker": "Docker",
+            "linux": "Linux",
+            "vue": "Vue"
+          }
         },
-        {
+        "professional_skills": {
           "category_title": "Compétences Professionnelles",
-          "category_description": "Ma capacité à communiquer et à collaborer efficacement en équipe.",
-          "skills": [
-            "Rédaction technique",
-            "Communication",
-            "Résolution de problèmes",
-            "Recherche"
-          ]
+          "category_description": "Ma capacité à communiquer et collaborer efficacement en équipe.",
+          "skills": {
+            "tw": "Rédaction Technique",
+            "comm": "Communication",
+            "ps": "Résolution de Problèmes",
+            "res": "Recherche"
+          }
         }
-      ]
+      }
     },
     "contact_section": {
       "title": "Me Contacter",
-      "contact_text": "N'hésitez pas à me contacter pour discuter d'opportunités ou de collaborations potentielles.",
+      "contact_text": "N’hésitez pas à me contacter pour discuter d’opportunités ou de collaborations potentielles.",
       "linkedin": "LinkedIn",
       "github": "GitHub",
       "email": "Email"
+    }
+  },
+  "about_me": {
+    "intro_section": {
+      "title": "À Propos",
+      "paragraphs": {
+        "p1": "Je suis un <strong>jeune ingénieur passionné, spécialisé en Data Science et IA</strong>, avec une solide expérience dans le développement de solutions innovantes et data-driven pour des problématiques complexes. De l’automatisation du reporting financier chez BNP Paribas à la création de modèles prédictifs pour l’ingénierie durable, mon parcours est marqué par un engagement à créer des solutions techniques robustes, efficaces et impactantes.",
+        "p2": "Mon parcours académique, enrichi de stages pratiques, m’a permis d’acquérir une base solide en <strong>cycles de vie de projets IA/ML</strong>, de la préparation des données et l’entraînement des modèles jusqu’au déploiement et à la communication avec les parties prenantes. Je m’épanouis dans des environnements collaboratifs et je suis motivé à mettre mes compétences au service de la rentabilité et de l’efficacité opérationnelle."
+      }
+    },
+    "timeline_section": {
+      "title": "Mon Parcours",
+      "items": {
+        "graduate_engineer": {
+          "year": "2025",
+          "title": "Diplôme d’Ingénieur - Data Science & IA",
+          "description": "Obtention d’un diplôme d’ingénieur de niveau Master avec spécialisation en Data Science et IA, axé sur le Machine Learning, Deep Learning, IA Générative, MLOps et Data Visualization. Classé dans le <strong>top 5% de ma promotion</strong> et diplômé <strong>Major Technique</strong>.",
+          "company": "ESIEE Paris",
+          "logo": "/img/esiee_logo.png"
+        },
+        "internship_bnp": {
+          "year": "2025",
+          "title": "Stage - Data Scientist / Ingénieur ML",
+          "description": "Développement d’outils IA (RAG, NLP) pour automatiser l’analyse financière et l’évaluation de contrats. Objectif : améliorer la productivité et garantir l’intégrité des données pour les équipes de reporting financier.",
+          "company": "BNP Paribas IT Group",
+          "logo": "/img/bnpparibas_logo.png"
+        },
+        "internship_research": {
+          "year": "2024",
+          "title": "Stage - Chercheur en Data Science",
+          "description": "Travaux de R&D sur la prédiction des propriétés de l’éco-béton grâce à des modèles supervisés de ML. Rédaction d’un rapport scientifique complet en anglais, démontrant mon expertise en recherche et communication technique.",
+          "company": "Université Gustave Eiffel & ENPC",
+          "logo": "/img/gustave_eiffel_logo.png"
+        },
+        "erasmus": {
+          "year": "2023",
+          "title": "Semestre Erasmus - Sciences de l’Ingénieur",
+          "description": "Programme pluridisciplinaire en sciences de l’ingénieur à l’Università di Bologna, offrant une ouverture internationale et un élargissement de ma vision des principes de l’ingénierie.",
+          "company": "Università di Bologna",
+          "logo": "/img/unibo_logo.png"
+        },
+        "it_technician": {
+          "year": "2022",
+          "title": "Technicien Informatique",
+          "description": "Support informatique technique pour plus de 700 utilisateurs, développement de solides compétences en résolution de problèmes et communication dans un environnement professionnel exigeant.",
+          "company": "Milleis Banque Privée",
+          "logo": "/img/milleis_logo.png"
+        }
+      }
+    },
+    "skills_section": {
+      "title": "Mes Compétences",
+      "categories": {
+        "ai_and_data_science": {
+          "category_title": "IA & Data Science",
+          "skills": {
+            "ml": "Machine Learning",
+            "dl": "Deep Learning",
+            "genai": "IA Générative",
+            "nlp": "NLP",
+            "dm": "Modélisation de Données",
+            "mlops": "MLOps",
+            "openai": "OpenAI",
+            "langchain": "Langchain"
+          }
+        },
+        "programming_and_infrastructure": {
+          "category_title": "Programmation & Infrastructure",
+          "skills": {
+            "py": "Python",
+            "r": "R",
+            "vue": "Vue",
+            "fastapi": "FastAPI",
+            "flask": "Flask",
+            "django": "Django",
+            "git": "Git",
+            "docker": "Docker",
+            "sql": "SQL"
+          }
+        },
+        "data_science_libraries": {
+          "category_title": "Bibliothèques & Outils de Data Science",
+          "skills": {
+            "sklearn": "Scikit-Learn",
+            "pandas": "Pandas",
+            "numpy": "Numpy",
+            "tf": "TensorFlow",
+            "keras": "Keras",
+            "mt": "Multithreading",
+            "pymupdf": "PyMuPDF",
+            "seaborn": "Seaborn",
+            "plotly": "Plotly",
+            "dash": "Dash",
+            "optuna": "Optuna"
+          }
+        },
+        "professional_skills": {
+          "category_title": "Compétences Professionnelles & Business",
+          "skills": {
+            "pm": "Gestion de Projet",
+            "tw": "Rédaction Technique",
+            "ps": "Résolution de Problèmes",
+            "sc": "Communication avec les Parties Prenantes",
+            "onboarding": "Onboarding"
+          }
+        }
+      }
     }
   }
 }
