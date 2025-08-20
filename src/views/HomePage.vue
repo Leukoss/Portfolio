@@ -1,42 +1,45 @@
 <script setup>
 import ProjectCard from '../components/ProjectCard.vue';
 import { ref } from 'vue';
+import { useI18n } from 'vue-i18n';
+
+const { t } = useI18n();
 
 const projects = ref([
   {
-    title: 'RIIF',
-    description: `A confidential, <strong>AI-driven Q&A solution</strong> that significantly <strong>accelerates preparation</strong> for <strong>financial reporting</strong> and executive briefings to answer investor questions.`,
+    title: t('home.projects_section.riif.title'),
+    description: t('home.projects_section.riif.description'),
     logoSrc: 'img/bnpparibas_logo.png',
     logoAlt: 'BNP Paribas Logo',
     linkTo: '/RIIF',
   },
   {
-    title: 'TPTRM',
-    description: `Developed a tool for <strong>automated contract analysis</strong>, significantly <strong>reducing review time</strong> and human error through user-centric design.`,
+    title: t('home.projects_section.tptrm.title'),
+    description: t('home.projects_section.tptrm.description'),
     logoSrc: 'img/bnpparibas_logo.png',
     logoAlt: 'BNP Paribas Logo',
     linkTo: '/TPTRM',
   },
   {
-    title: 'Accidentology',
-    description: `<strong>Predicting accident severity</strong> from over <strong>1 million road accidents</strong> to provide actionable insights into traffic safety using supervised learning.`,
+    title: t('home.projects_section.accidentology.title'),
+    description: t('home.projects_section.accidentology.description'),
     logoSrc: 'img/esiee_logo.png',
     logoAlt: 'Esiee Paris Logo',
     linkTo: '/Accidentology',
   },
   {
-    title: 'Research',
-    description: `Interdisciplinary research on eco-concrete, leveraging <strong>predictive models</strong> to optimize formulations and <strong>reduce</strong> environmental impact.`,
+    title: t('home.projects_section.research.title'),
+    description: t('home.projects_section.research.description'),
     logoSrc: 'img/esiee_logo.png',
     logoAlt: 'Esiee Paris Logo',
     linkTo: '/Research',
   },
   {
-    title: 'Facial Recognition',
-    description: `Developed a <strong>facial recognition model</strong> using a custom dataset from "Jurassic Park" to demonstrate the end-to-end process of dataset creation and <strong>model training</strong>.`,
+    title: t('home.projects_section.facial_recognition.title'),
+    description: t('home.projects_section.facial_recognition.description'),
     logoSrc: 'img/esiee_logo.png',
     logoAlt: 'Esiee Paris Logo',
-    linkTo: '/Research',
+    linkTo: '/Facial_Recognition',
   },
 ]);
 
@@ -72,28 +75,17 @@ const vAnimateOnScroll = {
     <section id="home" class="hero-section">
       <div class="hero-content">
         <div class="hero-title-container">
-          <h1 v-animate-on-scroll class="fade-in-up">Lucas SALI--ORLIANGE</h1>
+          <h1 v-animate-on-scroll class="fade-in-up">{{ t('home.title') }}</h1>
           <div class="divider"></div>
-          <p v-animate-on-scroll class="fade-in-up delay-1"><strong>Data Scientist | AI/ML Engineer</strong></p>
+          <p v-animate-on-scroll class="fade-in-up delay-1"><strong>{{ t('home.subtitle') }}</strong></p>
           <div class="divider"></div>
         </div>
-        <p v-animate-on-scroll class="fade-in-up delay-2 intro-text">
-          Based on the ideas you provided, here is a presentation summary
-          that is concise, professional, and tailored for a business-oriented
-          audience.<br /><br />
-          I am a passionate developer who specializes in applying
-          <strong>Artificial Intelligence to financial business
-            problems</strong>. My approach is collaborative; I work directly
-          with business operators to <strong>improve existing processes and
-            increase profitability</strong>. All my solutions are built to
-          be <strong>robust, scalable, and efficient</strong>, focusing
-          on clean code and rapid delivery.
-        </p>
+        <p v-animate-on-scroll class="fade-in-up delay-2 intro-text" v-html="t('home.intro_text')"></p>
       </div>
     </section>
 
     <section id="projects" class="projects-section">
-      <h2 class="section-title">My Projects</h2>
+      <h2 class="section-title">{{ t('home.projects_section.title') }}</h2>
       <div class="project-grid">
         <ProjectCard
           v-for="(project, index) in projects"
@@ -110,54 +102,41 @@ const vAnimateOnScroll = {
     </section>
 
     <section id="skills" class="skills-section">
-      <h2 class="section-title">My Skills</h2>
+      <h2 class="section-title">{{ t('home.skills_section.title') }}</h2>
       <div class="skills-container">
         <div v-animate-on-scroll class="skills-category-block fade-in-up">
-          <h3 class="category-title">AI & Data Science</h3>
-          <p class="category-description">Expertise in applying data-driven solutions to business problems.</p>
+          <h3 class="category-title">{{ t('home.skills_section.ai_and_data_science.category_title') }}</h3>
+          <p class="category-description">{{ t('home.skills_section.ai_and_data_science.category_description') }}</p>
           <div class="skills-grid">
-            <div class="skill-item"><span class="skill-name">Machine Learning</span></div>
-            <div class="skill-item"><span class="skill-name">Deep Learning</span></div>
-            <div class="skill-item"><span class="skill-name">NLP</span></div>
-            <div class="skill-item"><span class="skill-name">Computer Vision</span></div>
-            <div class="skill-item"><span class="skill-name">Time Series Analysis</span></div>
-            <div class="skill-item"><span class="skill-name">Project Lifecycle</span></div>
+            <div class="skill-item" v-for="skill in t('home.skills_section.ai_and_data_science.skills')" :key="skill"><span class="skill-name">{{ skill }}</span></div>
           </div>
         </div>
         <div v-animate-on-scroll class="skills-category-block fade-in-up delay-1">
-          <h3 class="category-title">Programming & Tools</h3>
-          <p class="category-description">A robust technical foundation for building scalable solutions.</p>
+          <h3 class="category-title">{{ t('home.skills_section.programming_and_tools.category_title') }}</h3>
+          <p class="category-description">{{ t('home.skills_section.programming_and_tools.category_description') }}</p>
           <div class="skills-grid">
-            <div class="skill-item"><span class="skill-name">Python</span></div>
-            <div class="skill-item"><span class="skill-name">SQL</span></div>
-            <div class="skill-item"><span class="skill-name">Git</span></div>
-            <div class="skill-item"><span class="skill-name">Docker</span></div>
-            <div class="skill-item"><span class="skill-name">Linux</span></div>
-            <div class="skill-item"><span class="skill-name">Vue</span></div>
+            <div class="skill-item" v-for="skill in t('home.skills_section.programming_and_tools.skills')" :key="skill"><span class="skill-name">{{ skill }}</span></div>
           </div>
         </div>
         <div v-animate-on-scroll class="skills-category-block fade-in-up delay-2">
-          <h3 class="category-title">Professional Skills</h3>
-          <p class="category-description">My ability to communicate and collaborate effectively in a team.</p>
+          <h3 class="category-title">{{ t('home.skills_section.professional_skills.category_title') }}</h3>
+          <p class="category-description">{{ t('home.skills_section.professional_skills.category_description') }}</p>
           <div class="skills-grid">
-            <div class="skill-item"><span class="skill-name">Technical Writing</span></div>
-            <div class="skill-item"><span class="skill-name">Communication</span></div>
-            <div class="skill-item"><span class="skill-name">Problem-Solving</span></div>
-            <div class="skill-item"><span class="skill-name">Research</span></div>
+            <div class="skill-item" v-for="skill in t('home.skills_section.professional_skills.skills')" :key="skill"><span class="skill-name">{{ skill }}</span></div>
           </div>
         </div>
       </div>
     </section>
 
     <section id="contact" class="contact-section">
-      <h2 class="section-title">Get in Touch</h2>
+      <h2 class="section-title">{{ t('home.contact_section.title') }}</h2>
       <p v-animate-on-scroll class="contact-text fade-in-up">
-        Feel free to connect with me to discuss potential opportunities or collaborations.
+        {{ t('home.contact_section.contact_text') }}
       </p>
       <div v-animate-on-scroll class="contact-links fade-in-up delay-1">
-        <a href="https://www.linkedin.com/in/lucas-sali-orliange-65598a21a/" target="_blank" class="contact-link">LinkedIn</a>
-        <a href="https://github.com/Leukoss" target="_blank" class="contact-link">GitHub</a>
-        <a href="mailto:lucas.saliorliange.pro@gmail.com" class="contact-link">Email</a>
+        <a href="https://www.linkedin.com/in/lucas-sali-orliange-65598a21a/" target="_blank" class="contact-link">{{ t('home.contact_section.linkedin') }}</a>
+        <a href="https://github.com/Leukoss" target="_blank" class="contact-link">{{ t('home.contact_section.github') }}</a>
+        <a href="mailto:lucas.saliorliange.pro@gmail.com" class="contact-link">{{ t('home.contact_section.email') }}</a>
       </div>
     </section>
   </div>
