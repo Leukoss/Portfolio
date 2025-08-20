@@ -1,0 +1,66 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "riif": "RIIF",
+    "tptrm": "TPTRM",
+    "research": "Recherche",
+    "accidentology": "Accidentologie",
+    "facial_recognition": "Reconnaissance faciale",
+    "about_me": "À propos de moi",
+    "linkedin": "LinkedIn",
+    "github": "GitHub"
+  },
+  "home": {
+    "title": "Lucas SALI--ORLIANGE",
+    "subtitle": "Ingénieur IA/ML | Data Scientist",
+    "intro_text": "Je suis un développeur passionné qui se spécialise dans l'application de l'<strong>Intelligence Artificielle aux problèmes commerciaux financiers</strong>. Mon approche est collaborative, je travaille directement avec les opérationnels pour <strong>améliorer les processus existants et augmenter la rentabilité</strong>. Toutes mes solutions sont conçues pour être <strong>robustes, évolutives et efficaces</strong>, en mettant l'accent sur un code propre et une livraison rapide.",
+    "projects_section": {
+      "title": "Mes Projets",
+      "riif": {
+        "title": "RIIF",
+        "description": "Une solution de questions-réponses confidentielle, <strong>pilotée par l'IA</strong>, qui <strong>accélère considérablement la préparation</strong> des <strong>rapports financiers</strong> et des briefings pour répondre aux questions des investisseurs."
+      },
+      "tptrm": {
+        "title": "TPTRM",
+        "description": "Développement d'un outil d'<strong>analyse automatisée des contrats</strong>, <strong>réduisant</strong> considérablement <strong>le temps de révision</strong> et les erreurs humaines grâce à une conception axée sur l'utilisateur."
+      },
+      "accidentology": {
+        "title": "Accidentologie",
+        "description": "<strong>Prédiction de la gravité des accidents</strong> à partir de plus d'<strong>un million d'accidents de la route</strong> pour fournir des informations exploitables sur la sécurité routière à l'aide de l'apprentissage supervisé."
+      },
+      "research": {
+        "title": "Recherche",
+        "description": "Recherche interdisciplinaire sur le béton écologique, en tirant parti de <strong>modèles prédictifs</strong> pour optimiser les formulations et <strong>réduire</strong> l'impact environnemental."
+      },
+      "facial_recognition": {
+        "title": "Reconnaissance faciale",
+        "description": "Développement d'un <strong>modèle de reconnaissance faciale</strong> à l'aide d'un jeu de données personnalisé de \"Jurassic Park\" pour démontrer le processus de bout en bout de la création de jeux de données et de l'<strong>entraînement du modèle</strong>."
+      }
+    },
+    "skills_section": {
+      "title": "Mes Compétences",
+      "ai_and_data_science": {
+        "category_title": "IA et Science des Données",
+        "category_description": "Expertise dans l'application de solutions basées sur les données aux problèmes commerciaux.",
+        "skills": ["Apprentissage automatique", "Apprentissage profond", "NLP", "Vision par ordinateur", "Analyse de séries temporelles", "Cycle de vie des projets"]
+      },
+      "programming_and_tools": {
+        "category_title": "Programmation et Outils",
+        "category_description": "Une base technique solide pour construire des solutions évolutives.",
+        "skills": ["Python", "SQL", "Git", "Docker", "Linux", "Vue"]
+      },
+      "professional_skills": {
+        "category_title": "Compétences Professionnelles",
+        "category_description": "Ma capacité à communiquer et à collaborer efficacement en équipe.",
+        "skills": ["Rédaction technique", "Communication", "Résolution de problèmes", "Recherche"]
+      }
+    },
+    "contact_section": {
+      "title": "Me Contacter",
+      "contact_text": "N'hésitez pas à me contacter pour discuter d'opportunités ou de collaborations potentielles.",
+      "linkedin": "LinkedIn",
+      "github": "GitHub",
+      "email": "Email"
+    }
+  }
+}

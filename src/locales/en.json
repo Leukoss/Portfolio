@@ -1,0 +1,66 @@
+{
+  "nav": {
+    "home": "Home",
+    "riif": "RIIF",
+    "tptrm": "TPTRM",
+    "research": "Research",
+    "accidentology": "Accidentology",
+    "facial_recognition": "Facial Recognition",
+    "about_me": "About Me",
+    "linkedin": "LinkedIn",
+    "github": "GitHub"
+  },
+  "home": {
+    "title": "Lucas SALI--ORLIANGE",
+    "subtitle": "Data Scientist | AI/ML Engineer",
+    "intro_text": "I am a passionate developer who specializes in applying <strong>Artificial Intelligence to financial business problems</strong>. My approach is collaborative, I work directly with business operators to <strong>improve existing processes and increase profitability</strong>. All my solutions are built to be <strong>robust, scalable, and efficient</strong>, focusing on clean code and rapid delivery.",
+    "projects_section": {
+      "title": "My Projects",
+      "riif": {
+        "title": "RIIF",
+        "description": "A confidential, <strong>AI-driven Q&A solution</strong> that significantly <strong>accelerates preparation</strong> for <strong>financial reporting</strong> and executive briefings to answer investor questions."
+      },
+      "tptrm": {
+        "title": "TPTRM",
+        "description": "Developed a tool for <strong>automated contract analysis</strong>, significantly <strong>reducing review time</strong> and human error through user-centric design."
+      },
+      "accidentology": {
+        "title": "Accidentology",
+        "description": "<strong>Predicting accident severity</strong> from over <strong>1 million road accidents</strong> to provide actionable insights into traffic safety using supervised learning."
+      },
+      "research": {
+        "title": "Research",
+        "description": "Interdisciplinary research on eco-concrete, leveraging <strong>predictive models</strong> to optimize formulations and <strong>reduce</strong> environmental impact."
+      },
+      "facial_recognition": {
+        "title": "Facial Recognition",
+        "description": "Developed a <strong>facial recognition model</strong> using a custom dataset from \"Jurassic Park\" to demonstrate the end-to-end process of dataset creation and <strong>model training</strong>."
+      }
+    },
+    "skills_section": {
+      "title": "My Skills",
+      "ai_and_data_science": {
+        "category_title": "AI & Data Science",
+        "category_description": "Expertise in applying data-driven solutions to business problems.",
+        "skills": ["Machine Learning", "Deep Learning", "NLP", "Computer Vision", "Time Series Analysis", "Project Lifecycle"]
+      },
+      "programming_and_tools": {
+        "category_title": "Programming & Tools",
+        "category_description": "A robust technical foundation for building scalable solutions.",
+        "skills": ["Python", "SQL", "Git", "Docker", "Linux", "Vue"]
+      },
+      "professional_skills": {
+        "category_title": "Professional Skills",
+        "category_description": "My ability to communicate and collaborate effectively in a team.",
+        "skills": ["Technical Writing", "Communication", "Problem-Solving", "Research"]
+      }
+    },
+    "contact_section": {
+      "title": "Get in Touch",
+      "contact_text": "Feel free to connect with me to discuss potential opportunities or collaborations.",
+      "linkedin": "LinkedIn",
+      "github": "GitHub",
+      "email": "Email"
+    }
+  }
+}

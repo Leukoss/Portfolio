@@ -1,5 +1,8 @@
 <script setup>
 import { ref, watch } from 'vue';
+import { useI18n } from 'vue-i18n';
+
+const { t } = useI18n();
 
 const isExpanded = ref(false);
 const emit = defineEmits(['update-width']);
@@ -8,7 +11,6 @@ const toggleMenu = (expandedState) => {
   isExpanded.value = expandedState;
 };
 
-// Watch for changes in isExpanded and emit a custom event
 watch(isExpanded, (newVal) => {
   const newWidth = newVal ? '200px' : '60px';
   emit('update-width', newWidth);
@@ -30,28 +32,28 @@ watch(isExpanded, (newVal) => {
     </div>
     <ul class="side-menu-links">
       <li>
-        <router-link to="/">Home</router-link>
+        <router-link to="/">{{ t('nav.home') }}</router-link>
       </li>
       <li>
-        <router-link to="/RIIF">RIIF</router-link>
+        <router-link to="/RIIF">{{ t('nav.riif') }}</router-link>
       </li>
       <li>
-        <router-link to="/TPTRM">TPTRM</router-link>
+        <router-link to="/TPTRM">{{ t('nav.tptrm') }}</router-link>
       </li>
       <li>
-        <router-link to="/Research">Research</router-link>
+        <router-link to="/Research">{{ t('nav.research') }}</router-link>
       </li>
       <li>
-        <router-link to="/Accidentology">Accidentology</router-link>
+        <router-link to="/Accidentology">{{ t('nav.accidentology') }}</router-link>
       </li>
       <li>
-        <router-link to="/Facial_Recognition">Facial Recognition</router-link>
+        <router-link to="/Facial_Recognition">{{ t('nav.facial_recognition') }}</router-link>
       </li>
       <li class="divider-item">
         <div class="divider"></div>
       </li>
       <li>
-        <router-link to="/About_Me">About Me</router-link>
+        <router-link to="/About_Me">{{ t('nav.about_me') }}</router-link>
       </li>
     </ul>
     <div class="menu-bottom-section">
@@ -61,12 +63,12 @@ watch(isExpanded, (newVal) => {
             href="https://www.linkedin.com/in/lucas-sali-orliange-65598a21a/"
             target="_blank"
           >
-            LinkedIn
+            {{ t('nav.linkedin') }}
           </a>
         </li>
         <li>
           <a href="https://github.com/Leukoss" target="_blank">
-            GitHub
+            {{ t('nav.github') }}
           </a>
         </li>
       </ul>
@@ -192,16 +194,16 @@ watch(isExpanded, (newVal) => {
 }
 .divider-item {
   padding: 0.5rem 1rem;
-  opacity: 0; /* Initially hidden */
+  opacity: 0;
   transition: opacity 0.3s ease-out;
 }
 .side-menu-wrapper.is-expanded .divider-item {
-  opacity: 1; /* Fade in when expanded */
+  opacity: 1;
   transition: opacity 0.3s ease-in 0.2s;
 }
 .divider {
   height: 1px;
-  background-color: #cf9b64; /* Use your accent color for the divider */
+  background-color: #cf9b64;
   margin: 0;
 }
 </style>
