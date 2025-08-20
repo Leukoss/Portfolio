@@ -1,69 +1,47 @@
 <script setup>
+import '@/assets/projects.css';
+import { computed } from 'vue';
+import { useI18n } from 'vue-i18n';
 import ImpactCard from '../components/ImpactCard.vue';
 import ProjectHero from '../components/ProjectHero.vue';
 import ProjectIntro from '../components/ProjectIntro.vue';
 import ProjectOutro from '../components/ProjectOutro.vue';
 import SkillsSection from '../components/SkillsSection.vue';
 
-import '@/assets/projects.css';
+const { t, locale, messages } = useI18n();
 
-const skillsData = [
+const information = computed(() => [
   {
-    id: 1,
-    title: 'Data Analysis & Modeling',
-    skills: [
-      'Feature Engineering', 'Supervised Learning',
-      'Model Evaluation', 'Data Visualization'
-    ],
-  },
-  {
-    id: 2,
-    title: 'Technical Skills',
-    skills: [
-      'Python', 'Pandas', 'Scikit-learn', 'XGBoost', 'LightGBM', 'Optuna',
-      'Seaborn', 'Plotly'
-    ],
-  },
-];
+    title: t('projects.title_project.accidentology.title'),
+    subtitle: t('projects.title_project.accidentology.subtitle'),
+    p1: t('projects.title_project.accidentology.paragraphs.p1'),
+    p2: t('projects.title_project.accidentology.paragraphs.p2'),
+  }
+]);
 
-const impactsData = [
-  {
-    id: 1,
-    title: 'High-Accuracy Predictive Model',
-    description: 'Developed a supervised learning model that achieved an <strong>86% accuracy rate</strong> in predicting accident severity, providing a robust tool for traffic safety analysis.',
-    delay: 0,
-  },
-  {
-    id: 2,
-    title: 'Data-Driven Insights',
-    description: 'Conducted in-depth analysis on a dataset of <strong>over 1 million road accidents</strong>, identifying key factors influencing accident severity and providing actionable insights for safety initiatives.',
-    delay: 1,
-  },
-  {
-    id: 3,
-    title: 'End-to-End Analysis',
-    description: 'Managed the full data science lifecycle, from <strong>preprocessing and feature engineering</strong> to <strong>model training and comparison</strong>, demonstrating a comprehensive understanding of data analysis workflows.',
-    delay: 2,
-  },
-];
+const skillsData = computed(() => {
+  const items = messages.value[locale.value].projects.title_project.accidentology.skills_section.categories;
+  return items ? Object.values(items) : [];
+});
+
+const impactsData = computed(() => {
+  const items = messages.value[locale.value].projects.title_project.accidentology.impacts_section.categories;
+  return items ? Object.values(items) : [];
+});
 </script>
 
 <template>
   <div class="project-page-container">
     <ProjectHero
-      title="Road Accident Severity Prediction"
-      subtitle="Applying Data Science to Enhance Traffic Safety"
+      :title="information[0].title"
+      :subtitle="information[0].subtitle"
     />
 
     <section class="project-details-section">
       <div class="project-details-grid">
         <ProjectIntro>
-          <p>
-            As a student project at <strong>ESIEE Paris</strong>, I undertook a comprehensive <strong>data analysis project</strong> focused on a dataset of over <strong>1 million road accidents since 2010</strong>. The primary goal was to build a predictive model that could accurately estimate the severity of an accident based on various factors, such as weather conditions, road type, and time of day.
-          </p>
-          <p>
-            My role involved the entire <strong>data science lifecycle</strong>, from cleaning and preprocessing the raw data to performing <strong>feature engineering</strong> to optimize model performance. By applying a range of <strong>supervised learning methods</strong>, I was able to build a robust model that provides valuable insights into traffic safety, which could inform preventative strategies.
-          </p>
+          <p v-html="information[0].p1"></p>
+          <p v-html="information[0].p2"></p>
         </ProjectIntro>
 
         <SkillsSection :categories="skillsData" />
@@ -71,14 +49,14 @@ const impactsData = [
     </section>
 
     <section class="project-impact-section">
-      <h2 class="section-title">Impact & Key Contributions</h2>
+      <h2 class="section-title">{{ t('projects.title_project.accidentology.impacts_section.title') }}</h2>
       <div class="impact-grid">
         <ImpactCard v-for="impact in impactsData" :key="impact.id" :impact="impact" />
       </div>
     </section>
 
     <ProjectOutro
-      link-text="Let's Connect"
+      :link-text="t('connect')"
       link-to="/#contact"
     />
   </div>

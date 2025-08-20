@@ -1,5 +1,8 @@
 <script setup>
 import { computed } from 'vue';
+import { useI18n } from 'vue-i18n';
+
+const { t } = useI18n();
 
 const props = defineProps({
   title: {
@@ -39,7 +42,7 @@ const cardClass = computed(() => {
     <h3 class="project-title">{{ title }}</h3>
     <p class="project-description" v-html="description"></p>
     <div class="project-link">
-      <router-link :to="linkTo" class="link-button"> View Project </router-link>
+      <router-link :to="linkTo" class="link-button">{{ t("project_card") }}</router-link>
     </div>
   </div>
 </template>

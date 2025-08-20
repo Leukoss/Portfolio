@@ -1,6 +1,6 @@
 <script setup>
 import ProjectCard from '../components/ProjectCard.vue';
-import { ref, computed } from 'vue';
+import { computed } from 'vue';
 import { useI18n } from 'vue-i18n';
 
 const { t, locale, messages } = useI18n();

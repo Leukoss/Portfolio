@@ -190,5 +190,264 @@
         }
       }
     }
+  },
+  "skills_section_title": "Key Responsibilities & Skills",
+  "project_outro": "Ready to build the next big thing?",
+  "project_card": "View Project",
+  "connect": "Let's Connect",
+  "projects": {
+    "title_project": {
+      "accidentology": {
+        "title": "Road Accident Severity Prediction",
+        "subtitle": "Applying Data Science to Enhance Traffic Safety",
+        "paragraphs": {
+          "p1": "As a student project at <strong>ESIEE Paris</strong>, I undertook a comprehensive <strong>data analysis project</strong> focused on a dataset of over <strong>1 million road accidents since 2010</strong>. The primary goal was to build a predictive model that could accurately estimate the severity of an accident based on various factors, such as weather conditions, road type, and time of day.",
+          "p2": "My role involved the entire <strong>data science lifecycle</strong>, from cleaning and preprocessing the raw data to performing <strong>feature engineering</strong> to optimize model performance. By applying a range of <strong>supervised learning methods</strong>, I was able to build a robust model that provides valuable insights into traffic safety, which could inform preventative strategies."
+        },
+        "skills_section": {
+          "categories": {
+            "data_analysis_and_modeling": {
+              "title": "Data Analysis & Modeling",
+              "skills": {
+                "fe": "Feature Engineering",
+                "sl": "Supervised Learning",
+                "me": "Model Evaluation",
+                "dv": "Data Visualization"
+              }
+            },
+            "technical_skills": {
+              "title": "Technical Skills",
+              "skills": {
+                "py": "Python",
+                "pandas": "Pandas",
+                "sklearn": "Scikit-learn",
+                "xgboost": "XGBoost",
+                "lightgbm": "LightGBM",
+                "optuna": "Optuna",
+                "seaborn": "Seaborn",
+                "plotly": "Plotly"
+              }
+            }
+          }
+        },
+        "impacts_section": {
+          "title": "Impact & Key Contributions",
+          "categories": {
+            "high_accuracy_model": {
+              "title": "High-Accuracy Predictive Model",
+              "description": "Developed a supervised learning model that achieved an <strong>86% accuracy rate</strong> in predicting accident severity, providing a robust tool for traffic safety analysis."
+            },
+            "data_driven_insights": {
+              "title": "Data-Driven Insights",
+              "description": "Conducted in-depth analysis on a dataset of <strong>over 1 million road accidents</strong>, identifying key factors influencing accident severity and providing actionable insights for safety initiatives."
+            },
+            "end_to_end_analysis": {
+              "title": "End-to-End Analysis",
+              "description": "Managed the full data science lifecycle, from <strong>preprocessing and feature engineering</strong> to <strong>model training and comparison</strong>, demonstrating a comprehensive understanding of data analysis workflows."
+            }
+          }
+        }
+      },
+      "riif": {
+        "title": "RIIF: Financial Reporting Reinvented",
+        "subtitle": "AI-Driven Solution for Corporate Efficiency",
+        "paragraphs": {
+          "p1": "In the fast-paced world of financial services, preparing for high-stakes investor briefings and executive meetings requires both speed and precision. As an <strong>intern at BNP Paribas</strong>, I developed <strong>RIIF</strong>, an intelligent solution that <strong>streamlined the process of retrieving and validating key financial data</strong>. This work empowered business teams to <strong>shift their focus from time-consuming data retrieval to strategic analysis and communication</strong>.",
+          "p2": "My role involved <strong>close collaboration with financial reporting teams</strong> to understand their workflows and pain points. By building a tool that provides instant, verifiable answers, I helped ensure <strong>data integrity while significantly improving preparation time</strong> for major corporate events. This project demonstrates my ability to translate complex business needs into <strong>effective, secure, and user-centric technical solutions</strong>."
+        },
+        "skills_section": {
+          "categories": {
+            "management_and_communication": {
+              "title": "Management & Communication",
+              "skills": {
+                "pm": "Project Management",
+                "sc": "Stakeholder Communication",
+                "cfl": "Cross-Functional Leadership",
+                "cs": "Compliance & Security"
+              }
+            },
+            "technical_skills": {
+              "title": "Technical Skills",
+              "skills": {
+                "genai": "Generative AI",
+                "rag": "RAG",
+                "ds": "Data Science",
+                "pc": "Parsing/Chunking",
+                "py": "Python",
+                "fastapi": "FastAPI",
+                "vdb": "Vector DataBase",
+                "postman": "Postman"
+              }
+            }
+          }
+        },
+        "impacts_section": {
+          "title": "Impact & Key Contributions",
+          "categories": {
+            "increased_productivity": {
+              "title": "Increased Productivity",
+              "description": "Automated a critical, manual workflow, allowing teams to <strong>accelerate preparation for quarterly financial reports</strong> and investor relations meetings."
+            },
+            "guaranteed_data_integrity": {
+              "title": "Guaranteed Data Integrity",
+              "description": "Engineered a <strong>secure and compliant AI solution</strong> that not only <strong>minimized human error</strong> but also guarantee the <strong>integrity of core business data</strong>, ensuring all financial information was consistent and reliable for audit and reporting."
+            },
+            "scalable_robust_design": {
+              "title": "Scalable & Robust Design",
+              "description": "Developed a <strong>scalable and maintainable system</strong> capable of handling large volumes of internal documents, ensuring long-term operational viability."
+            }
+          }
+        }
+      },
+      "tptrm": {
+        "title": "TPTRM: Accelerating Contract Analysis",
+        "subtitle": "An AI Solution for Faster, More Accurate Legal Review",
+        "paragraphs": {
+          "p1": "During my internship at <strong>BNP Paribas IT Group</strong>, I developed a tool to <strong>automate contract analysis</strong>, a critical and time-consuming process for the legal and compliance teams. This solution, named <strong>TPTRM</strong>, streamlined the review workflow by <strong>automatically parsing documents and highlighting key clauses</strong>, significantly reducing manual effort.",
+          "p2": "My role involved <strong>working closely with end-users</strong> to understand their pain points and ensure the tool's features directly addressed their needs. By integrating user feedback through workshops and iterative design, I created a solution that not only improved efficiency but also <strong>minimized human error</strong> and provided a <strong>more user-friendly experience</strong>. This project demonstrates my ability to build robust and scalable applications that meet complex business requirements."
+        },
+        "skills_section": {
+          "categories": {
+            "management_and_communication": {
+              "title": "Management & Communication",
+              "skills": {
+                "sc": "Stakeholder Communication",
+                "ra": "Requirements Analysis",
+                "am": "Agile Methodologies",
+                "ucd": "User-Centric Design"
+              }
+            },
+            "technical_skills": {
+              "title": "Technical Skills",
+              "skills": {
+                "py": "Python",
+                "pandas": "Pandas",
+                "genai": "Generative AI",
+                "pc": "Parsing/Chunking",
+                "streamlit": "Streamlit",
+                "rag": "RAG",
+                "mt": "Multithreading"
+              }
+            }
+          }
+        },
+        "impacts_section": {
+          "title": "Impact & Key Contributions",
+          "categories": {
+            "reduced_review_time": {
+              "title": "Reduced Review Time",
+              "description": "Developed an automated contract analysis tool that <strong>cut the average review time by 75%</strong>, allowing legal and business teams to focus on critical tasks."
+            },
+            "increased_accuracy": {
+              "title": "Increased Accuracy",
+              "description": "<strong>Engineered a system to automate subjective tasks</strong>, which helped <strong>significantly reduce human error</strong> and ensure data integrity, thereby minimizing compliance risks."
+            },
+            "enhanced_user_experience": {
+              "title": "Enhanced User Experience",
+              "description": "Led workshops with end-users and iteratively improved the tool’s design based on feedback, resulting in a <strong>highly intuitive and user-centric solution</strong>."
+            }
+          }
+        }
+      },
+      "research": {
+        "title": "Applied Research: Eco-Concrete",
+        "subtitle": "Leveraging Data Science for Sustainable Engineering",
+        "paragraphs": {
+          "p1": "During my internship as a <strong>Data Science Researcher</strong> at <strong>Université Gustave Eiffel & ENPC</strong>, I conducted interdisciplinary research on eco-concrete formulation. The project's goal was to leverage machine learning to <strong>predict the mechanical properties of concrete</strong>, helping to <strong>optimize its composition</strong> and <strong>reduce its carbon footprint</strong> by incorporating recycled materials.",
+          "p2": "My role was to <strong>build and validate predictive models</strong> from a large dataset. I conducted a comprehensive <strong>literature review</strong> and applied advanced algorithms like XGBoost and LightGBM to identify the most impactful variables. This work demonstrates my ability to apply a <strong>rigorous scientific approach</strong> to complex problems, transforming raw data into actionable insights for sustainable engineering."
+        },
+        "skills_section": {
+          "categories": {
+            "research_and_analysis": {
+              "title": "Research & Analysis",
+              "skills": {
+                "lr": "Literature Review",
+                "ht": "Hypothesis Testing",
+                "pm": "Predictive Modeling",
+                "sa": "Statistical Analysis",
+                "tw": "Technical Writing (LaTeX)"
+              }
+            },
+            "technical_skills": {
+              "title": "Technical Skills",
+              "skills": {
+                "pysk": "Python & Scikit-learn",
+                "xgb": "XGBoost",
+                "lgbm": "LightGBM",
+                "de": "Data Engineering",
+                "dv": "Data Visualization"
+              }
+            }
+          }
+        },
+        "impacts_section": {
+          "title": "Impact & Key Contributions",
+          "categories": {
+            "optimized_material_formulation": {
+              "title": "Optimized Material Formulation",
+              "description": "Developed advanced <strong>predictive models (XGBoost, LightGBM)</strong> to estimate the mechanical properties of eco-concrete, enabling researchers to optimize material composition and <strong>reduce environmental impact</strong>."
+            },
+            "streamlined_research_workflow": {
+              "title": "Streamlined Research Workflow",
+              "description": "Automated data analysis and a literature review process, which <strong>accelerated the research cycle</strong> and provided a robust framework for testing multiple hypotheses with greater efficiency."
+            },
+            "effective_scientific_communication": {
+              "title": "Effective Scientific Communication",
+              "description": "Authored a <strong>comprehensive technical report in English using LaTeX</strong>, effectively communicating complex methodologies and research findings to a broader scientific audience."
+            }
+          }
+        }
+      },
+      "facial_recognition": {
+        "title": "Facial Recognition: A Deep Learning Case Study",
+        "subtitle": "Building a CNN-based Model from Scratch",
+        "paragraphs": {
+          "p1": "As a student at <strong>ESIEE Paris</strong>, I undertook a project to build an <strong>end-to-end facial recognition model</strong> using a custom dataset. The challenge was to demonstrate proficiency in every step of a machine learning project, from <strong>data preparation to model deployment</strong>. I chose a unique and engaging dataset—scenes from \"Jurassic Park\"—to highlight the process of working with real-world, uncurated data.",
+          "p2": "This project required me to <strong>collect and annotate image data</strong>, perform data augmentation, and implement a <strong>Convolutional Neural Network (CNN)</strong> for training. The work showcases my practical skills in <strong>deep learning</strong>, <strong>computer vision</strong>, and <strong>problem-solving</strong>, proving my ability to turn a concept into a functional and demonstrable solution."
+        },
+        "skills_section": {
+          "categories": {
+            "data_model_lifecycle": {
+              "title": "Data & Model Lifecycle",
+              "skills": {
+                "dc": "Dataset Creation",
+                "da": "Data Annotation",
+                "dag": "Data Augmentation",
+                "mt": "Model Training",
+                "ht": "Hyperparameter Tuning"
+              }
+            },
+            "technical_skills": {
+              "title": "Technical Skills",
+              "skills": {
+                "py": "Python",
+                "cv": "Computer Vision",
+                "cnn": "Convolutional Neural Networks (CNN)",
+                "ocv": "OpenCV",
+                "skl": "Scikit-learn",
+                "tfk": "TensorFlow & Keras"
+              }
+            }
+          }
+        },
+        "impacts_section": {
+          "title": "Impact & Key Contributions",
+          "categories": {
+            "end_to_end": {
+              "title": "End-to-End Model Development",
+              "description": "Managed the entire machine learning lifecycle, from <strong>custom dataset creation and cleaning</strong> to <strong>model training and evaluation</strong>, demonstrating a comprehensive understanding of the process."
+            },
+            "robust_model": {
+              "title": "Robust Model Performance",
+              "description": "Implemented and trained a <strong>Convolutional Neural Network (CNN)</strong> for facial recognition, achieving strong performance on a specialized dataset and validating the model's effectiveness."
+            },
+            "tech_proficiency": {
+              "title": "Demonstrated Technical Proficiency",
+              "description": "Utilized key libraries like <strong>TensorFlow and Keras</strong> to build a robust and scalable model, highlighting practical skills in modern deep learning frameworks."
+            }
+          }
+        }
+      }
+    }
   }
 }

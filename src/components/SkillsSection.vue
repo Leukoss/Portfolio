@@ -1,5 +1,9 @@
 <script setup>
 
+import { useI18n } from 'vue-i18n';
+
+const { t } = useI18n();
+
 const props = defineProps({
   categories: Array,
 });
@@ -33,7 +37,7 @@ const vAnimateOnScroll = {
 
 <template>
   <div v-animate-on-scroll class="project-tech-stack fade-in-up delay-1">
-    <h3 class="category-title">Key Responsibilities & Skills</h3>
+    <h3 class="category-title">{{ t("skills_section_title") }}</h3>
     <div v-for="category in categories" :key="category.id" class="skills-category-group">
       <h4 class="category-subtitle">{{ category.title }}</h4>
       <div class="skills-grid">
