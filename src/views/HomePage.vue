@@ -1,11 +1,11 @@
 <script setup>
 import ProjectCard from '../components/ProjectCard.vue';
-import { ref } from 'vue';
+import { ref, computed } from 'vue';
 import { useI18n } from 'vue-i18n';
 
-const { t } = useI18n();
+const { t, locale, messages } = useI18n();
 
-const projects = ref([
+const projects = computed(() => [
   {
     title: t('home.projects_section.riif.title'),
     description: t('home.projects_section.riif.description'),
@@ -43,6 +43,11 @@ const projects = ref([
   },
 ]);
 
+const skillsCategories = computed(() => {
+  const categories = messages.value[locale.value].home.skills_section.categories;
+  return categories ? Object.entries(categories) : [];
+});
+
 const vAnimateOnScroll = {
   mounted(el) {
     const observer = new IntersectionObserver(
@@ -70,7 +75,7 @@ const vAnimateOnScroll = {
 };
 </script>
 
-<template>
+<template>    
   <div class="portfolio-container">
     <section id="home" class="hero-section">
       <div class="hero-content">
@@ -80,7 +85,7 @@ const vAnimateOnScroll = {
           <p v-animate-on-scroll class="fade-in-up delay-1"><strong>{{ t('home.subtitle') }}</strong></p>
           <div class="divider"></div>
         </div>
-        <p v-animate-on-scroll class="fade-in-up delay-2 intro-text" v-html="t('home.intro_text')"></p>
+<p v-animate-on-scroll class="fade-in-up delay-2 intro-text" v-html="t('home.intro_text')"></p>
       </div>
     </section>
 
@@ -104,25 +109,23 @@ const vAnimateOnScroll = {
     <section id="skills" class="skills-section">
       <h2 class="section-title">{{ t('home.skills_section.title') }}</h2>
       <div class="skills-container">
-        <div v-animate-on-scroll class="skills-category-block fade-in-up">
-          <h3 class="category-title">{{ t('home.skills_section.ai_and_data_science.category_title') }}</h3>
-          <p class="category-description">{{ t('home.skills_section.ai_and_data_science.category_description') }}</p>
+        <div
+          v-animate-on-scroll
+          class="skills-category-block fade-in-up"
+          v-for="([key, category], index) in skillsCategories"
+          :key="key"
+          :class="{ [`delay-${index}`]: index > 0 }"
+        >
+          <h3 class="category-title">{{ category.category_title }}</h3>
+          <p class="category-description">{{ category.category_description }}</p>
           <div class="skills-grid">
-            <div class="skill-item" v-for="skill in t('home.skills_section.ai_and_data_science.skills')" :key="skill"><span class="skill-name">{{ skill }}</span></div>
-          </div>
-        </div>
-        <div v-animate-on-scroll class="skills-category-block fade-in-up delay-1">
-          <h3 class="category-title">{{ t('home.skills_section.programming_and_tools.category_title') }}</h3>
-          <p class="category-description">{{ t('home.skills_section.programming_and_tools.category_description') }}</p>
-          <div class="skills-grid">
-            <div class="skill-item" v-for="skill in t('home.skills_section.programming_and_tools.skills')" :key="skill"><span class="skill-name">{{ skill }}</span></div>
-          </div>
-        </div>
-        <div v-animate-on-scroll class="skills-category-block fade-in-up delay-2">
-          <h3 class="category-title">{{ t('home.skills_section.professional_skills.category_title') }}</h3>
-          <p class="category-description">{{ t('home.skills_section.professional_skills.category_description') }}</p>
-          <div class="skills-grid">
-            <div class="skill-item" v-for="skill in t('home.skills_section.professional_skills.skills')" :key="skill"><span class="skill-name">{{ skill }}</span></div>
+            <div
+              class="skill-item"
+              v-for="([skillKey, skillName]) in Object.entries(category.skills)"
+              :key="skillKey"
+            >
+              <span class="skill-name">{{ skillName }}</span>
+            </div>
           </div>
         </div>
       </div>

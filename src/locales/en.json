@@ -39,20 +39,41 @@
     },
     "skills_section": {
       "title": "My Skills",
-      "ai_and_data_science": {
-        "category_title": "AI & Data Science",
-        "category_description": "Expertise in applying data-driven solutions to business problems.",
-        "skills": ["Machine Learning", "Deep Learning", "NLP", "Computer Vision", "Time Series Analysis", "Project Lifecycle"]
-      },
-      "programming_and_tools": {
-        "category_title": "Programming & Tools",
-        "category_description": "A robust technical foundation for building scalable solutions.",
-        "skills": ["Python", "SQL", "Git", "Docker", "Linux", "Vue"]
-      },
-      "professional_skills": {
-        "category_title": "Professional Skills",
-        "category_description": "My ability to communicate and collaborate effectively in a team.",
-        "skills": ["Technical Writing", "Communication", "Problem-Solving", "Research"]
+      "categories": {
+        "ai_and_data_science": {
+          "category_title": "AI & Data Science",
+          "category_description": "Expertise in applying data-driven solutions to business problems.",
+          "skills": {
+            "ml": "Machine Learning",
+            "dl": "Deep Learning",
+            "nlp": "NLP",
+            "cv": "Computer Vision",
+            "tsa": "Time Series Analysis",
+            "pl": "Project Lifecycle"
+          }
+        },
+        "programming_and_tools": {
+          "category_title": "Programming & Tools",
+          "category_description": "A robust technical foundation for building scalable solutions.",
+          "skills": {
+            "py": "Python",
+            "sql": "SQL",
+            "git": "Git",
+            "docker": "Docker",
+            "linux": "Linux",
+            "vue": "Vue"
+          }
+        },
+        "professional_skills": {
+          "category_title": "Professional Skills",
+          "category_description": "My ability to communicate and collaborate effectively in a team.",
+          "skills": {
+            "tw": "Technical Writing",
+            "comm": "Communication",
+            "ps": "Problem-Solving",
+            "res": "Research"
+          }
+        }
       }
     },
     "contact_section": {

@@ -41,9 +41,11 @@ const switchLanguage = () => {
         </Transition>
       </button>
     </header>
-    
+
     <main class="main-content-wrapper" :style="{ 'margin-left': sidebarWidth, width: `calc(100% - ${sidebarWidth})` }">
-      <RouterView />
+      <Transition name="page-fade" mode="out-in">
+        <RouterView :key="locale" />
+      </Transition>
     </main>
 
     <Footer :style="{ left: sidebarWidth, width: `calc(100% - ${sidebarWidth})` }" />
@@ -132,6 +134,14 @@ const switchLanguage = () => {
 }
 .locale-fade-enter-from,
 .locale-fade-leave-to {
+  opacity: 0;
+}
+.page-fade-enter-active,
+.page-fade-leave-active {
+  transition: opacity 0.5s ease-in-out;
+}
+.page-fade-enter-from,
+.page-fade-leave-to {
   opacity: 0;
 }
 </style>

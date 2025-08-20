@@ -39,21 +39,42 @@
     },
     "skills_section": {
       "title": "Mes Compétences",
-      "ai_and_data_science": {
-        "category_title": "IA et Science des Données",
-        "category_description": "Expertise dans l'application de solutions basées sur les données aux problèmes commerciaux.",
-        "skills": ["Apprentissage automatique", "Apprentissage profond", "NLP", "Vision par ordinateur", "Analyse de séries temporelles", "Cycle de vie des projets"]
-      },
-      "programming_and_tools": {
-        "category_title": "Programmation et Outils",
-        "category_description": "Une base technique solide pour construire des solutions évolutives.",
-        "skills": ["Python", "SQL", "Git", "Docker", "Linux", "Vue"]
-      },
-      "professional_skills": {
-        "category_title": "Compétences Professionnelles",
-        "category_description": "Ma capacité à communiquer et à collaborer efficacement en équipe.",
-        "skills": ["Rédaction technique", "Communication", "Résolution de problèmes", "Recherche"]
-      }
+      "categories": [
+        {
+          "category_title": "IA & Science des Données",
+          "category_description": "Expertise dans l'application de solutions basées sur les données aux problèmes commerciaux.",
+          "skills": [
+            "Apprentissage automatique",
+            "Apprentissage profond",
+            "NLP",
+            "Vision par ordinateur",
+            "Analyse de séries temporelles",
+            "Cycle de vie des projets"
+          ]
+        },
+        {
+          "category_title": "Programmation et Outils",
+          "category_description": "Une base technique solide pour construire des solutions évolutives.",
+          "skills": [
+            "Python",
+            "SQL",
+            "Git",
+            "Docker",
+            "Linux",
+            "Vue"
+          ]
+        },
+        {
+          "category_title": "Compétences Professionnelles",
+          "category_description": "Ma capacité à communiquer et à collaborer efficacement en équipe.",
+          "skills": [
+            "Rédaction technique",
+            "Communication",
+            "Résolution de problèmes",
+            "Recherche"
+          ]
+        }
+      ]
     },
     "contact_section": {
       "title": "Me Contacter",
