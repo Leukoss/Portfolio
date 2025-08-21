@@ -303,10 +303,10 @@
       },
       "tptrm": {
         "title": "TPTRM : Accélérer l’analyse des contrats",
-        "subtitle": "L’IA pour la conformité et la rapidité",
+        "subtitle": "Optimiser la revue juridique grâce à l’intelligence artificielle : plus de rapidité, plus de précision",
         "paragraphs": {
-          "p1": "Outil développé chez <strong>BNP Paribas IT Group</strong> pour <strong>automatiser l’analyse des contrats</strong>, fluidifiant la relecture et mettant en avant les clauses clés.",
-          "p2": "Conception centrée utilisateur, intégrant les retours des équipes métier pour une solution intuitive et fiable, réduisant les erreurs et les délais."
+          "p1": "Lors de mon stage au sein du <strong>BNP Paribas IT Group</strong>, j’ai développé un outil destiné à <strong>automatiser l’analyse des contrats</strong>, un processus critique et chronophage pour les équipes juridiques et de conformité. Cette solution, baptisée <strong>TPTRM</strong>, a rationalisé le flux de revue en <strong>analysant automatiquement les documents et en mettant en évidence les clauses clés</strong>, réduisant ainsi considérablement les efforts manuels.",
+          "p2": "Mon rôle a consisté à <strong>travailler en étroite collaboration avec les utilisateurs finaux</strong> afin de comprendre leurs difficultés et de m’assurer que les fonctionnalités de l’outil répondaient directement à leurs besoins. En intégrant leurs retours via des ateliers et une conception itérative, j’ai créé une solution qui non seulement a amélioré l’efficacité, mais a également <strong>réduit les erreurs humaines</strong> et offert une <strong>expérience utilisateur plus fluide</strong>. Ce projet illustre ma capacité à concevoir des applications robustes et évolutives répondant à des exigences métiers complexes."
         },
         "skills_section": {
           "categories": {
@@ -334,19 +334,19 @@
           }
         },
         "impacts_section": {
-          "title": "Impact & Valeur Ajoutée",
+          "title": "Impact & Contributions Clés",
           "categories": {
             "reduced_review_time": {
-              "title": "Relecture Accélérée",
-              "description": "Réduction du temps de relecture de <strong>75%</strong>, permettant aux équipes de se concentrer sur l’essentiel."
+              "title": "Temps de Revue Réduit",
+              "description": "Développement d’un outil d’analyse de contrats automatisé qui a <strong>réduit de 75 % le temps moyen de revue</strong>, permettant aux équipes juridiques et métiers de se concentrer sur les tâches essentielles."
             },
             "increased_accuracy": {
-              "title": "Précision Renforcée",
-              "description": "Automatisation fiable, minimisant les erreurs humaines et garantissant la conformité."
+              "title": "Précision Accrue",
+              "description": "<strong>Conception d’un système pour automatiser des tâches subjectives</strong>, ce qui a permis de <strong>réduire significativement les erreurs humaines</strong> et d’assurer l’intégrité des données, minimisant ainsi les risques de non-conformité."
             },
             "enhanced_user_experience": {
-              "title": "Expérience Utilisateur",
-              "description": "Solution intuitive, conçue avec les utilisateurs pour une adoption rapide et efficace."
+              "title": "Expérience Utilisateur Améliorée",
+              "description": "Animation d’ateliers avec les utilisateurs finaux et amélioration itérative de la conception de l’outil sur la base de leurs retours, aboutissant à une <strong>solution hautement intuitive et centrée sur l’utilisateur</strong>."
             }
           }
         }
@@ -383,7 +383,7 @@
           }
         },
         "impacts_section": {
-          "title": "Impact & Valeur Ajoutée",
+          "title": "Impact & Contributions Clés",
           "categories": {
             "optimized_material_formulation": {
               "title": "Formulation Optimisée",
@@ -433,7 +433,7 @@
           }
         },
         "impacts_section": {
-          "title": "Impact & Valeur Ajoutée",
+          "title": "Impact & Contributions Clés",
           "categories": {
             "end_to_end": {
               "title": "Gestion de Projet IA",

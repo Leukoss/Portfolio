@@ -303,10 +303,10 @@
       },
       "tptrm": {
         "title": "TPTRM: Accelerating Contract Analysis",
-        "subtitle": "AI for Compliance and Speed",
+        "subtitle": "An AI Solution for Faster, More Accurate Legal Review",
         "paragraphs": {
-          "p1": "Developed at <strong>BNP Paribas IT Group</strong>: an AI tool to <strong>automate contract analysis</strong>, streamlining review and highlighting key clauses.",
-          "p2": "User-centered design, integrating business feedback for an intuitive and reliable solution, reducing errors and delays."
+          "p1": "During my internship at <strong>BNP Paribas IT Group</strong>, I developed a tool to <strong>automate contract analysis</strong>, a critical and time-consuming process for the legal and compliance teams. This solution, named <strong>TPTRM</strong>, streamlined the review workflow by <strong>automatically parsing documents and highlighting key clauses</strong>, significantly reducing manual effort. ",
+          "p2": "My role involved <strong>working closely with end-users</strong> to understand their pain points and ensure the tool's features directly addressed their needs. By integrating user feedback through workshops and iterative design, I created a solution that not only improved efficiency but also <strong>minimized human error</strong> and provided a <strong>more user-friendly experience</strong>. This project demonstrates my ability to build robust and scalable applications that meet complex business requirements. "
         },
         "skills_section": {
           "categories": {
@@ -337,16 +337,16 @@
           "title": "Impact & Key Contributions",
           "categories": {
             "reduced_review_time": {
-              "title": "Accelerated Review",
-              "description": "Reduced review time by <strong>75%</strong>, allowing teams to focus on what matters."
+              "title": "Reduced Review Time",
+              "description": "Developed an automated contract analysis tool that <strong>cut the average review time by 75%</strong>, allowing legal and business teams to focus on critical tasks."
             },
             "increased_accuracy": {
-              "title": "Enhanced Accuracy",
-              "description": "Reliable automation, minimizing human error and ensuring compliance."
+              "title": "Increased Accuracy",
+              "description": "<strong>Engineered a system to automate subjective tasks</strong>, which helped <strong>significantly reduce human error</strong> and ensure data integrity, thereby minimizing compliance risks."
             },
             "enhanced_user_experience": {
-              "title": "User Experience",
-              "description": "Intuitive solution, designed with users for fast and effective adoption."
+              "title": "Enhanced User Experience",
+              "description": "Led workshops with end-users and iteratively improved the tool’s design based on feedback, resulting in a <strong>highly intuitive and user-centric solution</strong>."
             }
           }
         }
