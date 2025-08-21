@@ -4,9 +4,10 @@ import { useI18n } from 'vue-i18n';
 
 const { t } = useI18n();
 
+const contactHref = `${import.meta.env.BASE_URL}#contact`;
+
 const props = defineProps({
   linkText: String,
-  linkTo: String,
 });
 
 const vAnimateOnScroll = {
@@ -40,7 +41,7 @@ const vAnimateOnScroll = {
   <section class="project-outro">
     <div v-animate-on-scroll class="contact-links fade-in-up">
       <h2 class="section-title">{{ t("project_outro") }}</h2>
-      <a :href="linkTo" class="contact-link">{{ linkText }}</a>
+      <a :href="contactHref" class="contact-link">{{ linkText }}</a>
     </div>
   </section>
 </template>

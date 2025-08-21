@@ -57,7 +57,6 @@ const impactsData = computed(() => {
 
     <ProjectOutro
       :link-text="t('connect')"
-      link-to="/#contact"
     />
   </div>
 </template>
