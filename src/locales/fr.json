@@ -252,10 +252,10 @@
       },
       "riif": {
         "title": "RIIF : Le Reporting Financier Réinventé",
-        "subtitle": "L’IA au service de la performance",
+        "subtitle": "Optimiser l’efficacité des entreprises grâce à l’IA",
         "paragraphs": {
-          "p1": "Développement chez <strong>BNP Paribas</strong> d’une solution IA qui <strong>automatise l’extraction et la validation des données financières</strong>, permettant aux équipes de se concentrer sur l’analyse stratégique.",
-          "p2": "Collaboration étroite avec les métiers pour concevoir un outil <strong>sécurisé, fiable et centré utilisateur</strong>, garantissant l’intégrité des données et la rapidité de préparation."
+          "p1": "Dans le secteur dynamique des services financiers, la préparation de réunions stratégiques avec les investisseurs et de comités de direction exige à la fois rapidité et précision. En tant que <strong>stagiaire chez BNP Paribas</strong>, j’ai développé <strong>RIIF</strong>, une solution intelligente qui a <strong>rationalisé le processus de recherche et de validation des données financières clés</strong>. Ce travail a permis aux équipes métier de se concentrer davantage sur l’analyse stratégique et la communication, plutôt que sur la collecte chronophage de données.",
+          "p2": "Mon rôle a impliqué une étroite <strong>collaboration avec les équipes de reporting financier</strong> afin de comprendre leurs flux de travail et leurs points de friction. En développant un outil fournissant des réponses instantanées et vérifiables, j’ai contribué à garantir <strong>l’intégrité des données tout en réduisant considérablement le temps de préparation</strong> pour les événements d’entreprise majeurs. Ce projet illustre ma capacité à traduire des besoins métiers complexes en <strong>solutions techniques efficaces, sécurisées et centrées sur l’utilisateur</strong>."
         },
         "skills_section": {
           "categories": {
@@ -284,19 +284,19 @@
           }
         },
         "impacts_section": {
-          "title": "Impact & Valeur Ajoutée",
+          "title": "Impact & Contributions Clés",
           "categories": {
             "increased_productivity": {
-              "title": "Productivité Optimisée",
-              "description": "Automatisation des rapports financiers, réduction significative du temps de préparation."
+              "title": "Productivité Accrue",
+              "description": "Automatisation d’un processus manuel critique, permettant aux équipes de <strong>réduire le temps de préparation des rapports financiers trimestriels</strong> et des réunions de relations investisseurs."
             },
             "guaranteed_data_integrity": {
-              "title": "Fiabilité des Données",
-              "description": "Solution IA conforme et sécurisée, minimisant les erreurs et garantissant l’intégrité pour l’audit."
+              "title": "Intégrité des Données Garantie",
+              "description": "Conception d’une <strong>solution IA sécurisée et conforme</strong> qui a non seulement <strong>réduit les erreurs humaines</strong>, mais aussi garanti <strong>l’intégrité des données clés de l’entreprise</strong>, assurant la cohérence et la fiabilité de toutes les informations financières pour l’audit et le reporting."
             },
             "scalable_robust_design": {
-              "title": "Conception Évolutive",
-              "description": "Système robuste, capable de gérer de grands volumes et de s’adapter aux besoins futurs."
+              "title": "Conception Scalable & Robuste",
+              "description": "Développement d’un <strong>système évolutif et maintenable</strong> capable de traiter de grands volumes de documents internes, garantissant une viabilité opérationnelle à long terme."
             }
           }
         }

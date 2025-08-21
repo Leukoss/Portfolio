@@ -252,10 +252,10 @@
       },
       "riif": {
         "title": "RIIF: Financial Reporting Reinvented",
-        "subtitle": "AI for Performance",
+        "subtitle": "AI-Driven Solution for Corporate Efficiency",
         "paragraphs": {
-          "p1": "Developed at <strong>BNP Paribas</strong>: an AI solution that <strong>automates extraction and validation of financial data</strong>, enabling teams to focus on strategic analysis.",
-          "p2": "Close collaboration with business teams to design a <strong>secure, reliable, user-centric tool</strong>, ensuring data integrity and fast preparation."
+          "p1": "In the fast-paced world of financial services, preparing for high-stakes investor briefings and executive meetings requires both speed and precision. As an <strong>intern at BNP Paribas</strong>, I developed <strong>RIIF</strong>, an intelligent solution that <strong>streamlined the process of retrieving and validating key financial data</strong>. This work empowered business teams to shift their focus from time-consuming data retrieval to strategic analysis and communication. ",
+          "p2": "My role involved close <strong>collaboration with financial reporting teams</strong> to understand their workflows and pain points. By building a tool that provides instant, verifiable answers, I helped ensure <strong>data integrity while significantly improving preparation time</strong> for major corporate events. This project demonstrates my ability to translate complex business needs into <strong>effective, secure, and user-centric technical solutions</strong>. "
         },
         "skills_section": {
           "categories": {
@@ -284,19 +284,19 @@
           }
         },
         "impacts_section": {
-          "title": "Impact & Added Value",
+          "title": "Impact & Key Contributions",
           "categories": {
             "increased_productivity": {
-              "title": "Optimized Productivity",
-              "description": "Automated financial reporting, significantly reducing preparation time."
+              "title": "Increased Productivity",
+              "description": "Automated a critical, manual workflow, allowing teams to <strong>accelerate preparation for quarterly financial reports</strong> and investor relations meetings."
             },
             "guaranteed_data_integrity": {
-              "title": "Data Reliability",
-              "description": "Compliant and secure AI solution, minimizing errors and ensuring audit-ready data integrity."
+              "title": "Guaranteed Data Integrity",
+              "description": "Engineered a <strong>secure and compliant AI solution</strong> that not only <strong>minimized human error</strong> but also guarantee the <strong>integrity of core business data</strong>, ensuring all financial information was consistent and reliable for audit and reporting."
             },
             "scalable_robust_design": {
-              "title": "Scalable Design",
-              "description": "Robust system, capable of handling large volumes and adapting to future needs."
+              "title": "Scalable & Robust Designn",
+              "description": "Developed a <strong>scalable and maintainable system</strong> pocapable of handling large volumes of internal documents, ensuring long-term operational viability."
             }
           }
         }
@@ -334,7 +334,7 @@
           }
         },
         "impacts_section": {
-          "title": "Impact & Added Value",
+          "title": "Impact & Key Contributions",
           "categories": {
             "reduced_review_time": {
               "title": "Accelerated Review",
@@ -383,7 +383,7 @@
           }
         },
         "impacts_section": {
-          "title": "Impact & Added Value",
+          "title": "Impact & Key Contributions",
           "categories": {
             "optimized_material_formulation": {
               "title": "Optimized Formulation",
@@ -433,7 +433,7 @@
           }
         },
         "impacts_section": {
-          "title": "Impact & Added Value",
+          "title": "Impact & Key Contributions",
           "categories": {
             "end_to_end": {
               "title": "AI Project Management",
