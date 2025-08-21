@@ -1,47 +1,52 @@
 <script setup>
 import ProjectCard from '../components/ProjectCard.vue';
-import { computed } from 'vue';
+import { computed, ref, watch } from 'vue';
 import { useI18n } from 'vue-i18n';
 
 const { t, locale, messages } = useI18n();
+const projects = ref([]);
 
-const projects = computed(() => [
-  {
-    title: t('home.projects_section.riif.title'),
-    description: t('home.projects_section.riif.description'),
-    logoSrc: 'img/bnpparibas_logo.png',
-    logoAlt: 'BNP Paribas Logo',
-    linkTo: '/RIIF',
-  },
-  {
-    title: t('home.projects_section.tptrm.title'),
-    description: t('home.projects_section.tptrm.description'),
-    logoSrc: 'img/bnpparibas_logo.png',
-    logoAlt: 'BNP Paribas Logo',
-    linkTo: '/TPTRM',
-  },
-  {
-    title: t('home.projects_section.accidentology.title'),
-    description: t('home.projects_section.accidentology.description'),
-    logoSrc: 'img/esiee_logo.png',
-    logoAlt: 'Esiee Paris Logo',
-    linkTo: '/Accidentology',
-  },
-  {
-    title: t('home.projects_section.research.title'),
-    description: t('home.projects_section.research.description'),
-    logoSrc: 'img/esiee_logo.png',
-    logoAlt: 'Esiee Paris Logo',
-    linkTo: '/Research',
-  },
-  {
-    title: t('home.projects_section.facial_recognition.title'),
-    description: t('home.projects_section.facial_recognition.description'),
-    logoSrc: 'img/esiee_logo.png',
-    logoAlt: 'Esiee Paris Logo',
-    linkTo: '/Facial_Recognition',
-  },
-]);
+const populateProjects = () => {
+  projects.value = [
+    {
+      title: t('home.projects_section.riif.title'),
+      description: t('home.projects_section.riif.description'),
+      logoSrc: 'img/bnpparibas_logo.png',
+      logoAlt: 'BNP Paribas Logo',
+      linkTo: '/RIIF',
+    },
+    {
+      title: t('home.projects_section.tptrm.title'),
+      description: t('home.projects_section.tptrm.description'),
+      logoSrc: 'img/bnpparibas_logo.png',
+      logoAlt: 'BNP Paribas Logo',
+      linkTo: '/TPTRM',
+    },
+    {
+      title: t('home.projects_section.accidentology.title'),
+      description: t('home.projects_section.accidentology.description'),
+      logoSrc: 'img/esiee_logo.png',
+      logoAlt: 'Esiee Paris Logo',
+      linkTo: '/Accidentology',
+    },
+    {
+      title: t('home.projects_section.research.title'),
+      description: t('home.projects_section.research.description'),
+      logoSrc: 'img/esiee_logo.png',
+      logoAlt: 'Esiee Paris Logo',
+      linkTo: '/Research',
+    },
+    {
+      title: t('home.projects_section.facial_recognition.title'),
+      description: t('home.projects_section.facial_recognition.description'),
+      logoSrc: 'img/esiee_logo.png',
+      logoAlt: 'Esiee Paris Logo',
+      linkTo: '/Facial_Recognition',
+    },
+  ];
+};
+
+watch(messages, populateProjects, { immediate: true });
 
 const skillsCategories = computed(() => {
   const categories = messages.value[locale.value].about_me.skills_section.categories;
