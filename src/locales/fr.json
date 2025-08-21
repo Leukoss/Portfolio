@@ -77,7 +77,7 @@
       }
     },
     "contact_section": {
-      "title": "Contact",
+      "title": "Connectons-nous",
       "contact_text": "Discutons ensemble de vos projets ou de vos besoins en innovation digitale.",
       "linkedin": "LinkedIn",
       "github": "GitHub",
@@ -194,7 +194,7 @@
     }
   },
   "skills_section_title": "Responsabilités & Compétences Clés",
-  "project_outro": "Prêt à relever vos prochains défis ?",
+  "project_outro": "Prêt à relever votre prochain défi ?",
   "project_card": "Voir le Projet",
   "connect": "Contactez-moi",
   "projects": {
@@ -203,8 +203,8 @@
         "title": "Prédiction de la Gravité des Accidents Routiers",
         "subtitle": "La Data Science au service de la sécurité",
         "paragraphs": {
-          "p1": "Projet mené à <strong>ESIEE Paris</strong> : analyse de plus d’<strong>1 million d’accidents</strong> pour construire un modèle prédictif fiable, intégrant météo, type de route et horaires.",
-          "p2": "Gestion du <strong>cycle complet de data science</strong> : nettoyage, feature engineering, modélisation et visualisation, pour fournir des insights stratégiques aux décideurs."
+          "p1": "Dans le cadre d’un projet étudiant à <strong>l’ESIEE Paris</strong>, j’ai mené un vaste <strong>projet d’analyse de données</strong> portant sur un jeu de données de plus de <strong>1 million d’accidents de la route depuis 2010</strong>. L’objectif principal était de construire un modèle prédictif capable d’estimer avec précision la gravité d’un accident en fonction de divers facteurs tels que les conditions météorologiques, le type de route et l’heure de la journée.",
+          "p2": "Mon rôle a couvert l’ensemble du <strong>cycle de vie de la data science</strong>, allant du nettoyage et du prétraitement des données brutes à la réalisation de <strong>feature engineering</strong> afin d’optimiser les performances du modèle. En appliquant une variété de <strong>méthodes d’apprentissage supervisé</strong>, j’ai pu développer un modèle robuste fournissant des informations précieuses sur la sécurité routière, susceptibles d’éclairer des stratégies de prévention."
         },
         "skills_section": {
           "categories": {
@@ -212,7 +212,7 @@
               "title": "Analyse & Modélisation",
               "skills": {
                 "fe": "Feature Engineering",
-                "sl": "Apprentissage Supervisé",
+                "sl": "Supervised Learning",
                 "me": "Évaluation de Modèle",
                 "dv": "Visualisation"
               }
@@ -233,19 +233,19 @@
           }
         },
         "impacts_section": {
-          "title": "Impact & Valeur Ajoutée",
+          "title": "Impact & Contributions Clés",
           "categories": {
             "high_accuracy_model": {
-              "title": "Modèle Haute Précision",
-              "description": "Précision de <strong>86%</strong> dans la prédiction, outil robuste pour l’analyse et la prévention des accidents."
+              "title": "Modèle Prédictif à Haute Précision",
+              "description": "Développer un modèle d’apprentissage supervisé ayant atteint un <strong>taux de précision de 86%</strong> dans la prédiction de la gravité des accidents, offrant ainsi un outil robuste pour l’analyse de la sécurité routière."
             },
             "data_driven_insights": {
-              "title": "Insights Stratégiques",
-              "description": "Analyse de plus d’<strong>1 million de cas</strong>, identification des facteurs clés et recommandations pour la sécurité routière."
+              "title": "Analyses Basées sur les Données",
+              "description": "Réaliser une analyse approfondie d’un jeu de données de <strong>plus d’1 million d’accidents de la route</strong>, identifiant les principaux facteurs influençant la gravité des accidents et fournissant des informations exploitables pour des initiatives de sécurité."
             },
             "end_to_end_analysis": {
-              "title": "Gestion de Projet Complète",
-              "description": "Maîtrise du workflow data science, du prétraitement à la comparaison des modèles."
+              "title": "Analyse de Bout en Bout",
+              "description": "Gérer l’ensemble du cycle de vie de la data science, allant du <strong>prétraitement et de l’ingénierie des variables</strong> au <strong>développement et à la comparaison de modèles</strong>, démontrant une compréhension complète des processus d’analyse de données."
             }
           }
         }

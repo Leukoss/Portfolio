@@ -77,7 +77,7 @@
       }
     },
     "contact_section": {
-      "title": "Contact",
+      "title": "Get in Touch",
       "contact_text": "Let's discuss your projects or digital innovation needs.",
       "linkedin": "LinkedIn",
       "github": "GitHub",
@@ -194,17 +194,17 @@
     }
   },
   "skills_section_title": "Key Responsibilities & Skills",
-  "project_outro": "Ready to tackle your next challenges?",
+  "project_outro": "Ready to build the next big thing?",
   "project_card": "View Project",
-  "connect": "Contact Me",
+  "connect": "Let's Connect",
   "projects": {
     "title_project": {
       "accidentology": {
         "title": "Road Accident Severity Prediction",
-        "subtitle": "Data Science for Safer Roads",
+        "subtitle": "Applying Data Science to Enhance Traffic Safety",
         "paragraphs": {
-          "p1": "Project at <strong>ESIEE Paris</strong>: analyzed over <strong>1 million accidents</strong> to build a reliable predictive model, integrating weather, road type, and time data.",
-          "p2": "Managed the <strong>full data science workflow</strong>: cleaning, feature engineering, modeling, and visualization, delivering strategic insights for decision-makers."
+          "p1": "As a student project at <strong>ESIEE Paris</strong>, I undertook a comprehensive <strong>data analysis project</strong> focused on a dataset of over <strong>1 million road accidents since 2010</strong>. The primary goal was to build a predictive model that could accurately estimate the severity of an accident based on various factors, such as weather conditions, road type, and time of day.",
+          "p2": "My role involved the entire <strong>data science lifecycle</strong>, from cleaning and preprocessing the raw data to performing <strong>feature engineering</strong> to optimize model performance. By applying a range of <strong>supervised learning methods</strong>, I was able to build a robust model that provides valuable insights into traffic safety, which could inform preventative strategies. "
         },
         "skills_section": {
           "categories": {
@@ -233,19 +233,19 @@
           }
         },
         "impacts_section": {
-          "title": "Impact & Added Value",
+          "title": "Impact & Key Contributions",
           "categories": {
             "high_accuracy_model": {
-              "title": "High-Precision Model",
-              "description": "<strong>86% accuracy</strong> in predictions, a robust tool for accident analysis and prevention."
+              "title": "High-Accuracy Predictive Model",
+              "description": "Developed a supervised learning model that achieved an <strong>86% accuracy rate</strong> in predicting accident severity, providing a robust tool for traffic safety analysis."
             },
             "data_driven_insights": {
-              "title": "Strategic Insights",
-              "description": "Analysis of over <strong>1 million cases</strong>, identifying key factors and recommendations for road safety."
+              "title": "Date-Driven Insights",
+              "description": "Conducted in-depth analysis on a dataset of <strong>over 1 million road accidents</strong>, identifying key factors influencing accident severity and providing actionable insights for safety initiatives."
             },
             "end_to_end_analysis": {
-              "title": "Complete Project Management",
-              "description": "Mastery of the data science workflow, from preprocessing to model comparison."
+              "title": "End-to-End Analysis",
+              "description": "Managed the full data science lifecycle, from <strong>preprocessing and feature engineering</strong> to <strong>model training and comparison</strong>, demonstrating a comprehensive understanding of data analysis workflows."
             }
           }
         }
