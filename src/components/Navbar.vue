@@ -2,7 +2,7 @@
 import { ref, watch } from 'vue';
 import { useI18n } from 'vue-i18n';
 
-const { t } = useI18n();
+const { locale, messages } = useI18n();
 
 const isExpanded = ref(false);
 const emit = defineEmits(['update-width']);
@@ -32,28 +32,28 @@ watch(isExpanded, (newVal) => {
     </div>
     <ul class="side-menu-links">
       <li>
-        <router-link to="/">{{ t('nav.home') }}</router-link>
+        <router-link to="/">{{ messages[locale].nav.home }}</router-link>
       </li>
       <li>
-        <router-link to="/RIIF">{{ t('nav.riif') }}</router-link>
+        <router-link to="/RIIF">{{ messages[locale].nav.riif }}</router-link>
       </li>
       <li>
-        <router-link to="/TPTRM">{{ t('nav.tptrm') }}</router-link>
+        <router-link to="/TPTRM">{{ messages[locale].nav.tptrm }}</router-link>
       </li>
       <li>
-        <router-link to="/Research">{{ t('nav.research') }}</router-link>
+        <router-link to="/Research">{{ messages[locale].nav.research }}</router-link>
       </li>
       <li>
-        <router-link to="/Accidentology">{{ t('nav.accidentology') }}</router-link>
+        <router-link to="/Accidentology">{{ messages[locale].nav.accidentology }}</router-link>
       </li>
       <li>
-        <router-link to="/Facial_Recognition">{{ t('nav.facial_recognition') }}</router-link>
+        <router-link to="/Facial_Recognition">{{ messages[locale].nav.facial_recognition }}</router-link>
       </li>
       <li class="divider-item">
         <div class="divider"></div>
       </li>
       <li>
-        <router-link to="/About_Me">{{ t('nav.about_me') }}</router-link>
+        <router-link to="/About_Me">{{ messages[locale].nav.about_me }}</router-link>
       </li>
     </ul>
     <div class="menu-bottom-section">
@@ -63,12 +63,12 @@ watch(isExpanded, (newVal) => {
             href="https://www.linkedin.com/in/lucas-sali-orliange-65598a21a/"
             target="_blank"
           >
-            {{ t('nav.linkedin') }}
+            {{ messages[locale].nav.linkedin }}
           </a>
         </li>
         <li>
           <a href="https://github.com/Leukoss" target="_blank">
-            {{ t('nav.github') }}
+            {{ messages[locale].nav.github }}
           </a>
         </li>
       </ul>

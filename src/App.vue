@@ -4,6 +4,7 @@ import { useI18n } from 'vue-i18n';
 import { RouterView } from 'vue-router';
 import Navbar from './components/Navbar.vue';
 import Footer from './components/Footer.vue';
+import ContactSection from './components/ContactSection.vue';
 
 const { locale } = useI18n();
 
@@ -47,6 +48,8 @@ const switchLanguage = () => {
         <RouterView :key="locale" />
       </Transition>
     </main>
+
+    <ContactSection />
 
     <Footer :style="{ left: sidebarWidth, width: `calc(100% - ${sidebarWidth})` }" />
   </div>

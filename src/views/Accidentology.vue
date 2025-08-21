@@ -5,17 +5,16 @@ import { useI18n } from 'vue-i18n';
 import ImpactCard from '../components/ImpactCard.vue';
 import ProjectHero from '../components/ProjectHero.vue';
 import ProjectIntro from '../components/ProjectIntro.vue';
-import ProjectOutro from '../components/ProjectOutro.vue';
 import SkillsSection from '../components/SkillsSection.vue';
 
-const { t, locale, messages } = useI18n();
+const { locale, messages } = useI18n();
 
 const information = computed(() => [
   {
-    title: t('projects.title_project.accidentology.title'),
-    subtitle: t('projects.title_project.accidentology.subtitle'),
-    p1: t('projects.title_project.accidentology.paragraphs.p1'),
-    p2: t('projects.title_project.accidentology.paragraphs.p2'),
+    title: messages.value[locale.value].projects.title_project.accidentology.title,
+    subtitle: messages.value[locale.value].projects.title_project.accidentology.subtitle,
+    p1: messages.value[locale.value].projects.title_project.accidentology.paragraphs.p1,
+    p2: messages.value[locale.value].projects.title_project.accidentology.paragraphs.p2,
   }
 ]);
 
@@ -49,15 +48,10 @@ const impactsData = computed(() => {
     </section>
 
     <section class="project-impact-section">
-      <h2 class="section-title">{{ t('projects.title_project.accidentology.impacts_section.title') }}</h2>
+      <h2 class="section-title">{{ messages[locale].projects.title_project.accidentology.impacts_section.title }}</h2>
       <div class="impact-grid">
         <ImpactCard v-for="impact in impactsData" :key="impact.id" :impact="impact" />
       </div>
     </section>
-
-    <ProjectOutro
-      :link-text="t('connect')"
-      link-to="/#contact"
-    />
   </div>
 </template>

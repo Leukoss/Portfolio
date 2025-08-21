@@ -2,7 +2,7 @@
 import { computed } from 'vue';
 import { useI18n } from 'vue-i18n';
 
-const { t, locale, messages } = useI18n();
+const { locale, messages } = useI18n();
 
 const vAnimateOnScroll = {
   mounted(el) {
@@ -42,16 +42,16 @@ const skillsCategories = computed(() => {
   <div class="about-page-container">
     <section class="intro-section">
       <div class="intro-content fade-in-up" v-animate-on-scroll>
-        <h1 class="intro-title">{{ t('about_me.intro_section.title') }}</h1>
+        <h1 class="intro-title">{{ messages[locale].about_me.intro_section.title }}</h1>
         <div class="intro-divider"></div>
-        <p class="intro-text" v-html="t('about_me.intro_section.paragraphs.p1')"></p>
-        <p class="intro-text" v-html="t('about_me.intro_section.paragraphs.p2')"></p>
+        <p class="intro-text" v-html="messages[locale].about_me.intro_section.paragraphs.p1"></p>
+        <p class="intro-text" v-html="messages[locale].about_me.intro_section.paragraphs.p2"></p>
       </div>
     </section>
 
     <section class="timeline-section">
       <h2 class="timeline-title fade-in-up" v-animate-on-scroll>
-        {{ t('about_me.timeline_section.title') }}
+        {{ messages[locale].about_me.timeline_section.title }}
       </h2>
       <div class="timeline-container">
         <div
@@ -73,7 +73,7 @@ const skillsCategories = computed(() => {
 
     <section class="skills-section">
       <h2 class="skills-title fade-in-up" v-animate-on-scroll>
-        {{ t('about_me.skills_section.title') }}
+        {{ messages[locale].about_me.skills_section.title }}
       </h2>
       <div class="skills-grid">
         <div

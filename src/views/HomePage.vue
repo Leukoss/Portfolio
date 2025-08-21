@@ -1,52 +1,47 @@
 <script setup>
 import ProjectCard from '../components/ProjectCard.vue';
-import { computed, ref, watch } from 'vue';
+import { computed } from 'vue';
 import { useI18n } from 'vue-i18n';
 
-const { t, locale, messages } = useI18n();
-const projects = ref([]);
+const { locale, messages } = useI18n();
 
-const populateProjects = () => {
-  projects.value = [
-    {
-      title: t('home.projects_section.riif.title'),
-      description: t('home.projects_section.riif.description'),
-      logoSrc: 'img/bnpparibas_logo.png',
-      logoAlt: 'BNP Paribas Logo',
-      linkTo: '/RIIF',
-    },
-    {
-      title: t('home.projects_section.tptrm.title'),
-      description: t('home.projects_section.tptrm.description'),
-      logoSrc: 'img/bnpparibas_logo.png',
-      logoAlt: 'BNP Paribas Logo',
-      linkTo: '/TPTRM',
-    },
-    {
-      title: t('home.projects_section.accidentology.title'),
-      description: t('home.projects_section.accidentology.description'),
-      logoSrc: 'img/esiee_logo.png',
-      logoAlt: 'Esiee Paris Logo',
-      linkTo: '/Accidentology',
-    },
-    {
-      title: t('home.projects_section.research.title'),
-      description: t('home.projects_section.research.description'),
-      logoSrc: 'img/esiee_logo.png',
-      logoAlt: 'Esiee Paris Logo',
-      linkTo: '/Research',
-    },
-    {
-      title: t('home.projects_section.facial_recognition.title'),
-      description: t('home.projects_section.facial_recognition.description'),
-      logoSrc: 'img/esiee_logo.png',
-      logoAlt: 'Esiee Paris Logo',
-      linkTo: '/Facial_Recognition',
-    },
-  ];
-};
-
-watch(messages, populateProjects, { immediate: true });
+const projects = computed(() => [
+  {
+    title: messages.value[locale.value].home.projects_section.riif.title,
+    description: messages.value[locale.value].home.projects_section.riif.description,
+    logoSrc: 'img/bnpparibas_logo.png',
+    logoAlt: 'BNP Paribas Logo',
+    linkTo: '/RIIF',
+  },
+  {
+    title: messages.value[locale.value].home.projects_section.tptrm.title,
+    description: messages.value[locale.value].home.projects_section.tptrm.description,
+    logoSrc: 'img/bnpparibas_logo.png',
+    logoAlt: 'BNP Paribas Logo',
+    linkTo: '/TPTRM',
+  },
+  {
+    title: messages.value[locale.value].home.projects_section.accidentology.title,
+    description: messages.value[locale.value].home.projects_section.accidentology.description,
+    logoSrc: 'img/esiee_logo.png',
+    logoAlt: 'Esiee Paris Logo',
+    linkTo: '/Accidentology',
+  },
+  {
+    title: messages.value[locale.value].home.projects_section.research.title,
+    description: messages.value[locale.value].home.projects_section.research.description,
+    logoSrc: 'img/esiee_logo.png',
+    logoAlt: 'Esiee Paris Logo',
+    linkTo: '/Research',
+  },
+  {
+    title: messages.value[locale.value].home.projects_section.facial_recognition.title,
+    description: messages.value[locale.value].home.projects_section.facial_recognition.description,
+    logoSrc: 'img/esiee_logo.png',
+    logoAlt: 'Esiee Paris Logo',
+    linkTo: '/Facial_Recognition',
+  },
+]);
 
 const skillsCategories = computed(() => {
   const categories = messages.value[locale.value].about_me.skills_section.categories;
@@ -80,22 +75,22 @@ const vAnimateOnScroll = {
 };
 </script>
 
-<template>    
+<template>
   <div class="portfolio-container">
     <section id="home" class="hero-section">
       <div class="hero-content">
         <div class="hero-title-container">
-          <h1 v-animate-on-scroll class="fade-in-up">{{ t('home.title') }}</h1>
+          <h1 v-animate-on-scroll class="fade-in-up">{{ messages[locale].home.title }}</h1>
           <div class="divider"></div>
-          <p v-animate-on-scroll class="fade-in-up delay-1"><strong>{{ t('home.subtitle') }}</strong></p>
+          <p v-animate-on-scroll class="fade-in-up delay-1"><strong>{{ messages[locale].home.subtitle }}</strong></p>
           <div class="divider"></div>
         </div>
-<p v-animate-on-scroll class="fade-in-up delay-2 intro-text" v-html="t('home.intro_text')"></p>
+        <p v-animate-on-scroll class="fade-in-up delay-2 intro-text" v-html="messages[locale].home.intro_text"></p>
       </div>
     </section>
 
     <section id="projects" class="projects-section">
-      <h2 class="section-title">{{ t('home.projects_section.title') }}</h2>
+      <h2 class="section-title">{{ messages[locale].home.projects_section.title }}</h2>
       <div class="project-grid">
         <ProjectCard
           v-for="(project, index) in projects"
@@ -113,7 +108,7 @@ const vAnimateOnScroll = {
 
     <section class="skills-section">
       <h2 class="skills-title fade-in-up" v-animate-on-scroll>
-        {{ t('about_me.skills_section.title') }}
+        {{ messages[locale].about_me.skills_section.title }}
       </h2>
       <div class="skills-grid">
         <div
@@ -133,18 +128,6 @@ const vAnimateOnScroll = {
             >
           </div>
         </div>
-      </div>
-    </section>
-
-    <section id="contact" class="contact-section">
-      <h2 class="section-title">{{ t('home.contact_section.title') }}</h2>
-      <p v-animate-on-scroll class="contact-text fade-in-up">
-        {{ t('home.contact_section.contact_text') }}
-      </p>
-      <div v-animate-on-scroll class="contact-links fade-in-up delay-1">
-        <a href="https://www.linkedin.com/in/lucas-sali-orliange-65598a21a/" target="_blank" class="contact-link">{{ t('home.contact_section.linkedin') }}</a>
-        <a href="https://github.com/Leukoss" target="_blank" class="contact-link">{{ t('home.contact_section.github') }}</a>
-        <a href="mailto:lucas.saliorliange.pro@gmail.com" class="contact-link">{{ t('home.contact_section.email') }}</a>
       </div>
     </section>
   </div>
