@@ -353,10 +353,10 @@
       },
       "research": {
         "title": "Recherche appliquée : Éco-béton",
-        "subtitle": "Optimisation et impact environnemental",
+        "subtitle": "Exploiter la data science pour l’ingénierie durable",
         "paragraphs": {
-          "p1": "Recherche menée à l’<strong>Université Gustave Eiffel & ENPC</strong> : utilisation du machine learning pour <strong>prédire et optimiser les propriétés du béton</strong>, intégrant des matériaux recyclés pour réduire l’empreinte carbone.",
-          "p2": "Construction et validation de modèles prédictifs, revue de littérature exhaustive et application d’algorithmes avancés pour transformer les données en recommandations concrètes."
+          "p1": "Lors de mon stage en tant que <strong>chercheur en data science à l’Université Gustave Eiffel & ENPC</strong>, j’ai mené des recherches interdisciplinaires sur la formulation de béton écologique. L’objectif du projet était d’exploiter le machine learning pour <strong>prédire les propriétés mécaniques du béton</strong>, afin d’<strong>optimiser sa composition</strong> et de <strong>réduire son empreinte carbone</strong> en intégrant des matériaux recyclés.",
+          "p2": "Mon rôle consistait à <strong>construire et valider des modèles prédictifs</strong> à partir d’un large jeu de données. J’ai réalisé une <strong>revue de littérature complète</strong> et appliqué des algorithmes avancés tels que XGBoost et LightGBM pour identifier les variables les plus influentes. Ce travail illustre ma capacité à appliquer une <strong>démarche scientifique rigoureuse</strong> à des problèmes complexes, transformant des données brutes en informations exploitables pour l’ingénierie durable."
         },
         "skills_section": {
           "categories": {
@@ -386,31 +386,31 @@
           "title": "Impact & Contributions Clés",
           "categories": {
             "optimized_material_formulation": {
-              "title": "Formulation Optimisée",
-              "description": "Modèles avancés pour optimiser la composition et <strong>réduire l’impact environnemental</strong>."
+              "title": "Formulation Optimisée des Matériaux",
+              "description": "Développement de <strong>modèles prédictifs avancés (XGBoost, LightGBM)</strong> pour estimer les propriétés mécaniques du béton écologique, permettant aux chercheurs d’optimiser la composition des matériaux et de <strong>réduire l’impact environnemental</strong>."
             },
             "streamlined_research_workflow": {
-              "title": "Recherche Rationalisée",
-              "description": "Automatisation des analyses, accélération du cycle de recherche et validation efficace des hypothèses."
+              "title": "Flux de Recherche Rationalisé",
+              "description": "Automatisation de l’analyse de données et du processus de revue de littérature, ce qui a <strong>accéléré le cycle de recherche</strong> et fourni un cadre robuste pour tester plusieurs hypothèses avec une plus grande efficacité."
             },
             "effective_scientific_communication": {
-              "title": "Communication Technique",
-              "description": "Rédaction de rapports clairs et complets, facilitant la diffusion des résultats auprès des équipes et partenaires."
+              "title": "Communication Scientifique Efficace",
+              "description": "Rédaction d’un <strong>rapport technique complet en anglais avec LaTeX</strong>, communiquant efficacement des méthodologies complexes et les résultats de recherche à un public scientifique plus large."
             }
           }
         }
       },
       "facial_recognition": {
-        "title": "Reconnaissance faciale : étude de cas Deep Learning",
-        "subtitle": "Modélisation IA de bout en bout",
+        "title": "Reconnaissance Faciale : Étude de Cas en Deep Learning",
+        "subtitle": "Création d’un modèle CNN de A à Z",
         "paragraphs": {
-          "p1": "Projet à <strong>ESIEE Paris</strong> : développement d’un modèle de reconnaissance faciale complet, de la collecte des données à l’entraînement et au déploiement.",
-          "p2": "Maîtrise du cycle machine learning, de l’annotation à l’optimisation, illustrant la capacité à transformer une idée en solution opérationnelle."
+          "p1": "En tant qu’étudiant à <strong>ESIEE Paris</strong>, j’ai réalisé un projet visant à construire un <strong>modèle de reconnaissance faciale de bout en bout</strong> à partir d’un jeu de données personnalisé. Le défi consistait à démontrer ma maîtrise de chaque étape d’un projet de machine learning, de la <strong>préparation des données au déploiement du modèle</strong>. J’ai choisi un jeu de données original et engageant—des scènes de 'Jurassic Park'—pour illustrer le travail avec des données réelles et non filtrées.",
+          "p2": "Ce projet m’a amené à <strong>collecter et annoter des images</strong>, réaliser de l’augmentation de données et mettre en œuvre un <strong>réseau de neurones convolutif (CNN)</strong> pour l’entraînement. Ce travail met en avant mes compétences pratiques en <strong>deep learning, vision par ordinateur et résolution de problèmes</strong>, démontrant ma capacité à transformer un concept en une solution fonctionnelle et démontrable."
         },
         "skills_section": {
           "categories": {
             "data_model_lifecycle": {
-              "title": "Cycle de vie des données & modèles",
+              "title": "Cycle de vie des données",
               "skills": {
                 "dc": "Création de jeux de données",
                 "da": "Annotation",
@@ -427,7 +427,8 @@
                 "cnn": "CNN",
                 "ocv": "OpenCV",
                 "skl": "Scikit-learn",
-                "tfk": "TensorFlow & Keras"
+                "tfk": "TensorFlow",
+                "keras": "Keras"
               }
             }
           }
@@ -436,16 +437,16 @@
           "title": "Impact & Contributions Clés",
           "categories": {
             "end_to_end": {
-              "title": "Gestion de Projet IA",
-              "description": "Cycle complet : création, préparation, entraînement et évaluation du modèle."
+              "title": "Développement de Modèle de Bout en Bout",
+              "description": "Gestion de l’ensemble du cycle de vie du machine learning, de la <strong>création et du nettoyage d’un jeu de données personnalisé</strong> à <strong>l’entraînement et l’évaluation du modèle</strong>, démontrant une compréhension complète du processus."
             },
             "robust_model": {
-              "title": "Performance du Modèle",
-              "description": "Réseau CNN performant, validé sur un jeu de données spécialisé."
+              "title": "Performance Robuste du Modèle",
+              "description": "Implémentation et entraînement d’un <strong>réseau de neurones convolutif (CNN)</strong> pour la reconnaissance faciale, obtenant de bonnes performances sur un jeu de données spécialisé et validant l’efficacité du modèle."
             },
             "tech_proficiency": {
-              "title": "Expertise Technique",
-              "description": "Utilisation de TensorFlow et Keras pour une solution robuste et évolutive."
+              "title": "Compétences Techniques Démontrées",
+              "description": "Utilisation de bibliothèques clés telles que <strong>TensorFlow et Keras</strong> pour construire un modèle robuste et évolutif, mettant en avant des compétences pratiques sur les frameworks modernes de deep learning."
             }
           }
         }

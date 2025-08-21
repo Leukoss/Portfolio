@@ -353,10 +353,10 @@
       },
       "research": {
         "title": "Applied Research: Eco-Concrete",
-        "subtitle": "Optimization and Environmental Impact",
+        "subtitle": "Leveraging Data Science for Sustainable Engineering",
         "paragraphs": {
-          "p1": "Research at <strong>Gustave Eiffel University & ENPC</strong>: used machine learning to <strong>predict and optimize concrete properties</strong>, integrating recycled materials to reduce carbon footprint.",
-          "p2": "Built and validated predictive models, conducted thorough literature review, and applied advanced algorithms to turn data into actionable recommendations."
+          "p1": "During my internship as a <strong>Data Science Researcher at Gustave Eiffeil University & ENPC</strong>, I conducted interdisciplinary research on eco-concrete formulation. The project's goal was to leverage machine learning to <strong>predict the mechanical properties of concrete</strong>, helping to <strong>optimize its composition</strong> and <strong>reduce its carbon footprint</strong> by incorporating recycled materials. ",
+          "p2": "My role was to <strong>build and validate predictive models</strong> from a large dataset. I conducted a comprehensive <strong>literature review</strong> and applied advanced algorithms like XGBoost and LightGBM to identify the most impactful variables. This work demonstrates my ability to apply a <strong>rigorous scientific approach</strong> to complex problems, transforming raw data into actionable insights for sustainable engineering. "
         },
         "skills_section": {
           "categories": {
@@ -386,26 +386,26 @@
           "title": "Impact & Key Contributions",
           "categories": {
             "optimized_material_formulation": {
-              "title": "Optimized Formulation",
-              "description": "Advanced models to optimize composition and <strong>reduce environmental impact</strong>."
+              "title": "Optimized Material Formulation",
+              "description": "Developed advanced <strong>predictive models (XGBoost, LightGBM)</strong> to estimate the mechanical properties of eco-concrete, enabling researchers to optimize material composition and <strong>reduce environmental impact</strong>."
             },
             "streamlined_research_workflow": {
-              "title": "Streamlined Research",
-              "description": "Automated analysis, accelerated research cycle, and efficient hypothesis validation."
+              "title": "Streamlined Research Workflow",
+              "description": "Automated data analysis and a literature review process, which <strong>accelerated the research cycle</strong> and provided a robust framework for testing multiple hypotheses with greater efficiency."
             },
             "effective_scientific_communication": {
-              "title": "Technical Communication",
-              "description": "Clear and comprehensive reports, facilitating results sharing with teams and partners."
+              "title": "Effective Scientific Communication",
+              "description": "Authored a <strong>comprehensive technical report in English using LaTeX</strong>, effectively communicating complex methodologies and research findings to a broader scientific audience."
             }
           }
         }
       },
       "facial_recognition": {
-        "title": "Facial Recognition: Deep Learning Case Study",
-        "subtitle": "End-to-End AI Modeling",
+        "title": "Facial Recognition: A Deep Learning Case Study",
+        "subtitle": "Building a CNN-based Model from Scratch",
         "paragraphs": {
-          "p1": "Project at <strong>ESIEE Paris</strong>: developed a complete facial recognition model, from data collection to training and deployment.",
-          "p2": "Mastered the machine learning cycle, from annotation to optimization, demonstrating the ability to turn ideas into operational solutions."
+          "p1": "As a student at <strong>ESIEE Paris</strong>, I undertook a project to build an <strong>end-to-end facial recognition model</strong> using a custom dataset. The challenge was to demonstrate proficiency in every step of a machine learning project, from data <strong>preparation to model deployment</strong>. I chose a unique and engaging dataset—scenes from 'Jurassic Park'—to highlight the process of working with real-world, uncurated data. ",
+          "p2": "This project required me to <strong>collect and annotate image data</strong>, perform data augmentation, and implement a <strong>Convolutional Neural Network (CNN)</strong> for training. The work showcases my practical skills in <strong>deep learning, computer vision, and problem-solving</strong>, proving my ability to turn a concept into a functional and demonstrable solution. "
         },
         "skills_section": {
           "categories": {
@@ -427,7 +427,8 @@
                 "cnn": "CNN",
                 "ocv": "OpenCV",
                 "skl": "Scikit-learn",
-                "tfk": "TensorFlow & Keras"
+                "tfk": "TensorFlow",
+                "keras": "Keras"
               }
             }
           }
@@ -436,16 +437,16 @@
           "title": "Impact & Key Contributions",
           "categories": {
             "end_to_end": {
-              "title": "AI Project Management",
-              "description": "Full cycle: creation, preparation, training, and evaluation of the model."
+              "title": "End-to-End Model Development",
+              "description": "Managed the entire machine learning lifecycle, from <strong>custom dataset creation and cleaning</strong> to <strong>model training and evaluation</strong>, demonstrating a comprehensive understanding of the process."
             },
             "robust_model": {
-              "title": "Model Performance",
-              "description": "High-performing CNN, validated on a specialized dataset."
+              "title": "Robust Model Performance",
+              "description": "Implemented and trained a <strong>Convolutional Neural Network (CNN)</strong> for facial recognition, achieving strong performance on a specialized dataset and validating the model's effectiveness."
             },
             "tech_proficiency": {
-              "title": "Technical Expertise",
-              "description": "Used TensorFlow and Keras for a robust and scalable solution."
+              "title": "Demonstrated Technical Proficiency",
+              "description": "Utilized key libraries like <strong>TensorFlow and Keras</strong> to build a robust and scalable model, highlighting practical skills in modern deep learning frameworks."
             }
           }
         }
