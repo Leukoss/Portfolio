@@ -12,73 +12,73 @@
   },
   "home": {
     "title": "Lucas SALI--ORLIANGE",
-    "subtitle": "Data Scientist | AI/ML Engineer",
-    "intro_text": "I am a passionate developer who specializes in applying <strong>Artificial Intelligence to financial business problems</strong>. My approach is collaborative, I work directly with business operators to <strong>improve existing processes and increase profitability</strong>. All my solutions are built to be <strong>robust, scalable, and efficient</strong>, focusing on clean code and rapid delivery.",
+    "subtitle": "Data Science & AI Expert",
+    "intro_text": "I am a passionate developer who specializes in applying <strong>Artificial Intelligence to financial business problems</strong>. My approach is collaborative by working directly with business operators to <strong>improve existing processes and increase profitability</strong>. All my solutions are built to be <strong>robust, scalable, and efficient, focusing on clean code and rapid delivery</strong>.",
     "projects_section": {
-      "title": "My Projects",
+      "title": "Achievements",
       "riif": {
         "title": "RIIF",
-        "description": "A confidential, <strong>AI-driven Q&A solution</strong> that significantly <strong>accelerates preparation</strong> for <strong>financial reporting</strong> and executive briefings to answer investor questions."
+        "description": "A confidential <strong>AI-powered Q&A platform</strong> that <strong>optimizes financial report preparation</strong> and strategic meetings, delivering instant and trustworthy answers to executive teams."
       },
       "tptrm": {
         "title": "TPTRM",
-        "description": "Developed a tool for <strong>automated contract analysis</strong>, significantly <strong>reducing review time</strong> and human error through user-centric design."
+        "description": "An <strong>automated contract analysis tool</strong> designed to <strong>reduce review times</strong> and minimize errors, offering an intuitive and secure user experience."
       },
       "accidentology": {
         "title": "Accidentology",
-        "description": "<strong>Predicting accident severity</strong> from over <strong>1 million road accidents</strong> to provide actionable insights into traffic safety using supervised learning."
+        "description": "<strong>Accident severity prediction</strong> on over <strong>1 million cases</strong>, providing actionable analytics to enhance road safety and guide prevention policies."
       },
       "research": {
         "title": "Research",
-        "description": "Interdisciplinary research on eco-concrete, leveraging <strong>predictive models</strong> to optimize formulations and <strong>reduce</strong> environmental impact."
+        "description": "Interdisciplinary study on eco-concrete, leveraging <strong>predictive models</strong> to optimize formulations and <strong>reduce environmental impact</strong>."
       },
       "facial_recognition": {
         "title": "Facial Recognition",
-        "description": "Developed a <strong>facial recognition model</strong> using a custom dataset from \"Jurassic Park\" to demonstrate the end-to-end process of dataset creation and <strong>model training</strong>."
+        "description": "Developed a <strong>facial recognition model</strong> on a custom dataset, demonstrating expertise in the full AI model development lifecycle."
       }
     },
     "skills_section": {
-      "title": "My Skills",
+      "title": "Skills",
       "categories": {
         "ai_and_data_science": {
           "category_title": "AI & Data Science",
-          "category_description": "Expertise in applying data-driven solutions to business problems.",
+          "category_description": "Mastery of data solutions for strategic business challenges.",
           "skills": {
             "ml": "Machine Learning",
             "dl": "Deep Learning",
             "nlp": "NLP",
             "cv": "Computer Vision",
             "tsa": "Time Series Analysis",
-            "pl": "Project Lifecycle"
+            "pl": "AI Project Management"
           }
         },
         "programming_and_tools": {
           "category_title": "Programming & Tools",
-          "category_description": "A robust technical foundation for building scalable solutions.",
+          "category_description": "Technical expertise for robust and scalable solutions.",
           "skills": {
             "py": "Python",
             "sql": "SQL",
             "git": "Git",
             "docker": "Docker",
             "linux": "Linux",
-            "vue": "Vue"
+            "vue": "Vue.js"
           }
         },
         "professional_skills": {
-          "category_title": "Professional Skills",
-          "category_description": "My ability to communicate and collaborate effectively in a team.",
+          "category_title": "Interpersonal Skills",
+          "category_description": "Communication and teamwork for successful projects.",
           "skills": {
             "tw": "Technical Writing",
             "comm": "Communication",
-            "ps": "Problem-Solving",
+            "ps": "Problem Solving",
             "res": "Research"
           }
         }
       }
     },
     "contact_section": {
-      "title": "Get in Touch",
-      "contact_text": "Feel free to connect with me to discuss potential opportunities or collaborations.",
+      "title": "Contact",
+      "contact_text": "Let's discuss your projects or digital innovation needs.",
       "linkedin": "LinkedIn",
       "github": "GitHub",
       "email": "Email"
@@ -88,52 +88,52 @@
     "intro_section": {
       "title": "About Me",
       "paragraphs": {
-        "p1": "I'm a <strong>passionate Graduate Engineer specializing in Data Science and AI</strong>, with a proven track record of developing innovative, data-driven solutions for complex business problems. From automating financial reporting at BNP Paribas to building predictive models for sustainable engineering, my experience is defined by a commitment to creating efficient, robust, and impactful technical solutions.",
-        "p2": "My academic journey, combined with practical internships, has equipped me with a strong foundation in <strong>AI/ML project lifecycles</strong>, from data preparation and model training to deployment and stakeholder communication. I thrive in collaborative environments and am eager to apply my skills to drive profitability and operational efficiency."
+        "p1": "Graduate engineer in Data Science & AI, I have delivered innovative solutions for complex challenges, from automated financial reporting to predictive modeling for sustainable industry. My commitment: design effective, robust, and high-impact tools for clients.",
+        "p2": "My academic and professional journey has enabled me to master the <strong>full lifecycle of AI/ML projects</strong>, from data preparation to deployment and stakeholder communication. I thrive in teams and dedicate my skills to performance and profitability."
       }
     },
     "timeline_section": {
-      "title": "My Journey",
+      "title": "Journey",
       "items": {
         "graduate_engineer": {
           "year": "2025",
           "title": "Graduate Engineer - Data Science & AI",
-          "description": "Completed a Master’s Level Engineering degree with a specialization in Data Science and AI, focusing on Machine Learning, Deep Learning, Generative AI, MLOps, and Data Visualization. Ranked in the <strong>top 5% of my promotion</strong> and graduated as <strong>Technical Valedictorian</strong>.",
+          "description": "Master’s degree, Data Science & AI specialization, ranked in the <strong>top 5%</strong> and recognized as <strong>Technical Valedictorian</strong>. Expertise in Machine Learning, Deep Learning, Generative AI, MLOps, and Data Visualization.",
           "company": "ESIEE Paris",
           "logo": "/img/esiee_logo.png"
         },
         "internship_bnp": {
           "year": "2025",
           "title": "Internship - Data Scientist/ML Engineer",
-          "description": "Developed AI tools (RAG, NLP) to automate financial analysis and contract assessment. Focused on enhancing productivity and ensuring data integrity for financial reporting teams.",
+          "description": "Developed AI tools to automate financial analysis and contract evaluation, boosting productivity and data reliability for reporting teams.",
           "company": "BNP Paribas IT Group",
           "logo": "/img/bnpparibas_logo.png"
         },
         "internship_research": {
           "year": "2024",
           "title": "Internship - Data Science Researcher",
-          "description": "Conducted R&D on predicting properties of eco-concrete using supervised ML models. Authored a comprehensive report in English, demonstrating expertise in scientific research and technical communication.",
+          "description": "R&D on eco-concrete property prediction using ML models. Authored a scientific report in English, demonstrating rigor and technical expertise.",
           "company": "Gustave Eiffel University & ENPC",
           "logo": "/img/gustave_eiffel_logo.png"
         },
         "erasmus": {
           "year": "2023",
           "title": "Erasmus Semester - Engineering Sciences",
-          "description": "Completed a multidisciplinary program in Engineering Sciences at the Università di Bologna, gaining international exposure and a broader perspective on engineering principles.",
+          "description": "International engineering program at Università di Bologna, bringing openness and a global perspective.",
           "company": "Università di Bologna",
           "logo": "/img/unibo_logo.png"
         },
         "it_technician": {
           "year": "2022",
           "title": "IT Technician",
-          "description": "Provided technical IT support to over 700 people, developing strong problem-solving and communication skills in a professional corporate environment.",
+          "description": "Technical support for 700+ users, developing problem-solving and professional communication skills.",
           "company": "Milleis Banque Privée",
           "logo": "/img/milleis_logo.png"
         }
       }
     },
     "skills_section": {
-      "title": "My Skills",
+      "title": "Skills",
       "categories": {
         "ai_and_data_science": {
           "category_title": "AI & Data Science",
@@ -143,9 +143,7 @@
             "genai": "Generative AI",
             "nlp": "NLP",
             "dm": "Data Modeling",
-            "mlops": "MLOps",
-            "openai": "OpenAI",
-            "langchain": "Langchain"
+            "mlops": "MLOps"
           }
         },
         "programming_and_infrastructure": {
@@ -153,13 +151,16 @@
           "skills": {
             "py": "Python",
             "r": "R",
-            "vue": "Vue",
+            "vue": "Vue.js",
             "fastapi": "FastAPI",
             "flask": "Flask",
             "django": "Django",
+            "dash": "Dash",
             "git": "Git",
             "docker": "Docker",
-            "sql": "SQL"
+            "sql": "SQL",
+            "chroma": "ChromaDB",
+            "postgres": "PostgreSQL"
           }
         },
         "data_science_libraries": {
@@ -174,16 +175,17 @@
             "pymupdf": "PyMuPDF",
             "seaborn": "Seaborn",
             "plotly": "Plotly",
-            "dash": "Dash",
-            "optuna": "Optuna"
+            "optuna": "Optuna",
+            "langchain": "Langchain",
+            "openai": "OpenAI"
           }
         },
         "professional_skills": {
-          "category_title": "Professional & Business Skills",
+          "category_title": "Business & Professional Skills",
           "skills": {
             "pm": "Project Management",
             "tw": "Technical Writing",
-            "ps": "Problem-Solving",
+            "ps": "Problem Solving",
             "sc": "Stakeholder Communication",
             "onboarding": "Onboarding"
           }
@@ -192,27 +194,27 @@
     }
   },
   "skills_section_title": "Key Responsibilities & Skills",
-  "project_outro": "Ready to build the next big thing?",
+  "project_outro": "Ready to tackle your next challenges?",
   "project_card": "View Project",
-  "connect": "Let's Connect",
+  "connect": "Contact Me",
   "projects": {
     "title_project": {
       "accidentology": {
         "title": "Road Accident Severity Prediction",
-        "subtitle": "Applying Data Science to Enhance Traffic Safety",
+        "subtitle": "Data Science for Safer Roads",
         "paragraphs": {
-          "p1": "As a student project at <strong>ESIEE Paris</strong>, I undertook a comprehensive <strong>data analysis project</strong> focused on a dataset of over <strong>1 million road accidents since 2010</strong>. The primary goal was to build a predictive model that could accurately estimate the severity of an accident based on various factors, such as weather conditions, road type, and time of day.",
-          "p2": "My role involved the entire <strong>data science lifecycle</strong>, from cleaning and preprocessing the raw data to performing <strong>feature engineering</strong> to optimize model performance. By applying a range of <strong>supervised learning methods</strong>, I was able to build a robust model that provides valuable insights into traffic safety, which could inform preventative strategies."
+          "p1": "Project at <strong>ESIEE Paris</strong>: analyzed over <strong>1 million accidents</strong> to build a reliable predictive model, integrating weather, road type, and time data.",
+          "p2": "Managed the <strong>full data science workflow</strong>: cleaning, feature engineering, modeling, and visualization, delivering strategic insights for decision-makers."
         },
         "skills_section": {
           "categories": {
             "data_analysis_and_modeling": {
-              "title": "Data Analysis & Modeling",
+              "title": "Analysis & Modeling",
               "skills": {
                 "fe": "Feature Engineering",
                 "sl": "Supervised Learning",
                 "me": "Model Evaluation",
-                "dv": "Data Visualization"
+                "dv": "Visualization"
               }
             },
             "technical_skills": {
@@ -231,29 +233,29 @@
           }
         },
         "impacts_section": {
-          "title": "Impact & Key Contributions",
+          "title": "Impact & Added Value",
           "categories": {
             "high_accuracy_model": {
-              "title": "High-Accuracy Predictive Model",
-              "description": "Developed a supervised learning model that achieved an <strong>86% accuracy rate</strong> in predicting accident severity, providing a robust tool for traffic safety analysis."
+              "title": "High-Precision Model",
+              "description": "<strong>86% accuracy</strong> in predictions, a robust tool for accident analysis and prevention."
             },
             "data_driven_insights": {
-              "title": "Data-Driven Insights",
-              "description": "Conducted in-depth analysis on a dataset of <strong>over 1 million road accidents</strong>, identifying key factors influencing accident severity and providing actionable insights for safety initiatives."
+              "title": "Strategic Insights",
+              "description": "Analysis of over <strong>1 million cases</strong>, identifying key factors and recommendations for road safety."
             },
             "end_to_end_analysis": {
-              "title": "End-to-End Analysis",
-              "description": "Managed the full data science lifecycle, from <strong>preprocessing and feature engineering</strong> to <strong>model training and comparison</strong>, demonstrating a comprehensive understanding of data analysis workflows."
+              "title": "Complete Project Management",
+              "description": "Mastery of the data science workflow, from preprocessing to model comparison."
             }
           }
         }
       },
       "riif": {
         "title": "RIIF: Financial Reporting Reinvented",
-        "subtitle": "AI-Driven Solution for Corporate Efficiency",
+        "subtitle": "AI for Performance",
         "paragraphs": {
-          "p1": "In the fast-paced world of financial services, preparing for high-stakes investor briefings and executive meetings requires both speed and precision. As an <strong>intern at BNP Paribas</strong>, I developed <strong>RIIF</strong>, an intelligent solution that <strong>streamlined the process of retrieving and validating key financial data</strong>. This work empowered business teams to <strong>shift their focus from time-consuming data retrieval to strategic analysis and communication</strong>.",
-          "p2": "My role involved <strong>close collaboration with financial reporting teams</strong> to understand their workflows and pain points. By building a tool that provides instant, verifiable answers, I helped ensure <strong>data integrity while significantly improving preparation time</strong> for major corporate events. This project demonstrates my ability to translate complex business needs into <strong>effective, secure, and user-centric technical solutions</strong>."
+          "p1": "Developed at <strong>BNP Paribas</strong>: an AI solution that <strong>automates extraction and validation of financial data</strong>, enabling teams to focus on strategic analysis.",
+          "p2": "Close collaboration with business teams to design a <strong>secure, reliable, user-centric tool</strong>, ensuring data integrity and fast preparation."
         },
         "skills_section": {
           "categories": {
@@ -275,36 +277,36 @@
                 "pc": "Parsing/Chunking",
                 "py": "Python",
                 "fastapi": "FastAPI",
-                "vdb": "Vector DataBase",
+                "vdb": "Vector Database",
                 "postman": "Postman"
               }
             }
           }
         },
         "impacts_section": {
-          "title": "Impact & Key Contributions",
+          "title": "Impact & Added Value",
           "categories": {
             "increased_productivity": {
-              "title": "Increased Productivity",
-              "description": "Automated a critical, manual workflow, allowing teams to <strong>accelerate preparation for quarterly financial reports</strong> and investor relations meetings."
+              "title": "Optimized Productivity",
+              "description": "Automated financial reporting, significantly reducing preparation time."
             },
             "guaranteed_data_integrity": {
-              "title": "Guaranteed Data Integrity",
-              "description": "Engineered a <strong>secure and compliant AI solution</strong> that not only <strong>minimized human error</strong> but also guarantee the <strong>integrity of core business data</strong>, ensuring all financial information was consistent and reliable for audit and reporting."
+              "title": "Data Reliability",
+              "description": "Compliant and secure AI solution, minimizing errors and ensuring audit-ready data integrity."
             },
             "scalable_robust_design": {
-              "title": "Scalable & Robust Design",
-              "description": "Developed a <strong>scalable and maintainable system</strong> capable of handling large volumes of internal documents, ensuring long-term operational viability."
+              "title": "Scalable Design",
+              "description": "Robust system, capable of handling large volumes and adapting to future needs."
             }
           }
         }
       },
       "tptrm": {
         "title": "TPTRM: Accelerating Contract Analysis",
-        "subtitle": "An AI Solution for Faster, More Accurate Legal Review",
+        "subtitle": "AI for Compliance and Speed",
         "paragraphs": {
-          "p1": "During my internship at <strong>BNP Paribas IT Group</strong>, I developed a tool to <strong>automate contract analysis</strong>, a critical and time-consuming process for the legal and compliance teams. This solution, named <strong>TPTRM</strong>, streamlined the review workflow by <strong>automatically parsing documents and highlighting key clauses</strong>, significantly reducing manual effort.",
-          "p2": "My role involved <strong>working closely with end-users</strong> to understand their pain points and ensure the tool's features directly addressed their needs. By integrating user feedback through workshops and iterative design, I created a solution that not only improved efficiency but also <strong>minimized human error</strong> and provided a <strong>more user-friendly experience</strong>. This project demonstrates my ability to build robust and scalable applications that meet complex business requirements."
+          "p1": "Developed at <strong>BNP Paribas IT Group</strong>: an AI tool to <strong>automate contract analysis</strong>, streamlining review and highlighting key clauses.",
+          "p2": "User-centered design, integrating business feedback for an intuitive and reliable solution, reducing errors and delays."
         },
         "skills_section": {
           "categories": {
@@ -313,7 +315,7 @@
               "skills": {
                 "sc": "Stakeholder Communication",
                 "ra": "Requirements Analysis",
-                "am": "Agile Methodologies",
+                "am": "Agility",
                 "ucd": "User-Centric Design"
               }
             },
@@ -332,29 +334,29 @@
           }
         },
         "impacts_section": {
-          "title": "Impact & Key Contributions",
+          "title": "Impact & Added Value",
           "categories": {
             "reduced_review_time": {
-              "title": "Reduced Review Time",
-              "description": "Developed an automated contract analysis tool that <strong>cut the average review time by 75%</strong>, allowing legal and business teams to focus on critical tasks."
+              "title": "Accelerated Review",
+              "description": "Reduced review time by <strong>75%</strong>, allowing teams to focus on what matters."
             },
             "increased_accuracy": {
-              "title": "Increased Accuracy",
-              "description": "<strong>Engineered a system to automate subjective tasks</strong>, which helped <strong>significantly reduce human error</strong> and ensure data integrity, thereby minimizing compliance risks."
+              "title": "Enhanced Accuracy",
+              "description": "Reliable automation, minimizing human error and ensuring compliance."
             },
             "enhanced_user_experience": {
-              "title": "Enhanced User Experience",
-              "description": "Led workshops with end-users and iteratively improved the tool’s design based on feedback, resulting in a <strong>highly intuitive and user-centric solution</strong>."
+              "title": "User Experience",
+              "description": "Intuitive solution, designed with users for fast and effective adoption."
             }
           }
         }
       },
       "research": {
         "title": "Applied Research: Eco-Concrete",
-        "subtitle": "Leveraging Data Science for Sustainable Engineering",
+        "subtitle": "Optimization and Environmental Impact",
         "paragraphs": {
-          "p1": "During my internship as a <strong>Data Science Researcher</strong> at <strong>Université Gustave Eiffel & ENPC</strong>, I conducted interdisciplinary research on eco-concrete formulation. The project's goal was to leverage machine learning to <strong>predict the mechanical properties of concrete</strong>, helping to <strong>optimize its composition</strong> and <strong>reduce its carbon footprint</strong> by incorporating recycled materials.",
-          "p2": "My role was to <strong>build and validate predictive models</strong> from a large dataset. I conducted a comprehensive <strong>literature review</strong> and applied advanced algorithms like XGBoost and LightGBM to identify the most impactful variables. This work demonstrates my ability to apply a <strong>rigorous scientific approach</strong> to complex problems, transforming raw data into actionable insights for sustainable engineering."
+          "p1": "Research at <strong>Gustave Eiffel University & ENPC</strong>: used machine learning to <strong>predict and optimize concrete properties</strong>, integrating recycled materials to reduce carbon footprint.",
+          "p2": "Built and validated predictive models, conducted thorough literature review, and applied advanced algorithms to turn data into actionable recommendations."
         },
         "skills_section": {
           "categories": {
@@ -365,7 +367,7 @@
                 "ht": "Hypothesis Testing",
                 "pm": "Predictive Modeling",
                 "sa": "Statistical Analysis",
-                "tw": "Technical Writing (LaTeX)"
+                "tw": "Scientific Writing"
               }
             },
             "technical_skills": {
@@ -375,35 +377,35 @@
                 "xgb": "XGBoost",
                 "lgbm": "LightGBM",
                 "de": "Data Engineering",
-                "dv": "Data Visualization"
+                "dv": "Visualization"
               }
             }
           }
         },
         "impacts_section": {
-          "title": "Impact & Key Contributions",
+          "title": "Impact & Added Value",
           "categories": {
             "optimized_material_formulation": {
-              "title": "Optimized Material Formulation",
-              "description": "Developed advanced <strong>predictive models (XGBoost, LightGBM)</strong> to estimate the mechanical properties of eco-concrete, enabling researchers to optimize material composition and <strong>reduce environmental impact</strong>."
+              "title": "Optimized Formulation",
+              "description": "Advanced models to optimize composition and <strong>reduce environmental impact</strong>."
             },
             "streamlined_research_workflow": {
-              "title": "Streamlined Research Workflow",
-              "description": "Automated data analysis and a literature review process, which <strong>accelerated the research cycle</strong> and provided a robust framework for testing multiple hypotheses with greater efficiency."
+              "title": "Streamlined Research",
+              "description": "Automated analysis, accelerated research cycle, and efficient hypothesis validation."
             },
             "effective_scientific_communication": {
-              "title": "Effective Scientific Communication",
-              "description": "Authored a <strong>comprehensive technical report in English using LaTeX</strong>, effectively communicating complex methodologies and research findings to a broader scientific audience."
+              "title": "Technical Communication",
+              "description": "Clear and comprehensive reports, facilitating results sharing with teams and partners."
             }
           }
         }
       },
       "facial_recognition": {
-        "title": "Facial Recognition: A Deep Learning Case Study",
-        "subtitle": "Building a CNN-based Model from Scratch",
+        "title": "Facial Recognition: Deep Learning Case Study",
+        "subtitle": "End-to-End AI Modeling",
         "paragraphs": {
-          "p1": "As a student at <strong>ESIEE Paris</strong>, I undertook a project to build an <strong>end-to-end facial recognition model</strong> using a custom dataset. The challenge was to demonstrate proficiency in every step of a machine learning project, from <strong>data preparation to model deployment</strong>. I chose a unique and engaging dataset—scenes from \"Jurassic Park\"—to highlight the process of working with real-world, uncurated data.",
-          "p2": "This project required me to <strong>collect and annotate image data</strong>, perform data augmentation, and implement a <strong>Convolutional Neural Network (CNN)</strong> for training. The work showcases my practical skills in <strong>deep learning</strong>, <strong>computer vision</strong>, and <strong>problem-solving</strong>, proving my ability to turn a concept into a functional and demonstrable solution."
+          "p1": "Project at <strong>ESIEE Paris</strong>: developed a complete facial recognition model, from data collection to training and deployment.",
+          "p2": "Mastered the machine learning cycle, from annotation to optimization, demonstrating the ability to turn ideas into operational solutions."
         },
         "skills_section": {
           "categories": {
@@ -411,10 +413,10 @@
               "title": "Data & Model Lifecycle",
               "skills": {
                 "dc": "Dataset Creation",
-                "da": "Data Annotation",
-                "dag": "Data Augmentation",
-                "mt": "Model Training",
-                "ht": "Hyperparameter Tuning"
+                "da": "Annotation",
+                "dag": "Augmentation",
+                "mt": "Training",
+                "ht": "Optimization"
               }
             },
             "technical_skills": {
@@ -422,7 +424,7 @@
               "skills": {
                 "py": "Python",
                 "cv": "Computer Vision",
-                "cnn": "Convolutional Neural Networks (CNN)",
+                "cnn": "CNN",
                 "ocv": "OpenCV",
                 "skl": "Scikit-learn",
                 "tfk": "TensorFlow & Keras"
@@ -431,19 +433,19 @@
           }
         },
         "impacts_section": {
-          "title": "Impact & Key Contributions",
+          "title": "Impact & Added Value",
           "categories": {
             "end_to_end": {
-              "title": "End-to-End Model Development",
-              "description": "Managed the entire machine learning lifecycle, from <strong>custom dataset creation and cleaning</strong> to <strong>model training and evaluation</strong>, demonstrating a comprehensive understanding of the process."
+              "title": "AI Project Management",
+              "description": "Full cycle: creation, preparation, training, and evaluation of the model."
             },
             "robust_model": {
-              "title": "Robust Model Performance",
-              "description": "Implemented and trained a <strong>Convolutional Neural Network (CNN)</strong> for facial recognition, achieving strong performance on a specialized dataset and validating the model's effectiveness."
+              "title": "Model Performance",
+              "description": "High-performing CNN, validated on a specialized dataset."
             },
             "tech_proficiency": {
-              "title": "Demonstrated Technical Proficiency",
-              "description": "Utilized key libraries like <strong>TensorFlow and Keras</strong> to build a robust and scalable model, highlighting practical skills in modern deep learning frameworks."
+              "title": "Technical Expertise",
+              "description": "Used TensorFlow and Keras for a robust and scalable solution."
             }
           }
         }

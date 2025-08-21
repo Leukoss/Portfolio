@@ -44,7 +44,7 @@ const projects = computed(() => [
 ]);
 
 const skillsCategories = computed(() => {
-  const categories = messages.value[locale.value].home.skills_section.categories;
+  const categories = messages.value[locale.value].about_me.skills_section.categories;
   return categories ? Object.entries(categories) : [];
 });
 
@@ -106,26 +106,26 @@ const vAnimateOnScroll = {
       </div>
     </section>
 
-    <section id="skills" class="skills-section">
-      <h2 class="section-title">{{ t('home.skills_section.title') }}</h2>
-      <div class="skills-container">
+    <section class="skills-section">
+      <h2 class="skills-title fade-in-up" v-animate-on-scroll>
+        {{ t('about_me.skills_section.title') }}
+      </h2>
+      <div class="skills-grid">
         <div
-          v-animate-on-scroll
-          class="skills-category-block fade-in-up"
           v-for="([key, category], index) in skillsCategories"
           :key="key"
-          :class="{ [`delay-${index}`]: index > 0 }"
+          class="skills-category-block fade-in-up"
+          v-animate-on-scroll
+          :style="{ 'transition-delay': `${index * 0.1}s` }"
         >
           <h3 class="category-title">{{ category.category_title }}</h3>
-          <p class="category-description">{{ category.category_description }}</p>
-          <div class="skills-grid">
-            <div
-              class="skill-item"
+          <div class="skill-items">
+            <span
               v-for="([skillKey, skillName]) in Object.entries(category.skills)"
               :key="skillKey"
+              class="skill-item"
+              >{{ skillName }}</span
             >
-              <span class="skill-name">{{ skillName }}</span>
-            </div>
           </div>
         </div>
       </div>
@@ -150,7 +150,6 @@ const vAnimateOnScroll = {
   color: #333;
   font-family: 'Roboto', sans-serif;
 }
-
 section {
   padding: 100px 50px;
   min-height: 100vh;
@@ -161,41 +160,34 @@ section {
   text-align: center;
   border-bottom: 1px solid #e0e0e0;
 }
-
 .section-title {
   font-size: 2.5rem;
   font-weight: 700;
   margin-bottom: 50px;
   color: #373737;
 }
-
 .hero-section {
   background: #f8f9fa;
   min-height: 100vh;
 }
-
 .hero-content h1 {
   font-size: 4rem;
   font-weight: 700;
   color: #373737;
   letter-spacing: -2px;
 }
-
 .hero-content p {
   font-size: 1.2rem;
   color: #555;
 }
-
 .intro-text {
   max-width: 600px;
   margin: 20px auto;
   line-height: 1.6;
 }
-
 .projects-section {
   background: #fff;
 }
-
 .project-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -203,96 +195,73 @@ section {
   width: 100%;
   max-width: 1200px;
 }
-
 .skills-section {
-  background: #f0f0f0;
+  background-color: #f0f0f0;
 }
-
+.skills-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #373737;
+  margin-bottom: 50px;
+}
 .skills-grid {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 15px;
-  width: 100%;
-  max-width: 1200px;
+  gap: 40px;
 }
-
 .skills-category-block {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 30px;
+  flex: 1 1 300px;
+  padding: 30px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  text-align: left;
+  transition: transform 0.3s ease;
 }
-
+.skills-category-block:hover {
+  transform: translateY(-5px);
+}
 .category-title {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   font-weight: 600;
   color: #373737;
-  margin-bottom: 10px;
-}
-
-.category-description {
-  max-width: 400px;
-  text-align: center;
-  color: #555;
   margin-bottom: 20px;
+  text-align: center;
 }
-
+.skill-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
 .skill-item {
-  position: relative;
-  background: #fff;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  padding: 10px 20px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  overflow: hidden;
-  z-index: 1;
-}
-
-.skill-item:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-}
-
-.skill-item:before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(to right, #CF9B64 100%, transparent 100%) no-repeat left top / 0 2px, linear-gradient(to right, #CF9B64 100%, transparent 100%) no-repeat left bottom / 0 2px, linear-gradient(to bottom, #CF9B64 100%, transparent 100%) no-repeat right top / 2px 0, linear-gradient(to bottom, #CF9B64 100%, transparent 100%) no-repeat left top / 2px 0;
-  background-size: 0 2px, 0 2px, 2px 0, 2px 0;
-  transition: background-size 0.5s ease-in-out;
-}
-
-.skill-item:hover:before {
-  background-size: 100% 2px, 100% 2px, 2px 100%, 2px 100%;
-}
-
-.skill-name {
-  font-size: 1rem;
+  background-color: #e8f0fe;
+  color: #373737;
+  padding: 8px 15px;
+  border-radius: 20px;
+  font-size: 0.9rem;
   font-weight: 500;
-  color: #555;
+  transition: background-color 0.3s ease;
 }
-
+.skill-item:hover {
+  background-color: #cf9b64;
+  color: #fff;
+}
 .contact-section {
   background: #fff;
 }
-
 .contact-text {
   font-size: 1.1rem;
   max-width: 600px;
   margin-bottom: 30px;
   color: #555;
 }
-
 .contact-links {
   display: flex;
   gap: 20px;
 }
-
 .contact-link {
   position: relative;
   display: inline-block;
@@ -304,11 +273,9 @@ section {
   padding: 5px 10px;
   z-index: 1;
 }
-
 .contact-link:hover {
   color: #CF9B64;
 }
-
 .contact-link:before {
   content: '';
   position: absolute;
@@ -320,43 +287,33 @@ section {
   background-size: 0 2px, 0 2px, 2px 0, 2px 0;
   transition: background-size 0.8s ease-in-out;
 }
-
 .contact-link:hover:before {
   background-size: 100% 2px, 100% 2px, 2px 100%, 2px 100%;
 }
-
-/* Make sure elements are hidden by default with a transition property */
 .fade-in-up {
   opacity: 0;
   transform: translateY(20px);
   transition: opacity 0.6s ease-out, transform 0.6s ease-out;
 }
-
 .is-visible {
   opacity: 1;
   transform: translateY(0);
 }
-
 .delay-1 {
   transition-delay: 0.2s;
 }
-
 .delay-2 {
   transition-delay: 0.4s;
 }
-
 .delay-3 {
   transition-delay: 0.6s;
 }
-
 .delay-4 {
   transition-delay: 0.8s;
 }
-
 .delay-5 {
   transition-delay: 1s;
 }
-
 .hero-title-container {
   display: flex;
   flex-direction: column;
@@ -364,7 +321,6 @@ section {
   justify-content: center;
   margin-bottom: 20px;
 }
-
 .divider {
   width: 50%;
   height: 2px;
@@ -372,7 +328,6 @@ section {
   margin: 10px 0;
   animation: drawLine 1s ease-in-out forwards;
 }
-
 @keyframes drawLine {
   from {
     width: 0;
