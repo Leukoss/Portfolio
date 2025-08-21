@@ -1,0 +1,456 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "riif": "RIIF",
+    "tptrm": "TPTRM",
+    "research": "Recherche",
+    "accidentology": "Accidentologie",
+    "facial_recognition": "Reconnaissance Faciale",
+    "about_me": "À Propos",
+    "linkedin": "LinkedIn",
+    "github": "GitHub"
+  },
+  "home": {
+    "title": "Lucas SALI--ORLIANGE",
+    "subtitle": "Expert Data Science & IA",
+    "intro_text": "Je suis un développeur passionné, spécialisé dans l’application de <strong>l’Intelligence Artificielle aux problématiques financières des entreprises</strong>. Mon approche est collaborative, en travaillant directement avec les opérationnels afin <strong>d’améliorer les processus existants et d’augmenter la rentabilité</strong>. Toutes mes solutions sont conçues pour être <strong>robustes, évolutives et efficaces, avec un accent sur un code propre et une livraison rapide</strong>.",
+    "projects_section": {
+      "title": "Réalisations",
+      "riif": {
+        "title": "RIIF",
+        "description": "Solution confidentielle de <strong>Questions-Réponses IA</strong> qui <strong>optimise la préparation des rapports financiers</strong> et des réunions stratégiques, offrant des réponses instantanées et fiables aux équipes dirigeantes."
+      },
+      "tptrm": {
+        "title": "TPTRM",
+        "description": "Outil d’<strong>analyse automatisée de contrats</strong> conçu pour <strong>réduire les délais de relecture</strong> et limiter les erreurs, avec une expérience utilisateur intuitive et sécurisée."
+      },
+      "accidentology": {
+        "title": "Accidentologie",
+        "description": "<strong>Prédiction de la gravité des accidents</strong> sur plus d’<strong>1 million de cas</strong>, fournissant des analyses exploitables pour renforcer la sécurité routière et orienter les politiques de prévention."
+      },
+      "research": {
+        "title": "Recherche",
+        "description": "Étude interdisciplinaire sur l’éco-béton, utilisant des <strong>modèles prédictifs</strong> pour optimiser les formulations et <strong>réduire l’impact environnemental</strong>."
+      },
+      "facial_recognition": {
+        "title": "Reconnaissance Faciale",
+        "description": "Développement d’un <strong>modèle de reconnaissance faciale</strong> sur un jeu de données original, illustrant la maîtrise du cycle complet de création et d’entraînement de modèles IA."
+      }
+    },
+    "skills_section": {
+      "title": "Compétences",
+      "categories": {
+        "ai_and_data_science": {
+          "category_title": "IA & Data Science",
+          "category_description": "Maîtrise des solutions data pour répondre aux enjeux stratégiques de l’entreprise.",
+          "skills": {
+            "ml": "Machine Learning",
+            "dl": "Deep Learning",
+            "nlp": "NLP",
+            "cv": "Vision par Ordinateur",
+            "tsa": "Analyse de Séries Temporelles",
+            "pl": "Gestion de Projet IA"
+          }
+        },
+        "programming_and_tools": {
+          "category_title": "Programmation & Outils",
+          "category_description": "Expertise technique pour des solutions robustes et évolutives.",
+          "skills": {
+            "py": "Python",
+            "sql": "SQL",
+            "git": "Git",
+            "docker": "Docker",
+            "linux": "Linux",
+            "vue": "Vue.js"
+          }
+        },
+        "professional_skills": {
+          "category_title": "Compétences Interpersonnelles",
+          "category_description": "Communication et collaboration pour des projets réussis.",
+          "skills": {
+            "tw": "Rédaction Technique",
+            "comm": "Communication",
+            "ps": "Résolution de Problèmes",
+            "res": "Recherche"
+          }
+        }
+      }
+    },
+    "contact_section": {
+      "title": "Connectons-nous",
+      "contact_text": "Discutons ensemble de vos projets ou de vos besoins en innovation digitale.",
+      "linkedin": "LinkedIn",
+      "github": "GitHub",
+      "email": "Email"
+    }
+  },
+  "about_me": {
+    "intro_section": {
+      "title": "À Propos",
+      "paragraphs": {
+        "p1": "Ingénieur diplômé en Data Science & IA, j’ai développé des solutions innovantes pour des problématiques complexes, du reporting financier automatisé à la modélisation prédictive pour l’industrie durable. Mon engagement : concevoir des outils efficaces, robustes et à fort impact pour mes clients.",
+        "p2": "Mon parcours académique et professionnel m’a permis de maîtriser le <strong>cycle de vie complet des projets IA/ML</strong>, de la préparation des données au déploiement, en passant par la communication avec les parties prenantes. J’évolue en équipe et mets mes compétences au service de la performance et de la rentabilité."
+      }
+    },
+    "timeline_section": {
+      "title": "Parcours",
+      "items": {
+        "graduate_engineer": {
+          "year": "2025",
+          "title": "Diplôme d’Ingénieur - Data Science & IA",
+          "description": "Diplômé Master, spécialisation Data Science & IA, classé dans le <strong>top 5%</strong> et reconnu <strong>Major Technique</strong>. Expertise en Machine Learning, Deep Learning, IA Générative, MLOps et DataViz.",
+          "company": "ESIEE Paris",
+          "logo": "/img/esiee_logo.png"
+        },
+        "internship_bnp": {
+          "year": "2025",
+          "title": "Stage - Data Scientist/Ingénieur ML",
+          "description": "Développement d’outils IA pour automatiser l’analyse financière et l’évaluation des contrats, améliorant la productivité et la fiabilité des données pour les équipes reporting.",
+          "company": "BNP Paribas IT Group",
+          "logo": "/img/bnpparibas_logo.png"
+        },
+        "internship_research": {
+          "year": "2024",
+          "title": "Stage - Chercheur Data Science",
+          "description": "R&D sur la prédiction des propriétés de l’éco-béton via des modèles ML. Rédaction d’un rapport scientifique en anglais, démontrant rigueur et expertise technique.",
+          "company": "Université Gustave Eiffel & ENPC",
+          "logo": "/img/gustave_eiffel_logo.png"
+        },
+        "erasmus": {
+          "year": "2023",
+          "title": "Semestre Erasmus - Sciences de l’Ingénierie",
+          "description": "Programme international en ingénierie à l’Université de Bologne, apportant ouverture et vision globale.",
+          "company": "Università di Bologna",
+          "logo": "/img/unibo_logo.png"
+        },
+        "it_technician": {
+          "year": "2022",
+          "title": "Technicien Informatique",
+          "description": "Support technique pour 700+ utilisateurs, développement de compétences en résolution de problèmes et communication professionnelle.",
+          "company": "Milleis Banque Privée",
+          "logo": "/img/milleis_logo.png"
+        }
+      }
+    },
+    "skills_section": {
+      "title": "Compétences",
+      "categories": {
+        "ai_and_data_science": {
+          "category_title": "IA & Data Science",
+          "skills": {
+            "ml": "Machine Learning",
+            "dl": "Deep Learning",
+            "genai": "IA Générative",
+            "nlp": "NLP",
+            "dm": "Modélisation de Données",
+            "mlops": "MLOps"
+          }
+        },
+        "programming_and_infrastructure": {
+          "category_title": "Programmation & Infrastructure",
+          "skills": {
+            "py": "Python",
+            "r": "R",
+            "vue": "Vue.js",
+            "fastapi": "FastAPI",
+            "flask": "Flask",
+            "django": "Django",
+            "dash": "Dash",
+            "git": "Git",
+            "docker": "Docker",
+            "sql": "SQL",
+            "chroma": "ChromaDB",
+            "postgres": "PostgreSQL"
+          }
+        },
+        "data_science_libraries": {
+          "category_title": "Librairies & Outils Data Science",
+          "skills": {
+            "sklearn": "Scikit-Learn",
+            "pandas": "Pandas",
+            "numpy": "Numpy",
+            "tf": "TensorFlow",
+            "keras": "Keras",
+            "mt": "Multithreading",
+            "pymupdf": "PyMuPDF",
+            "seaborn": "Seaborn",
+            "plotly": "Plotly",
+            "optuna": "Optuna",
+            "langchain": "Langchain",
+            "openai": "OpenAI"
+          }
+        },
+        "professional_skills": {
+          "category_title": "Compétences Business & Pro",
+          "skills": {
+            "pm": "Gestion de Projet",
+            "tw": "Rédaction Technique",
+            "ps": "Résolution de Problèmes",
+            "sc": "Communication avec les parties prenantes",
+            "onboarding": "Intégration"
+          }
+        }
+      }
+    }
+  },
+  "skills_section_title": "Responsabilités & Compétences Clés",
+  "project_outro": "Prêt à relever votre prochain défi ?",
+  "project_card": "Voir le Projet",
+  "connect": "Contactez-moi",
+  "projects": {
+    "title_project": {
+      "accidentology": {
+        "title": "Prédiction de la Gravité des Accidents Routiers",
+        "subtitle": "La Data Science au service de la sécurité",
+        "paragraphs": {
+          "p1": "Dans le cadre d’un projet étudiant à <strong>l’ESIEE Paris</strong>, j’ai mené un vaste <strong>projet d’analyse de données</strong> portant sur un jeu de données de plus de <strong>1 million d’accidents de la route depuis 2010</strong>. L’objectif principal était de construire un modèle prédictif capable d’estimer avec précision la gravité d’un accident en fonction de divers facteurs tels que les conditions météorologiques, le type de route et l’heure de la journée.",
+          "p2": "Mon rôle a couvert l’ensemble du <strong>cycle de vie de la data science</strong>, allant du nettoyage et du prétraitement des données brutes à la réalisation de <strong>feature engineering</strong> afin d’optimiser les performances du modèle. En appliquant une variété de <strong>méthodes d’apprentissage supervisé</strong>, j’ai pu développer un modèle robuste fournissant des informations précieuses sur la sécurité routière, susceptibles d’éclairer des stratégies de prévention."
+        },
+        "skills_section": {
+          "categories": {
+            "data_analysis_and_modeling": {
+              "title": "Analyse & Modélisation",
+              "skills": {
+                "fe": "Feature Engineering",
+                "sl": "Supervised Learning",
+                "me": "Évaluation de Modèle",
+                "dv": "Visualisation"
+              }
+            },
+            "technical_skills": {
+              "title": "Compétences Techniques",
+              "skills": {
+                "py": "Python",
+                "pandas": "Pandas",
+                "sklearn": "Scikit-learn",
+                "xgboost": "XGBoost",
+                "lightgbm": "LightGBM",
+                "optuna": "Optuna",
+                "seaborn": "Seaborn",
+                "plotly": "Plotly"
+              }
+            }
+          }
+        },
+        "impacts_section": {
+          "title": "Impact & Contributions Clés",
+          "categories": {
+            "high_accuracy_model": {
+              "title": "Modèle Prédictif à Haute Précision",
+              "description": "Développer un modèle d’apprentissage supervisé ayant atteint un <strong>taux de précision de 86%</strong> dans la prédiction de la gravité des accidents, offrant ainsi un outil robuste pour l’analyse de la sécurité routière."
+            },
+            "data_driven_insights": {
+              "title": "Analyses Basées sur les Données",
+              "description": "Réaliser une analyse approfondie d’un jeu de données de <strong>plus d’1 million d’accidents de la route</strong>, identifiant les principaux facteurs influençant la gravité des accidents et fournissant des informations exploitables pour des initiatives de sécurité."
+            },
+            "end_to_end_analysis": {
+              "title": "Analyse de Bout en Bout",
+              "description": "Gérer l’ensemble du cycle de vie de la data science, allant du <strong>prétraitement et de l’ingénierie des variables</strong> au <strong>développement et à la comparaison de modèles</strong>, démontrant une compréhension complète des processus d’analyse de données."
+            }
+          }
+        }
+      },
+      "riif": {
+        "title": "RIIF : Le Reporting Financier Réinventé",
+        "subtitle": "Optimiser l’efficacité des entreprises grâce à l’IA",
+        "paragraphs": {
+          "p1": "Dans le secteur dynamique des services financiers, la préparation de réunions stratégiques avec les investisseurs et de comités de direction exige à la fois rapidité et précision. En tant que <strong>stagiaire chez BNP Paribas</strong>, j’ai développé <strong>RIIF</strong>, une solution intelligente qui a <strong>rationalisé le processus de recherche et de validation des données financières clés</strong>. Ce travail a permis aux équipes métier de se concentrer davantage sur l’analyse stratégique et la communication, plutôt que sur la collecte chronophage de données.",
+          "p2": "Mon rôle a impliqué une étroite <strong>collaboration avec les équipes de reporting financier</strong> afin de comprendre leurs flux de travail et leurs points de friction. En développant un outil fournissant des réponses instantanées et vérifiables, j’ai contribué à garantir <strong>l’intégrité des données tout en réduisant considérablement le temps de préparation</strong> pour les événements d’entreprise majeurs. Ce projet illustre ma capacité à traduire des besoins métiers complexes en <strong>solutions techniques efficaces, sécurisées et centrées sur l’utilisateur</strong>."
+        },
+        "skills_section": {
+          "categories": {
+            "management_and_communication": {
+              "title": "Gestion & Communication",
+              "skills": {
+                "pm": "Gestion de Projet",
+                "sc": "Communication",
+                "cfl": "Leadership Interfonctionnel",
+                "cs": "Conformité & Sécurité"
+              }
+            },
+            "technical_skills": {
+              "title": "Compétences Techniques",
+              "skills": {
+                "genai": "IA Générative",
+                "rag": "RAG",
+                "ds": "Data Science",
+                "pc": "Parsing/Chunking",
+                "py": "Python",
+                "fastapi": "FastAPI",
+                "vdb": "Base Vectorielle",
+                "postman": "Postman"
+              }
+            }
+          }
+        },
+        "impacts_section": {
+          "title": "Impact & Contributions Clés",
+          "categories": {
+            "increased_productivity": {
+              "title": "Productivité Accrue",
+              "description": "Automatisation d’un processus manuel critique, permettant aux équipes de <strong>réduire le temps de préparation des rapports financiers trimestriels</strong> et des réunions de relations investisseurs."
+            },
+            "guaranteed_data_integrity": {
+              "title": "Intégrité des Données Garantie",
+              "description": "Conception d’une <strong>solution IA sécurisée et conforme</strong> qui a non seulement <strong>réduit les erreurs humaines</strong>, mais aussi garanti <strong>l’intégrité des données clés de l’entreprise</strong>, assurant la cohérence et la fiabilité de toutes les informations financières pour l’audit et le reporting."
+            },
+            "scalable_robust_design": {
+              "title": "Conception Scalable & Robuste",
+              "description": "Développement d’un <strong>système évolutif et maintenable</strong> capable de traiter de grands volumes de documents internes, garantissant une viabilité opérationnelle à long terme."
+            }
+          }
+        }
+      },
+      "tptrm": {
+        "title": "TPTRM : Accélérer l’analyse des contrats",
+        "subtitle": "Optimiser la revue juridique grâce à l’intelligence artificielle : plus de rapidité, plus de précision",
+        "paragraphs": {
+          "p1": "Lors de mon stage au sein du <strong>BNP Paribas IT Group</strong>, j’ai développé un outil destiné à <strong>automatiser l’analyse des contrats</strong>, un processus critique et chronophage pour les équipes juridiques et de conformité. Cette solution, baptisée <strong>TPTRM</strong>, a rationalisé le flux de revue en <strong>analysant automatiquement les documents et en mettant en évidence les clauses clés</strong>, réduisant ainsi considérablement les efforts manuels.",
+          "p2": "Mon rôle a consisté à <strong>travailler en étroite collaboration avec les utilisateurs finaux</strong> afin de comprendre leurs difficultés et de m’assurer que les fonctionnalités de l’outil répondaient directement à leurs besoins. En intégrant leurs retours via des ateliers et une conception itérative, j’ai créé une solution qui non seulement a amélioré l’efficacité, mais a également <strong>réduit les erreurs humaines</strong> et offert une <strong>expérience utilisateur plus fluide</strong>. Ce projet illustre ma capacité à concevoir des applications robustes et évolutives répondant à des exigences métiers complexes."
+        },
+        "skills_section": {
+          "categories": {
+            "management_and_communication": {
+              "title": "Gestion & Communication",
+              "skills": {
+                "sc": "Communication",
+                "ra": "Analyse des besoins",
+                "am": "Agilité",
+                "ucd": "Conception centrée utilisateur"
+              }
+            },
+            "technical_skills": {
+              "title": "Compétences Techniques",
+              "skills": {
+                "py": "Python",
+                "pandas": "Pandas",
+                "genai": "IA Générative",
+                "pc": "Parsing/Chunking",
+                "streamlit": "Streamlit",
+                "rag": "RAG",
+                "mt": "Multithreading"
+              }
+            }
+          }
+        },
+        "impacts_section": {
+          "title": "Impact & Contributions Clés",
+          "categories": {
+            "reduced_review_time": {
+              "title": "Temps de Revue Réduit",
+              "description": "Développement d’un outil d’analyse de contrats automatisé qui a <strong>réduit de 75 % le temps moyen de revue</strong>, permettant aux équipes juridiques et métiers de se concentrer sur les tâches essentielles."
+            },
+            "increased_accuracy": {
+              "title": "Précision Accrue",
+              "description": "<strong>Conception d’un système pour automatiser des tâches subjectives</strong>, ce qui a permis de <strong>réduire significativement les erreurs humaines</strong> et d’assurer l’intégrité des données, minimisant ainsi les risques de non-conformité."
+            },
+            "enhanced_user_experience": {
+              "title": "Expérience Utilisateur Améliorée",
+              "description": "Animation d’ateliers avec les utilisateurs finaux et amélioration itérative de la conception de l’outil sur la base de leurs retours, aboutissant à une <strong>solution hautement intuitive et centrée sur l’utilisateur</strong>."
+            }
+          }
+        }
+      },
+      "research": {
+        "title": "Recherche appliquée : Éco-béton",
+        "subtitle": "Exploiter la data science pour l’ingénierie durable",
+        "paragraphs": {
+          "p1": "Lors de mon stage en tant que <strong>chercheur en data science à l’Université Gustave Eiffel & ENPC</strong>, j’ai mené des recherches interdisciplinaires sur la formulation de béton écologique. L’objectif du projet était d’exploiter le machine learning pour <strong>prédire les propriétés mécaniques du béton</strong>, afin d’<strong>optimiser sa composition</strong> et de <strong>réduire son empreinte carbone</strong> en intégrant des matériaux recyclés.",
+          "p2": "Mon rôle consistait à <strong>construire et valider des modèles prédictifs</strong> à partir d’un large jeu de données. J’ai réalisé une <strong>revue de littérature complète</strong> et appliqué des algorithmes avancés tels que XGBoost et LightGBM pour identifier les variables les plus influentes. Ce travail illustre ma capacité à appliquer une <strong>démarche scientifique rigoureuse</strong> à des problèmes complexes, transformant des données brutes en informations exploitables pour l’ingénierie durable."
+        },
+        "skills_section": {
+          "categories": {
+            "research_and_analysis": {
+              "title": "Recherche & Analyse",
+              "skills": {
+                "lr": "Revue de littérature",
+                "ht": "Tests d’hypothèse",
+                "pm": "Modélisation prédictive",
+                "sa": "Analyse statistique",
+                "tw": "Rédaction scientifique"
+              }
+            },
+            "technical_skills": {
+              "title": "Compétences Techniques",
+              "skills": {
+                "pysk": "Python & Scikit-learn",
+                "xgb": "XGBoost",
+                "lgbm": "LightGBM",
+                "de": "Data Engineering",
+                "dv": "Visualisation"
+              }
+            }
+          }
+        },
+        "impacts_section": {
+          "title": "Impact & Contributions Clés",
+          "categories": {
+            "optimized_material_formulation": {
+              "title": "Formulation Optimisée des Matériaux",
+              "description": "Développement de <strong>modèles prédictifs avancés (XGBoost, LightGBM)</strong> pour estimer les propriétés mécaniques du béton écologique, permettant aux chercheurs d’optimiser la composition des matériaux et de <strong>réduire l’impact environnemental</strong>."
+            },
+            "streamlined_research_workflow": {
+              "title": "Flux de Recherche Rationalisé",
+              "description": "Automatisation de l’analyse de données et du processus de revue de littérature, ce qui a <strong>accéléré le cycle de recherche</strong> et fourni un cadre robuste pour tester plusieurs hypothèses avec une plus grande efficacité."
+            },
+            "effective_scientific_communication": {
+              "title": "Communication Scientifique Efficace",
+              "description": "Rédaction d’un <strong>rapport technique complet en anglais avec LaTeX</strong>, communiquant efficacement des méthodologies complexes et les résultats de recherche à un public scientifique plus large."
+            }
+          }
+        }
+      },
+      "facial_recognition": {
+        "title": "Reconnaissance Faciale : Étude de Cas en Deep Learning",
+        "subtitle": "Création d’un modèle CNN de A à Z",
+        "paragraphs": {
+          "p1": "En tant qu’étudiant à <strong>ESIEE Paris</strong>, j’ai réalisé un projet visant à construire un <strong>modèle de reconnaissance faciale de bout en bout</strong> à partir d’un jeu de données personnalisé. Le défi consistait à démontrer ma maîtrise de chaque étape d’un projet de machine learning, de la <strong>préparation des données au déploiement du modèle</strong>. J’ai choisi un jeu de données original et engageant—des scènes de 'Jurassic Park'—pour illustrer le travail avec des données réelles et non filtrées.",
+          "p2": "Ce projet m’a amené à <strong>collecter et annoter des images</strong>, réaliser de l’augmentation de données et mettre en œuvre un <strong>réseau de neurones convolutif (CNN)</strong> pour l’entraînement. Ce travail met en avant mes compétences pratiques en <strong>deep learning, vision par ordinateur et résolution de problèmes</strong>, démontrant ma capacité à transformer un concept en une solution fonctionnelle et démontrable."
+        },
+        "skills_section": {
+          "categories": {
+            "data_model_lifecycle": {
+              "title": "Cycle de vie des données",
+              "skills": {
+                "dc": "Création de jeux de données",
+                "da": "Annotation",
+                "dag": "Augmentation",
+                "mt": "Entraînement",
+                "ht": "Optimisation"
+              }
+            },
+            "technical_skills": {
+              "title": "Compétences Techniques",
+              "skills": {
+                "py": "Python",
+                "cv": "Vision par ordinateur",
+                "cnn": "CNN",
+                "ocv": "OpenCV",
+                "skl": "Scikit-learn",
+                "tfk": "TensorFlow",
+                "keras": "Keras"
+              }
+            }
+          }
+        },
+        "impacts_section": {
+          "title": "Impact & Contributions Clés",
+          "categories": {
+            "end_to_end": {
+              "title": "Développement de Modèle de Bout en Bout",
+              "description": "Gestion de l’ensemble du cycle de vie du machine learning, de la <strong>création et du nettoyage d’un jeu de données personnalisé</strong> à <strong>l’entraînement et l’évaluation du modèle</strong>, démontrant une compréhension complète du processus."
+            },
+            "robust_model": {
+              "title": "Performance Robuste du Modèle",
+              "description": "Implémentation et entraînement d’un <strong>réseau de neurones convolutif (CNN)</strong> pour la reconnaissance faciale, obtenant de bonnes performances sur un jeu de données spécialisé et validant l’efficacité du modèle."
+            },
+            "tech_proficiency": {
+              "title": "Compétences Techniques Démontrées",
+              "description": "Utilisation de bibliothèques clés telles que <strong>TensorFlow et Keras</strong> pour construire un modèle robuste et évolutif, mettant en avant des compétences pratiques sur les frameworks modernes de deep learning."
+            }
+          }
+        }
+      }
+    }
+  }
+}
